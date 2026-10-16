@@ -23,7 +23,7 @@ UIKit.UseResKitLoader();
 
 子类必须实现 `protected abstract OnClose(): void`。
 
-面板内关闭自身：`CloseSelf()` → `UIKit.ClosePanel(this)`。
+面板内关闭自身：`BaseDialog.CloseSelf()` → `UISystem.closeDialog`（带动效）；勿在业务层直接 `UIKit.ClosePanel`。
 
 ## UIKit 常用静态 API
 
@@ -54,7 +54,15 @@ UIKit.UseResKitLoader();
 - 迁移期可 `extends BasePanel`（旧工程 `BasePanel extends UIPanel`），新功能优先直接 `UIPanel` 或项目统一基类放在 `game/` 下。
 - Panel 脚本放在 bundle 的 `script/`；prefab 在 `prefab/`；通过 `OpenPanel(FooPanel, ..., bundleName)` 加载。
 
+## UISystem（业务门面）
+
+- 打开：`GetSystem(UISystem).openDialogAsync(PanelClass, BundleKey, prefabName, options?)`
+- resources 面板：`openResourcesDialogAsync(PanelClass, "ui/dialog/.../Foo", options?)`
+- 关闭：`closeDialog(panel, options?)`
+- 场景切换仍用 `BundleSystem.enterGame` / `goLobby`，不由 UISystem 负责。
+
 ## 禁止
 
-- Controller 内 `cc.resources.load` 加载 UI prefab（应 UIKit + ResKit）。
+- Controller / Panel 内 `cc.resources.load` 打开 UI（应 `UISystem`）。
+- 业务层直接 `UIKit.OpenPanel` / `AudioKit.PlaySound`（应 `UISystem` / `AudioSystem`）。
 - 多个 `@ccclass` 写在同一文件（Cocos 限制；`ViewController` 代码生成组件单独文件）。

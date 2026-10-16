@@ -16,7 +16,7 @@
 | `EventKit` / `StringEventSystem` | 字符串 key 事件 | 架构内频道总线请用 `GameEventSystem` 包装 |
 | `FSMKit` | 有限状态机 | 单玩法/单 UI 流程 |
 | `LocaleKit` / `LocaleText` | 多语言 | 与 bundle `config` 语言表配合 |
-| `AudioKit` | 音效 BGM | 游戏 bundle 需 `audio` 目录 |
+| `AudioKit` | 音效 BGM 内核 | **业务只通过** `game/system/AudioSystem`；子包 `BundleKey.Sound` |
 | `PoolKit` | 对象池 | UIKit 内部已用；业务节点池可复用 |
 | `SingletonKit` | `MonoSingleton` | UIKit UIManager 等；**新业务 Singleton Manager 禁止** |
 | `ActionKit` | 动作序列 | 动画/延时链 |

@@ -22,7 +22,8 @@ description: >-
 - **泛型 Token**：`GetModel` / `GetSystem` / `GetUtility` 必须传入类引用：`GetSystem(NetworkSystem)`；裸 `GetSystem<NetworkSystem>()` 运行时会抛错。
 - **注销**：`RegisterEvent` 返回 `IUnRegister`；挂在 Component 上须 `UnRegisterWhenGameObjectDestroyed(node)` 或 `UnRegisterWhenDisabled(node)`。
 - **频道事件（迁移）**：字符串/数字频道用 `GameEventSystem`（`game/system`），**不要**与架构 `TypeEventSystem` 混用同一 channel 语义。
-- **UI**：打开/关闭面板用 `UIKit.OpenPanel` / `UIKit.ClosePanel` / `UIKit.OpenPanelAsync`；面板脚本继承 `UIPanel`（项目可再包一层 `BasePanel`）。**不存在** `UIKit.ShowPanel`。
+- **UI**：业务打开/关闭 Dialog 用 `GetSystem(UISystem).openDialogAsync` / `closeDialog`（内部 UIKit + 动效）；面板脚本继承 `UIPanel` / `BaseDialog`。**不存在** `UIKit.ShowPanel`；避免业务直接 `UIKit.OpenPanel`。
+- **音频**：`GetSystem(AudioSystem).playFx` / `preloadCommon` / `switchBgm`；勿 `SoundManager.shared()` 或业务直接 `AudioKit`。
 - **资源**：全局初始化 `ResKit.Init()`；面板经 `UIKit.UseResKitLoader()`；直接加载可用 `ResKit.LoadAsync` / `ResLoader.Allocate()`。**不存在** `ResKit.LoadBundle` 静态方法名（用 `ResLoader` + bundle 名）。
 - **框架边界**：`assets/script/framework/**` 为移植内核；业务功能加在 `game/` 或薄包装类，**禁止**在业务中复制 IOC/事件总线。
 - **命名**：与 C# QF 对齐 — 框架约定方法/类为 **PascalCase**；新业务 **具名 export**，新代码避免 `export default`（迁移旧文件除外）。

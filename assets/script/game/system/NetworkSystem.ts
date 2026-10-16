@@ -3,8 +3,7 @@ import { LogKit } from "../../framework/toolkits/coreKit/logKit/LogKit";
 import { LoginFailedEvent } from "../event/LoginFailedEvent";
 import { LoginSuccessEvent } from "../event/LoginSuccessEvent";
 import { SessionModel } from "../model/SessionModel";
-import GameConfig from "../config/GameConfig";
-import { PlatformSystem } from "./PlatformSystem";
+
 
 // --- 可随 NetworkSystem 一并拷贝的配置（与 wr-rummy-server gate etc 默认一致）---
 
@@ -22,13 +21,6 @@ const DUE_CODE_MESSAGE: Record<number, string> = {
 interface LoginReq {
     account: string;
     password: string;
-    /** 与旧 HTTP 登录对齐的设备字段（Due 网关可忽略） */
-    channel_id?: number;
-    phoneimei?: string;
-    gaid?: string;
-    rver?: string;
-    cver?: string;
-    os?: string;
 }
 
 interface LoginRes {
@@ -72,23 +64,11 @@ export class NetworkSystem extends AbstractSystem {
         }
 
         try {
-            const platform = this.GetSystem(PlatformSystem);
-            LogKit.I(
-                "[NetworkSystem] login begin account={0} channel={1} os={2}",
-                trimmedAccount,
-                platform.getChannelId(),
-                platform.getOS()
-            );
+            LogKit.I("[NetworkSystem] login begin account={0}", trimmedAccount);
             await this.connect();
             const packet = await this.client.call(ROUTE_LOBBY_LOGIN, {
                 account: trimmedAccount,
                 password,
-                channel_id: Number(platform.getChannelId()),
-                phoneimei: platform.getPhoneIMEI(),
-                gaid: platform.getGaid(),
-                rver: GameConfig.NEW_APP_VERSION,
-                cver: platform.getAppVersionCode(),
-                os: platform.getOS(),
             } satisfies LoginReq);
 
             const json = new TextDecoder().decode(packet.message);

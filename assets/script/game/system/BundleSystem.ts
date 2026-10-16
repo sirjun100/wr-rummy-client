@@ -2,6 +2,7 @@ import { assetManager, director, AssetManager } from "cc";
 import { AbstractSystem } from "../../framework/QFramework";
 import { LogKit } from "../../framework/toolkits/coreKit/logKit/LogKit";
 import { UIKit, UILevel, UIPanel } from "../../framework/toolkits/uiKit/UIKit";
+import { UISystem } from "./UISystem";
 import {
     BundleKey,
     DEFAULT_LOBBY_SCENE_NAME,
@@ -182,6 +183,7 @@ export class BundleSystem extends AbstractSystem {
         }
     }
 
+    /** @deprecated 请使用 {@link UISystem.openDialogAsync} */
     public openDialogAsync(
         panelType: PanelConstructor,
         bundleKey: BundleKey,
@@ -189,20 +191,20 @@ export class BundleSystem extends AbstractSystem {
         onLoaded: (panel: UIPanel) => void = null,
         canvasLevel: UILevel = UILevel.PopUI,
     ): void {
-        const entry = getManifestEntry(bundleKey);
-        const bundleName = entry?.bundleName ?? null;
-        UIKit.OpenPanelAsync(
-            panelType,
-            (panel) => {
+        this.GetSystem(UISystem)
+            .openDialogAsync(panelType, bundleKey, prefabName, { level: canvasLevel })
+            .then((panel) => {
                 if (panel && onLoaded) {
                     onLoaded(panel);
                 }
-            },
-            canvasLevel,
-            null,
-            bundleName,
-            prefabName,
-        );
+            })
+            .catch((err) => {
+                LogKit.E(
+                    "[BundleSystem] openDialogAsync failed prefab={0} err={1}",
+                    prefabName,
+                    err instanceof Error ? err.message : String(err),
+                );
+            });
     }
 
     // #endregion
