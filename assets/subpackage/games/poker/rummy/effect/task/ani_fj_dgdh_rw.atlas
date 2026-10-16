@@ -1,0 +1,20 @@
+
+ani_fj_dgdh_rw.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_fj_dgdh_gou
+  rotate: false
+  xy: 2, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+ani_fj_dgdh_wq
+  rotate: false
+  xy: 74, 2
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1

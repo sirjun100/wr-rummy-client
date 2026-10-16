@@ -1,0 +1,83 @@
+
+ani_room_tourney_samll_sum_roll.png
+size: 2048,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_room_tourney_samll_sum_rolling1
+  rotate: true
+  xy: 2, 62
+  size: 64, 1391
+  orig: 64, 1391
+  offset: 0, 0
+  index: -1
+ani_room_tourney_samll_sum_rolling_0
+  rotate: false
+  xy: 1867, 21
+  size: 62, 105
+  orig: 62, 105
+  offset: 0, 0
+  index: -1
+ani_room_tourney_samll_sum_rolling_1
+  rotate: true
+  xy: 2, 14
+  size: 46, 105
+  orig: 46, 105
+  offset: 0, 0
+  index: -1
+ani_room_tourney_samll_sum_rolling_2
+  rotate: false
+  xy: 1931, 21
+  size: 60, 105
+  orig: 60, 105
+  offset: 0, 0
+  index: -1
+ani_room_tourney_samll_sum_rolling_3
+  rotate: false
+  xy: 1739, 21
+  size: 62, 105
+  orig: 62, 105
+  offset: 0, 0
+  index: -1
+ani_room_tourney_samll_sum_rolling_4
+  rotate: true
+  xy: 1395, 61
+  size: 65, 105
+  orig: 65, 105
+  offset: 0, 0
+  index: -1
+ani_room_tourney_samll_sum_rolling_5
+  rotate: true
+  xy: 1502, 63
+  size: 63, 105
+  orig: 63, 105
+  offset: 0, 0
+  index: -1
+ani_room_tourney_samll_sum_rolling_6
+  rotate: false
+  xy: 1609, 21
+  size: 63, 105
+  orig: 63, 105
+  offset: 0, 0
+  index: -1
+ani_room_tourney_samll_sum_rolling_7
+  rotate: true
+  xy: 1502, 2
+  size: 59, 105
+  orig: 59, 105
+  offset: 0, 0
+  index: -1
+ani_room_tourney_samll_sum_rolling_8
+  rotate: false
+  xy: 1803, 21
+  size: 62, 105
+  orig: 62, 105
+  offset: 0, 0
+  index: -1
+ani_room_tourney_samll_sum_rolling_9
+  rotate: false
+  xy: 1674, 21
+  size: 63, 105
+  orig: 63, 105
+  offset: 0, 0
+  index: -1

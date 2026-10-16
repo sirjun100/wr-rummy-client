@@ -1,0 +1,90 @@
+
+ani_mfbq_shuiqiang.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_mfbq_shuiqiang_ms1_1
+  rotate: false
+  xy: 92, 8
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+ani_mfbq_shuiqiang_ms1_2
+  rotate: false
+  xy: 267, 23
+  size: 57, 46
+  orig: 57, 46
+  offset: 0, 0
+  index: -1
+ani_mfbq_shuiqiang_ms2_1
+  rotate: false
+  xy: 362, 91
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+ani_mfbq_shuiqiang_ms2_2
+  rotate: false
+  xy: 326, 23
+  size: 57, 46
+  orig: 57, 46
+  offset: 0, 0
+  index: -1
+ani_mfbq_shuiqiang_ms3_1
+  rotate: false
+  xy: 385, 43
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+ani_mfbq_shuiqiang_ms3_2
+  rotate: false
+  xy: 385, 62
+  size: 57, 46
+  orig: 57, 46
+  offset: 0, 0
+  index: -1
+ani_mfbq_shuiqiang_ms_1_lv
+  rotate: false
+  xy: 181, 31
+  size: 84, 77
+  orig: 84, 77
+  offset: 0, 0
+  index: -1
+ani_mfbq_shuiqiang_ms_2_lan
+  rotate: false
+  xy: 2, 22
+  size: 88, 86
+  orig: 88, 86
+  offset: 0, 0
+  index: -1
+ani_mfbq_shuiqiang_ms_3_zs
+  rotate: false
+  xy: 92, 27
+  size: 87, 81
+  orig: 87, 81
+  offset: 0, 0
+  index: -1
+ani_mfbq_shuiqiang_sq_1
+  rotate: true
+  xy: 267, 91
+  size: 17, 93
+  orig: 17, 93
+  offset: 0, 0
+  index: -1
+ani_mfbq_shuiqiang_sq_2
+  rotate: true
+  xy: 267, 71
+  size: 18, 88
+  orig: 18, 88
+  offset: 0, 0
+  index: -1
+ani_mfbq_shuiqiang_sq_2_wb
+  rotate: true
+  xy: 2, 2
+  size: 18, 88
+  orig: 18, 88
+  offset: 0, 0
+  index: -1

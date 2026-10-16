@@ -1,0 +1,83 @@
+
+ani_room_treasure_Bar.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+saoguang_00001
+  rotate: false
+  xy: 2, 298
+  size: 294, 72
+  orig: 294, 72
+  offset: 0, 0
+  index: -1
+saoguang_00002
+  rotate: false
+  xy: 2, 224
+  size: 294, 72
+  orig: 294, 72
+  offset: 0, 0
+  index: -1
+saoguang_00003
+  rotate: false
+  xy: 298, 298
+  size: 294, 72
+  orig: 294, 72
+  offset: 0, 0
+  index: -1
+saoguang_00004
+  rotate: false
+  xy: 2, 150
+  size: 294, 72
+  orig: 294, 72
+  offset: 0, 0
+  index: -1
+saoguang_00005
+  rotate: false
+  xy: 298, 224
+  size: 294, 72
+  orig: 294, 72
+  offset: 0, 0
+  index: -1
+saoguang_00006
+  rotate: false
+  xy: 594, 298
+  size: 294, 72
+  orig: 294, 72
+  offset: 0, 0
+  index: -1
+saoguang_00007
+  rotate: false
+  xy: 2, 76
+  size: 294, 72
+  orig: 294, 72
+  offset: 0, 0
+  index: -1
+saoguang_00008
+  rotate: false
+  xy: 298, 150
+  size: 294, 72
+  orig: 294, 72
+  offset: 0, 0
+  index: -1
+saoguang_00009
+  rotate: false
+  xy: 594, 224
+  size: 294, 72
+  orig: 294, 72
+  offset: 0, 0
+  index: -1
+saoguang_00010
+  rotate: false
+  xy: 2, 2
+  size: 294, 72
+  orig: 294, 72
+  offset: 0, 0
+  index: -1
+saoguang_00011
+  rotate: false
+  xy: 298, 76
+  size: 294, 72
+  orig: 294, 72
+  offset: 0, 0
+  index: -1

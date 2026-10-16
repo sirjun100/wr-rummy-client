@@ -7,6 +7,20 @@
 
 import { _decorator } from 'cc';
 
+declare global {
+    // eslint-disable-next-line no-var
+    var AllCCClassName: Record<string, boolean>;
+}
+
+function ensureAllCcClassNameRegistry(): Record<string, boolean> {
+    const g = globalThis as typeof globalThis & { AllCCClassName?: Record<string, boolean> };
+    if (!g.AllCCClassName) {
+        g.AllCCClassName = {};
+    }
+    return g.AllCCClassName;
+}
+
+ensureAllCcClassNameRegistry();
 
 /**构造随机数生成器(相同的随机数种子的随机数结果一定相同) */
 Math.randomGener = function (seed: number) {
@@ -774,20 +788,15 @@ if (!isHas) {
 }
 
 
-declare global {
-    var AllCCClassName: Record<string, boolean>;
-}
-
 type CcclassDecorator = typeof _decorator.ccclass;
 const oldCcclass: CcclassDecorator = _decorator.ccclass;
 
-globalThis.AllCCClassName = {};
-
 function recordCcClassName(ret: { name?: string } | undefined, constructor?: Function) {
     const className = ret?.name ?? constructor?.name;
-    if (className) {
-        globalThis.AllCCClassName[className] = true;
+    if (!className) {
+        return;
     }
+    ensureAllCcClassNameRegistry()[className] = true;
 }
 
 const ccclassWithRegistry = function ccclassWithRegistry(nameOrConstructor?: string | Function): any {

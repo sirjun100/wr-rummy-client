@@ -1,0 +1,195 @@
+
+ani_room_fly_cashbonus.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_mfbq_yb_01
+  rotate: false
+  xy: 2, 145
+  size: 90, 102
+  orig: 92, 104
+  offset: 1, 1
+  index: -1
+ani_dp_mfbq_yb_02
+  rotate: false
+  xy: 94, 159
+  size: 90, 88
+  orig: 92, 104
+  offset: 1, 8
+  index: -1
+ani_dp_mfbq_yb_03
+  rotate: false
+  xy: 890, 188
+  size: 91, 59
+  orig: 92, 104
+  offset: 1, 22
+  index: -1
+ani_dp_mfbq_yb_04
+  rotate: false
+  xy: 797, 171
+  size: 89, 13
+  orig: 92, 104
+  offset: 2, 45
+  index: -1
+ani_dp_mfbq_yb_05
+  rotate: false
+  xy: 94, 7
+  size: 91, 57
+  orig: 92, 104
+  offset: 1, 23
+  index: -1
+ani_dp_mfbq_yb_06
+  rotate: false
+  xy: 186, 163
+  size: 91, 84
+  orig: 91, 103
+  offset: 0, 10
+  index: -1
+ani_dp_mfbq_yb_07
+  rotate: false
+  xy: 2, 41
+  size: 90, 102
+  orig: 92, 104
+  offset: 1, 0
+  index: -1
+ani_dp_mfbq_yb_08
+  rotate: false
+  xy: 279, 166
+  size: 90, 81
+  orig: 92, 104
+  offset: 1, 11
+  index: -1
+ani_dp_mfbq_yb_09
+  rotate: true
+  xy: 180, 66
+  size: 91, 54
+  orig: 92, 104
+  offset: 1, 24
+  index: -1
+ani_dp_mfbq_yb_10
+  rotate: false
+  xy: 457, 154
+  size: 89, 13
+  orig: 92, 104
+  offset: 2, 45
+  index: -1
+ani_dp_mfbq_yb_11
+  rotate: false
+  xy: 797, 186
+  size: 91, 61
+  orig: 92, 104
+  offset: 1, 21
+  index: -1
+ani_dp_mfbq_yb_12
+  rotate: true
+  xy: 94, 66
+  size: 91, 84
+  orig: 92, 104
+  offset: 1, 10
+  index: -1
+ani_room_rank_finish_coin1
+  rotate: true
+  xy: 371, 164
+  size: 83, 84
+  orig: 91, 89
+  offset: 4, 3
+  index: -1
+ani_room_rank_finish_coin10
+  rotate: false
+  xy: 454, 100
+  size: 85, 21
+  orig: 91, 89
+  offset: 3, 32
+  index: -1
+ani_room_rank_finish_coin11
+  rotate: false
+  xy: 454, 123
+  size: 85, 29
+  orig: 91, 89
+  offset: 3, 28
+  index: -1
+ani_room_rank_finish_coin12
+  rotate: true
+  xy: 236, 77
+  size: 84, 46
+  orig: 91, 89
+  offset: 4, 20
+  index: -1
+ani_room_rank_finish_coin13
+  rotate: false
+  xy: 369, 98
+  size: 83, 64
+  orig: 91, 89
+  offset: 4, 13
+  index: -1
+ani_room_rank_finish_coin14
+  rotate: false
+  xy: 712, 176
+  size: 83, 71
+  orig: 91, 89
+  offset: 4, 9
+  index: -1
+ani_room_rank_finish_coin15
+  rotate: false
+  xy: 542, 169
+  size: 83, 78
+  orig: 91, 89
+  offset: 4, 6
+  index: -1
+ani_room_rank_finish_coin2
+  rotate: false
+  xy: 457, 169
+  size: 83, 78
+  orig: 91, 89
+  offset: 4, 6
+  index: -1
+ani_room_rank_finish_coin3
+  rotate: false
+  xy: 627, 175
+  size: 83, 72
+  orig: 91, 89
+  offset: 4, 9
+  index: -1
+ani_room_rank_finish_coin4
+  rotate: false
+  xy: 284, 100
+  size: 83, 64
+  orig: 91, 89
+  offset: 4, 13
+  index: -1
+ani_room_rank_finish_coin5
+  rotate: false
+  xy: 284, 49
+  size: 83, 49
+  orig: 91, 89
+  offset: 4, 20
+  index: -1
+ani_room_rank_finish_coin6
+  rotate: false
+  xy: 2, 2
+  size: 83, 37
+  orig: 91, 89
+  offset: 4, 25
+  index: -1
+ani_room_rank_finish_coin7
+  rotate: false
+  xy: 369, 66
+  size: 85, 30
+  orig: 91, 89
+  offset: 3, 28
+  index: -1
+ani_room_rank_finish_coin8
+  rotate: false
+  xy: 369, 41
+  size: 85, 23
+  orig: 91, 89
+  offset: 3, 31
+  index: -1
+ani_room_rank_finish_coin9
+  rotate: false
+  xy: 456, 87
+  size: 83, 11
+  orig: 91, 89
+  offset: 4, 37
+  index: -1

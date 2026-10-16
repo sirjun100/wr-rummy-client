@@ -1,0 +1,118 @@
+
+ani_dp_Rummy_hp.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hp_yanb
+  rotate: false
+  xy: 2, 608
+  size: 325, 319
+  orig: 325, 319
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_00
+  rotate: false
+  xy: 2, 406
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_02
+  rotate: false
+  xy: 329, 727
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_04
+  rotate: false
+  xy: 2, 204
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_06
+  rotate: false
+  xy: 531, 727
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_08
+  rotate: false
+  xy: 2, 2
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_10
+  rotate: false
+  xy: 733, 727
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_12
+  rotate: false
+  xy: 204, 406
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_14
+  rotate: false
+  xy: 204, 204
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_16
+  rotate: false
+  xy: 204, 2
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_18
+  rotate: false
+  xy: 406, 525
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_20
+  rotate: false
+  xy: 406, 323
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_22
+  rotate: false
+  xy: 608, 525
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_24
+  rotate: false
+  xy: 406, 121
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_26
+  rotate: false
+  xy: 608, 323
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_28
+  rotate: false
+  xy: 608, 121
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

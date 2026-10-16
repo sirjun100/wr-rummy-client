@@ -6,7 +6,7 @@
 
 
 import * as cc from 'cc';
-import { BindableProperty } from "../../../qframework/QFramework";
+import { BindableProperty } from "../../../QFramework";
 
 // #region PlayerPrefs Properties
 

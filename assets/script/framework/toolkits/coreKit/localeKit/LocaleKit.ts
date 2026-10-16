@@ -6,7 +6,7 @@
 
 
 import * as cc from 'cc';
-import { EasyEvent } from "../../../qframework/QFramework";
+import { EasyEvent } from "../../../QFramework";
 
 // #region Language
 

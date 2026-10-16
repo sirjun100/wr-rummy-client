@@ -1,0 +1,227 @@
+{
+  "skeleton": {
+    "hash": "37TsfEw/iXLxOOkqGluBn38NVlA",
+    "spine": "3.6.53",
+    "width": 59.61,
+    "height": 62.13,
+    "images": "./pic/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "flash",
+      "parent": "root",
+      "rotation": -29.2,
+      "x": -135.21,
+      "y": 9.73,
+      "color": "ffffffff"
+    },
+    {
+      "name": "flash2",
+      "parent": "root",
+      "rotation": -29.2,
+      "x": -122.33,
+      "y": 9.73
+    }
+  ],
+  "slots": [
+    {
+      "name": "cut",
+      "bone": "root",
+      "attachment": "cut"
+    },
+    {
+      "name": "ani_room_nextvalue_flash",
+      "bone": "flash",
+      "attachment": "ani_room_nextvalue_flash"
+    },
+    {
+      "name": "ani_room_nextvalue_flash2",
+      "bone": "flash2",
+      "attachment": "ani_room_nextvalue_flash"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_room_nextvalue_flash": {
+        "ani_room_nextvalue_flash": {
+          "x": -9.6,
+          "y": -7.19,
+          "scaleY": 3,
+          "width": 20,
+          "height": 20
+        }
+      },
+      "ani_room_nextvalue_flash2": {
+        "ani_room_nextvalue_flash": {
+          "x": -9.6,
+          "y": -7.19,
+          "scaleY": 3,
+          "width": 20,
+          "height": 20
+        }
+      },
+      "cut": {
+        "cut": {
+          "type": "clipping",
+          "end": "cut",
+          "vertexCount": 4,
+          "color": "ce3a3a00",
+          "vertices": [
+            -89.85,
+            17.71,
+            -89.85,
+            -15.14,
+            76.54,
+            -15.11,
+            76.54,
+            17.02
+          ]
+        }
+      }
+    }
+  },
+  "animations": {
+    "flash": {
+      "slots": {
+        "ani_room_nextvalue_flash": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff18"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff36",
+              "curve": [
+                0.412,
+                0.16,
+                0.737,
+                0.49
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_nextvalue_flash2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff18"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff36",
+              "curve": [
+                0.393,
+                0.14,
+                0.723,
+                0.49
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "flash": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.404,
+                0.03,
+                0.691,
+                0.55
+              ]
+            },
+            {
+              "time": 0.9667,
+              "x": 142.73,
+              "y": -6.89,
+              "curve": [
+                0.295,
+                0.5,
+                0.605,
+                0.95
+              ]
+            },
+            {
+              "time": 1.6667,
+              "x": 233.75,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.8333,
+              "x": 1.5,
+              "y": 1,
+              "curve": [
+                0.543,
+                0.07,
+                0.795,
+                0.65
+              ]
+            },
+            {
+              "time": 1.6667,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "flash2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.396,
+                0.04,
+                0.594,
+                0.95
+              ]
+            },
+            {
+              "time": 1.6667,
+              "x": 233.75,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

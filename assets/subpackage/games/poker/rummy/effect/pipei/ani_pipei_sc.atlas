@@ -1,0 +1,13 @@
+
+ani_pipei_sc.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_pipei_sc1_ls
+  rotate: false
+  xy: 2, 2
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,16 @@
+---
+description: framework 移植层仅 bugfix/同步，禁止堆业务
+globs: assets/script/framework/**
+alwaysApply: false
+---
+
+# framework _vendor 保护
+
+`assets/script/framework/` 为 QFramework 及 Toolkits 移植代码。
+
+- **允许**：修复缺陷、与上游 QFramework 对齐、Cocos API 适配。
+- **禁止**：为单一玩法/活动在此新增业务 System、硬编码项目配置、引用 `game/` 业务类（避免环依赖）。
+
+新业务能力放在 `assets/script/game/` 或 subpackage `script/`；若需复用，在 `game/utility` 做薄封装。
+
+详细约定：`.cursor/skills/qframework-client/references/反模式与迁移.md`

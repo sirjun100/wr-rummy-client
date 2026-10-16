@@ -1,0 +1,48 @@
+
+ani_dh_mfbq_fw.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mfbq_wen_bt
+  rotate: false
+  xy: 228, 28
+  size: 101, 72
+  orig: 101, 72
+  offset: 0, 0
+  index: -1
+mfbq_wen_bt2
+  rotate: false
+  xy: 140, 11
+  size: 86, 89
+  orig: 86, 89
+  offset: 0, 0
+  index: -1
+mfbq_wen_bt3
+  rotate: false
+  xy: 2, 2
+  size: 136, 98
+  orig: 136, 98
+  offset: 0, 0
+  index: -1
+mfbq_wen_wenhen
+  rotate: false
+  xy: 331, 26
+  size: 90, 74
+  orig: 90, 74
+  offset: 0, 0
+  index: -1
+mfbq_xin_bt
+  rotate: false
+  xy: 423, 48
+  size: 60, 52
+  orig: 60, 52
+  offset: 0, 0
+  index: -1
+tx_xin
+  rotate: false
+  xy: 423, 16
+  size: 38, 30
+  orig: 38, 30
+  offset: 0, 0
+  index: -1

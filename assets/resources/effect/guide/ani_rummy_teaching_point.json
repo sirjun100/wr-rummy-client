@@ -1,0 +1,261 @@
+{
+  "skeleton": {
+    "hash": "rOZIouQ39waawSS0j8ZvQuxh0S4",
+    "spine": "3.6.53",
+    "width": 79,
+    "height": 100.43,
+    "images": "./pic/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "circle",
+      "parent": "root"
+    },
+    {
+      "name": "hand",
+      "parent": "root",
+      "x": -5.35,
+      "y": 29.93
+    },
+    {
+      "name": "point",
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ani_rummy_teaching_point",
+      "bone": "point",
+      "attachment": "ani_rummy_teaching_point"
+    },
+    {
+      "name": "ani_rummy_teaching_circle",
+      "bone": "circle",
+      "attachment": "ani_rummy_teaching_circle"
+    },
+    {
+      "name": "ani_rummy_teaching_hand",
+      "bone": "hand",
+      "attachment": "ani_rummy_teaching_hand"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_rummy_teaching_circle": {
+        "ani_rummy_teaching_circle": {
+          "width": 79,
+          "height": 79
+        }
+      },
+      "ani_rummy_teaching_hand": {
+        "ani_rummy_teaching_hand": {
+          "width": 52,
+          "height": 62
+        }
+      },
+      "ani_rummy_teaching_point": {
+        "ani_rummy_teaching_point": {
+          "width": 51,
+          "height": 51
+        }
+      }
+    }
+  },
+  "animations": {
+    "point": {
+      "slots": {
+        "ani_rummy_teaching_circle": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_rummy_teaching_hand": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "ani_rummy_teaching_point": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "hand": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 42,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 42
+            }
+          ]
+        }
+      }
+    },
+    "point2": {
+      "slots": {
+        "ani_rummy_teaching_circle": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff62"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_rummy_teaching_hand": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffc7"
+            }
+          ]
+        },
+        "ani_rummy_teaching_point": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffd9"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffba"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "hand": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 42,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.8333,
+              "x": 0,
+              "y": 42
+            }
+          ]
+        },
+        "point": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.711,
+                0.01,
+                0.737,
+                0.77
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 0.2,
+              "y": 0.2
+            }
+          ]
+        },
+        "circle": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.2,
+              "y": 1.2,
+              "curve": [
+                0.266,
+                0.36,
+                0.674,
+                0.75
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        }
+      }
+    }
+  }
+}

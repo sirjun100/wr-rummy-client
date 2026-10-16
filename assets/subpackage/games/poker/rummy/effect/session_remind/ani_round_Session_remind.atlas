@@ -1,0 +1,13 @@
+
+ani_round_Session_remind.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_round_Session_title
+  rotate: false
+  xy: 0, 0
+  size: 649, 78
+  orig: 649, 78
+  offset: 0, 0
+  index: -1

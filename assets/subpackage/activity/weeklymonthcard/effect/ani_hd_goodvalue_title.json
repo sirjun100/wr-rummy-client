@@ -1,0 +1,599 @@
+{
+  "skeleton": {
+    "hash": "ArmkD1pWuLuBh6IFi5+kopdcrNs",
+    "spine": "3.6.53",
+    "width": 0,
+    "height": 0,
+    "images": "./image/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "title",
+      "parent": "root"
+    },
+    {
+      "name": "star3",
+      "parent": "title",
+      "x": -196.64,
+      "y": 54.18,
+      "scaleX": 0.8,
+      "scaleY": 0.8
+    },
+    {
+      "name": "star4",
+      "parent": "title",
+      "x": 24.53,
+      "y": 9.56,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+    },
+    {
+      "name": "star5",
+      "parent": "title",
+      "x": 204.84,
+      "y": 54.82,
+      "scaleX": 0.8,
+      "scaleY": 0.8
+    },
+    {
+      "name": "star6",
+      "parent": "title",
+      "x": -262.05,
+      "y": -74.43,
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    },
+    {
+      "name": "star7",
+      "parent": "title",
+      "x": 268.4,
+      "y": -114.05,
+      "scaleX": 0.4,
+      "scaleY": 0.4
+    }
+  ],
+  "slots": [
+    {
+      "name": "ani_welcomebonus_flash_5",
+      "bone": "star3",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_goodvalue_title",
+      "bone": "title"
+    },
+    {
+      "name": "titlebar",
+      "bone": "title"
+    },
+    {
+      "name": "cut_title",
+      "bone": "title",
+      "attachment": "cut_title"
+    },
+    {
+      "name": "cutbar",
+      "bone": "title",
+      "color": "ffffff12",
+      "blend": "additive"
+    },
+    {
+      "name": "cuttitle",
+      "bone": "title",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_welcomebonus_flash_8",
+      "bone": "star6",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_welcomebonus_flash_9",
+      "bone": "star7",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_welcomebonus_flash_6",
+      "bone": "star4",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_welcomebonus_flash_7",
+      "bone": "star5",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_goodvalue_title": {
+        "ani_goodvalue_title": {
+          "width": 415,
+          "height": 119
+        }
+      },
+      "ani_welcomebonus_flash_5": {
+        "ani_goodvalue_flash_3": {
+          "width": 80,
+          "height": 81
+        }
+      },
+      "ani_welcomebonus_flash_6": {
+        "ani_goodvalue_flash_3": {
+          "width": 80,
+          "height": 81
+        }
+      },
+      "ani_welcomebonus_flash_7": {
+        "ani_goodvalue_flash_3": {
+          "width": 80,
+          "height": 81
+        }
+      },
+      "ani_welcomebonus_flash_8": {
+        "ani_goodvalue_flash_3": {
+          "width": 80,
+          "height": 81
+        }
+      },
+      "ani_welcomebonus_flash_9": {
+        "ani_goodvalue_flash_3": {
+          "width": 80,
+          "height": 81
+        }
+      },
+      "cut_title": {
+        "cut_title": {
+          "type": "clipping",
+          "end": "cuttitle",
+          "vertexCount": 8,
+          "color": "97ff0000",
+          "vertices": [
+            -324.36,
+            73.59,
+            -216.95,
+            -125.24,
+            -232.18,
+            -125.85,
+            -338.94,
+            73.01,
+            -345.63,
+            73.59,
+            -239.13,
+            -125.81,
+            -166.33,
+            -125.11,
+            -270.73,
+            73.59
+          ]
+        }
+      },
+      "cutbar": {
+        "ani_goodvalue_titlebar": {
+          "y": -95.38,
+          "width": 591,
+          "height": 46
+        }
+      },
+      "cuttitle": {
+        "ani_goodvalue_title": {
+          "width": 415,
+          "height": 119
+        }
+      },
+      "titlebar": {
+        "ani_goodvalue_titlebar": {
+          "y": -95.38,
+          "width": 591,
+          "height": 46
+        }
+      }
+    }
+  },
+  "animations": {
+    "title": {
+      "slots": {
+        "ani_goodvalue_title": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_goodvalue_title"
+            }
+          ]
+        },
+        "ani_welcomebonus_flash_5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_goodvalue_flash_3"
+            }
+          ]
+        },
+        "ani_welcomebonus_flash_6": {
+          "color": [
+            {
+              "time": 0.4,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.2333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.0667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.4,
+              "name": "ani_goodvalue_flash_3"
+            }
+          ]
+        },
+        "ani_welcomebonus_flash_7": {
+          "color": [
+            {
+              "time": 0.7333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.4,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.7333,
+              "name": "ani_goodvalue_flash_3"
+            }
+          ]
+        },
+        "ani_welcomebonus_flash_8": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_goodvalue_flash_3"
+            }
+          ]
+        },
+        "ani_welcomebonus_flash_9": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.4667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.3,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_goodvalue_flash_3"
+            }
+          ]
+        },
+        "cutbar": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_goodvalue_titlebar"
+            }
+          ]
+        },
+        "cuttitle": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_goodvalue_title"
+            }
+          ]
+        },
+        "titlebar": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_goodvalue_titlebar"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "star3": {
+          "rotate": [
+            {
+              "time": 0.3667,
+              "angle": 0
+            },
+            {
+              "time": 1.6667,
+              "angle": 20
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.6667,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "star4": {
+          "rotate": [
+            {
+              "time": 0.7667,
+              "angle": 0
+            },
+            {
+              "time": 2.0667,
+              "angle": 20
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.4,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7667,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1.4,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 2.0667,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "star5": {
+          "rotate": [
+            {
+              "time": 1.1,
+              "angle": 0
+            },
+            {
+              "time": 2.4,
+              "angle": 20
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.7333,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1.7333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 2.4,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "star6": {
+          "rotate": [
+            {
+              "time": 0.3667,
+              "angle": 0
+            },
+            {
+              "time": 1.6667,
+              "angle": 20
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3667,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.6667,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "star7": {
+          "rotate": [
+            {
+              "time": 1,
+              "angle": 0
+            },
+            {
+              "time": 2.3,
+              "angle": 20
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 1.6333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 2.3,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "cut_title": {
+            "cut_title": [
+              {
+                "time": 0,
+                "vertices": [
+                  -119.23199,
+                  0,
+                  -119.23199,
+                  0,
+                  -119.23199,
+                  0,
+                  -119.23199,
+                  0,
+                  -119.23199,
+                  0,
+                  -119.23199,
+                  0,
+                  -119.23199,
+                  0,
+                  -119.23199
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "vertices": [
+                  567.5042,
+                  0,
+                  567.5042,
+                  0,
+                  567.5042,
+                  0,
+                  567.5042,
+                  0,
+                  567.5042,
+                  0,
+                  567.5042,
+                  0,
+                  567.5042,
+                  0,
+                  567.5042
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

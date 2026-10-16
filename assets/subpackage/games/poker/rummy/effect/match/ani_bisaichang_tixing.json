@@ -1,0 +1,551 @@
+{
+  "skeleton": {
+    "hash": "/C3OAAoHSrcuN4f/ovpw3KtQ5To",
+    "spine": "3.6.53",
+    "width": 514,
+    "height": 136,
+    "images": "./pic/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "TX_ZXD",
+      "parent": "root"
+    },
+    {
+      "name": "TX_DISE",
+      "parent": "TX_ZXD",
+      "x": -0.01
+    },
+    {
+      "name": "TX_SG",
+      "parent": "TX_ZXD",
+      "x": 8.03,
+      "y": 2.24,
+      "scaleX": 2,
+      "scaleY": 2
+    },
+    {
+      "name": "TX_SG2",
+      "parent": "TX_ZXD",
+      "x": 8.03,
+      "y": 2.24,
+      "scaleX": -2,
+      "scaleY": 2
+    },
+    {
+      "name": "TX_caijian",
+      "parent": "TX_ZXD",
+      "x": -12.42,
+      "y": 21.55
+    }
+  ],
+  "slots": [
+    {
+      "name": "cj",
+      "bone": "TX_caijian",
+      "attachment": "cj"
+    },
+    {
+      "name": "ani_bisaichang_tixing_sg_00000",
+      "bone": "TX_SG",
+      "attachment": "ani_bisaichang_tixing_sg_00000",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_bisaichang_tixing_sg_0",
+      "bone": "TX_SG2",
+      "attachment": "ani_bisaichang_tixing_sg_00000",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_bisaichang_tixing_dise",
+      "bone": "TX_DISE",
+      "attachment": "ani_bisaichang_tixing_dise",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_bisaichang_tixing_dise": {
+        "ani_bisaichang_tixing_dise": {
+          "width": 440,
+          "height": 42
+        }
+      },
+      "ani_bisaichang_tixing_sg_0": {
+        "ani_bisaichang_tixing_sg_00000": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00001": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00002": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00003": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00004": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00005": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00006": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00007": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00008": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00009": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00010": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00011": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00012": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00013": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00014": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00015": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00016": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00017": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00018": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00019": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00020": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00021": {
+          "width": 257,
+          "height": 68
+        }
+      },
+      "ani_bisaichang_tixing_sg_00000": {
+        "ani_bisaichang_tixing_sg_00000": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00001": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00002": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00003": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00004": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00005": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00006": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00007": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00008": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00009": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00010": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00011": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00012": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00013": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00014": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00015": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00016": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00017": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00018": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00019": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00020": {
+          "width": 257,
+          "height": 68
+        },
+        "ani_bisaichang_tixing_sg_00021": {
+          "width": 257,
+          "height": 68
+        }
+      },
+      "cj": {
+        "cj": {
+          "type": "clipping",
+          "end": "ani_bisaichang_tixing_dise",
+          "vertexCount": 4,
+          "color": "ce3a3aff",
+          "vertices": [
+            -207.48,
+            87.2,
+            -207.48,
+            -82.29,
+            232.64,
+            -81.49,
+            232.39,
+            94.03
+          ]
+        }
+      }
+    }
+  },
+  "animations": {
+    "saoguang": {
+      "slots": {
+        "ani_bisaichang_tixing_dise": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0363,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0696,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.3704,
+              "color": "ffffff1d"
+            },
+            {
+              "time": 0.9995,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_bisaichang_tixing_sg_00000": {
+          "color": [
+            {
+              "time": 0.3689,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.1744,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_bisaichang_tixing_sg_00000"
+            },
+            {
+              "time": 0.042,
+              "name": "ani_bisaichang_tixing_sg_00001"
+            },
+            {
+              "time": 0.0829,
+              "name": "ani_bisaichang_tixing_sg_00002"
+            },
+            {
+              "time": 0.1241,
+              "name": "ani_bisaichang_tixing_sg_00003"
+            },
+            {
+              "time": 0.1655,
+              "name": "ani_bisaichang_tixing_sg_00004"
+            },
+            {
+              "time": 0.2077,
+              "name": "ani_bisaichang_tixing_sg_00005"
+            },
+            {
+              "time": 0.2483,
+              "name": "ani_bisaichang_tixing_sg_00006"
+            },
+            {
+              "time": 0.2899,
+              "name": "ani_bisaichang_tixing_sg_00007"
+            },
+            {
+              "time": 0.3313,
+              "name": "ani_bisaichang_tixing_sg_00008"
+            },
+            {
+              "time": 0.3741,
+              "name": "ani_bisaichang_tixing_sg_00009"
+            },
+            {
+              "time": 0.4259,
+              "name": "ani_bisaichang_tixing_sg_00010"
+            },
+            {
+              "time": 0.4778,
+              "name": "ani_bisaichang_tixing_sg_00011"
+            },
+            {
+              "time": 0.5304,
+              "name": "ani_bisaichang_tixing_sg_00012"
+            },
+            {
+              "time": 0.5825,
+              "name": "ani_bisaichang_tixing_sg_00013"
+            },
+            {
+              "time": 0.6475,
+              "name": "ani_bisaichang_tixing_sg_00014"
+            },
+            {
+              "time": 0.7131,
+              "name": "ani_bisaichang_tixing_sg_00015"
+            },
+            {
+              "time": 0.7826,
+              "name": "ani_bisaichang_tixing_sg_00016"
+            },
+            {
+              "time": 0.8484,
+              "name": "ani_bisaichang_tixing_sg_00017"
+            },
+            {
+              "time": 0.9228,
+              "name": "ani_bisaichang_tixing_sg_00018"
+            },
+            {
+              "time": 0.9923,
+              "name": "ani_bisaichang_tixing_sg_00019"
+            },
+            {
+              "time": 1.0581,
+              "name": "ani_bisaichang_tixing_sg_00020"
+            },
+            {
+              "time": 1.1238,
+              "name": "ani_bisaichang_tixing_sg_00021"
+            },
+            {
+              "time": 1.1744,
+              "name": null
+            }
+          ]
+        },
+        "ani_bisaichang_tixing_sg_0": {
+          "color": [
+            {
+              "time": 0.3689,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.1744,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_bisaichang_tixing_sg_00000"
+            },
+            {
+              "time": 0.042,
+              "name": "ani_bisaichang_tixing_sg_00001"
+            },
+            {
+              "time": 0.0829,
+              "name": "ani_bisaichang_tixing_sg_00002"
+            },
+            {
+              "time": 0.1241,
+              "name": "ani_bisaichang_tixing_sg_00003"
+            },
+            {
+              "time": 0.1655,
+              "name": "ani_bisaichang_tixing_sg_00004"
+            },
+            {
+              "time": 0.2077,
+              "name": "ani_bisaichang_tixing_sg_00005"
+            },
+            {
+              "time": 0.2483,
+              "name": "ani_bisaichang_tixing_sg_00006"
+            },
+            {
+              "time": 0.2899,
+              "name": "ani_bisaichang_tixing_sg_00007"
+            },
+            {
+              "time": 0.3313,
+              "name": "ani_bisaichang_tixing_sg_00008"
+            },
+            {
+              "time": 0.3741,
+              "name": "ani_bisaichang_tixing_sg_00009"
+            },
+            {
+              "time": 0.4259,
+              "name": "ani_bisaichang_tixing_sg_00010"
+            },
+            {
+              "time": 0.4778,
+              "name": "ani_bisaichang_tixing_sg_00011"
+            },
+            {
+              "time": 0.5304,
+              "name": "ani_bisaichang_tixing_sg_00012"
+            },
+            {
+              "time": 0.5825,
+              "name": "ani_bisaichang_tixing_sg_00013"
+            },
+            {
+              "time": 0.6475,
+              "name": "ani_bisaichang_tixing_sg_00014"
+            },
+            {
+              "time": 0.7131,
+              "name": "ani_bisaichang_tixing_sg_00015"
+            },
+            {
+              "time": 0.7826,
+              "name": "ani_bisaichang_tixing_sg_00016"
+            },
+            {
+              "time": 0.8484,
+              "name": "ani_bisaichang_tixing_sg_00017"
+            },
+            {
+              "time": 0.9228,
+              "name": "ani_bisaichang_tixing_sg_00018"
+            },
+            {
+              "time": 0.9923,
+              "name": "ani_bisaichang_tixing_sg_00019"
+            },
+            {
+              "time": 1.0581,
+              "name": "ani_bisaichang_tixing_sg_00020"
+            },
+            {
+              "time": 1.1238,
+              "name": "ani_bisaichang_tixing_sg_00021"
+            },
+            {
+              "time": 1.1744,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "TX_SG2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -17.4,
+              "y": 0
+            }
+          ]
+        },
+        "TX_DISE": {
+          "scale": [
+            {
+              "time": 0.0363,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.0696,
+              "x": 1,
+              "y": 1.26
+            },
+            {
+              "time": 0.1696,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

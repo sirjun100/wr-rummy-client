@@ -1,0 +1,195 @@
+
+ani_settle_treasure_banner.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_huodong_dh_1
+  rotate: true
+  xy: 2, 2
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_10
+  rotate: true
+  xy: 959, 84
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_2
+  rotate: true
+  xy: 48, 2
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_3
+  rotate: true
+  xy: 94, 2
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_4
+  rotate: true
+  xy: 140, 2
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_5
+  rotate: true
+  xy: 186, 2
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_6
+  rotate: true
+  xy: 232, 2
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_7
+  rotate: true
+  xy: 278, 2
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_8
+  rotate: true
+  xy: 324, 2
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_9
+  rotate: true
+  xy: 370, 2
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_chip_1
+  rotate: false
+  xy: 536, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_chip_6
+  rotate: false
+  xy: 536, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_chip_10
+  rotate: false
+  xy: 912, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_chip_2
+  rotate: false
+  xy: 583, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_chip_3
+  rotate: false
+  xy: 630, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_chip_4
+  rotate: false
+  xy: 677, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_chip_5
+  rotate: false
+  xy: 724, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_chip_7
+  rotate: false
+  xy: 771, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_chip_8
+  rotate: false
+  xy: 818, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_chip_9
+  rotate: false
+  xy: 865, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+ani_huodong_dh_yb
+  rotate: false
+  xy: 500, 58
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1
+ani_settle_treasure_banner_box
+  rotate: false
+  xy: 404, 63
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+ani_settle_treasure_banner_box2
+  rotate: false
+  xy: 470, 86
+  size: 64, 40
+  orig: 64, 40
+  offset: 0, 0
+  index: -1
+ani_settle_treasure_banner_glow
+  rotate: false
+  xy: 2, 46
+  size: 400, 80
+  orig: 400, 80
+  offset: 0, 0
+  index: -1
+ani_settle_treasure_banner_glow2
+  rotate: true
+  xy: 470, 58
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+ani_settle_treasure_banner_glow3
+  rotate: false
+  xy: 1005, 98
+  size: 10, 28
+  orig: 10, 28
+  offset: 0, 0
+  index: -1
+ani_settle_treasure_banner_star
+  rotate: false
+  xy: 404, 49
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1

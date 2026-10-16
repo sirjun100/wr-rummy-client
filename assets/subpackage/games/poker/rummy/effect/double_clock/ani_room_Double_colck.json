@@ -1,0 +1,190 @@
+{
+  "skeleton": {
+    "hash": "3sjYeA+QjIwzrb6NkbpcCMhDe2M",
+    "spine": "3.6.53",
+    "width": 73.91,
+    "height": 83.33,
+    "images": "./pic/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "clock",
+      "parent": "root",
+      "y": -2.23
+    },
+    {
+      "name": "bell",
+      "parent": "clock",
+      "x": 15.72,
+      "y": 18.74
+    },
+    {
+      "name": "bell2",
+      "parent": "clock",
+      "x": -15.66,
+      "y": 18.74,
+      "scaleX": -1
+    }
+  ],
+  "slots": [
+    {
+      "name": "ani_room_Double_colck_bell",
+      "bone": "bell",
+      "attachment": "ani_room_Double_colck_bell"
+    },
+    {
+      "name": "ani_room_Double_colck_bell2",
+      "bone": "bell2",
+      "attachment": "ani_room_Double_colck_bell"
+    },
+    {
+      "name": "ani_room_Double_colck_clock",
+      "bone": "clock",
+      "attachment": "ani_room_Double_colck_clock"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_room_Double_colck_bell": {
+        "ani_room_Double_colck_bell": {
+          "x": 8.76,
+          "y": 13.59,
+          "width": 25,
+          "height": 23
+        }
+      },
+      "ani_room_Double_colck_bell2": {
+        "ani_room_Double_colck_bell": {
+          "x": 8.76,
+          "y": 13.59,
+          "width": 25,
+          "height": 23
+        }
+      },
+      "ani_room_Double_colck_clock": {
+        "ani_room_Double_colck_clock": {
+          "width": 66,
+          "height": 79
+        }
+      }
+    }
+  },
+  "animations": {
+    "0": {},
+    "1": {
+      "bones": {
+        "clock": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -10,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.1,
+              "angle": 10,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.2,
+              "angle": -10,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3,
+              "angle": 10,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4,
+              "angle": -10,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "angle": 10,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6,
+              "angle": -10,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.7,
+              "angle": 10,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.8,
+              "angle": -10,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.9,
+              "angle": 10,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "angle": -10
+            }
+          ]
+        }
+      }
+    }
+  }
+}

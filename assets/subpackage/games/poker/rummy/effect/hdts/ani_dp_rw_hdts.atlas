@@ -1,0 +1,20 @@
+
+ani_dp_rw_hdts.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_rw_hdts_hd
+  rotate: false
+  xy: 2, 2
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+ani_dp_rw_hdts_ksg
+  rotate: false
+  xy: 2, 18
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1

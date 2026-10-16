@@ -1,0 +1,62 @@
+
+ani_dp_Rummy_hp_3.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hp2_gy
+  rotate: false
+  xy: 497, 312
+  size: 142, 179
+  orig: 142, 179
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_ksg
+  rotate: false
+  xy: 497, 150
+  size: 128, 160
+  orig: 128, 160
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_xzg
+  rotate: false
+  xy: 2, 2
+  size: 493, 489
+  orig: 493, 489
+  offset: 0, 0
+  index: -1
+ani_dp_hp_dian
+  rotate: false
+  xy: 682, 465
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+ani_dp_hp_fangkuai
+  rotate: false
+  xy: 641, 411
+  size: 37, 39
+  orig: 40, 42
+  offset: 1, 2
+  index: -1
+ani_dp_hp_heitao
+  rotate: false
+  xy: 497, 110
+  size: 39, 38
+  orig: 40, 40
+  offset: 0, 1
+  index: -1
+ani_dp_hp_hongtao
+  rotate: false
+  xy: 497, 84
+  size: 27, 24
+  orig: 42, 39
+  offset: 7, 8
+  index: -1
+ani_dp_hp_meihua
+  rotate: false
+  xy: 641, 452
+  size: 39, 39
+  orig: 40, 40
+  offset: 0, 1
+  index: -1

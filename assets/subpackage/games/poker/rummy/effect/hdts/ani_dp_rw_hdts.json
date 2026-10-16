@@ -1,0 +1,168 @@
+{
+  "skeleton": {
+    "hash": "MD2g+P1HkIuqD39lYNyd+JpusOc",
+    "spine": "3.6.53",
+    "width": 38,
+    "height": 38,
+    "images": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "ZT",
+      "parent": "root"
+    },
+    {
+      "name": "ksg",
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ani_dp_rw_hdts_ksg",
+      "bone": "ksg",
+      "attachment": "ani_dp_rw_hdts_ksg"
+    },
+    {
+      "name": "ani_dp_rw_hdts_ksg2",
+      "bone": "ksg",
+      "attachment": "ani_dp_rw_hdts_ksg",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_dp_rw_hdts_hd",
+      "bone": "ZT",
+      "attachment": "ani_dp_rw_hdts_hd"
+    },
+    {
+      "name": "ani_dp_rw_hdts_hd2",
+      "bone": "ZT",
+      "attachment": "ani_dp_rw_hdts_hd",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_dp_rw_hdts_hd": {
+        "ani_dp_rw_hdts_hd": {
+          "width": 14,
+          "height": 14
+        }
+      },
+      "ani_dp_rw_hdts_hd2": {
+        "ani_dp_rw_hdts_hd": {
+          "width": 14,
+          "height": 14
+        }
+      },
+      "ani_dp_rw_hdts_ksg": {
+        "ani_dp_rw_hdts_ksg": {
+          "width": 38,
+          "height": 38
+        }
+      },
+      "ani_dp_rw_hdts_ksg2": {
+        "ani_dp_rw_hdts_ksg": {
+          "width": 38,
+          "height": 38
+        }
+      }
+    }
+  },
+  "animations": {
+    "hd": {
+      "slots": {
+        "ani_dp_rw_hdts_hd2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff64"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_dp_rw_hdts_ksg": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0333,
+              "color": "ff2400ff"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffa00095"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_dp_rw_hdts_ksg2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffff64"
+            },
+            {
+              "time": 0.6,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "ksg": {
+          "rotate": [
+            {
+              "time": 2,
+              "angle": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": [
+                0.272,
+                0.47,
+                0.251,
+                0.67
+              ]
+            },
+            {
+              "time": 0.8333,
+              "x": 1.6,
+              "y": 1.6
+            }
+          ]
+        }
+      }
+    }
+  }
+}

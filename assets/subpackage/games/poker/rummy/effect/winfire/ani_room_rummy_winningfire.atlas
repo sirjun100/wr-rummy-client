@@ -1,0 +1,125 @@
+
+ani_room_rummy_winningfire.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_room_rummy_winningfire_00
+  rotate: false
+  xy: 2, 2
+  size: 115, 114
+  orig: 115, 114
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_01
+  rotate: false
+  xy: 2, 378
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_02
+  rotate: false
+  xy: 2, 248
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_03
+  rotate: false
+  xy: 132, 378
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_04
+  rotate: false
+  xy: 2, 118
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_05
+  rotate: false
+  xy: 132, 248
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_06
+  rotate: false
+  xy: 262, 378
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_07
+  rotate: false
+  xy: 132, 118
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_08
+  rotate: false
+  xy: 262, 248
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_09
+  rotate: false
+  xy: 392, 378
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_10
+  rotate: false
+  xy: 262, 118
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_11
+  rotate: false
+  xy: 392, 248
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_12
+  rotate: false
+  xy: 522, 378
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_13
+  rotate: false
+  xy: 392, 118
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_14
+  rotate: false
+  xy: 522, 248
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_15
+  rotate: false
+  xy: 652, 378
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ani_room_rummy_winningfire_16
+  rotate: false
+  xy: 522, 118
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

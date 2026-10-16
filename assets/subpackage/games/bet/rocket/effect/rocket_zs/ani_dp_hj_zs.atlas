@@ -1,0 +1,139 @@
+
+ani_dp_hj_zs.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hj_fx_01
+  rotate: true
+  xy: 452, 900
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_02
+  rotate: false
+  xy: 2, 35
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_03
+  rotate: false
+  xy: 125, 272
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_04
+  rotate: true
+  xy: 676, 900
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_05
+  rotate: true
+  xy: 452, 781
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_06
+  rotate: true
+  xy: 676, 781
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_07
+  rotate: false
+  xy: 900, 795
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_08
+  rotate: true
+  xy: 434, 662
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_09
+  rotate: true
+  xy: 658, 662
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_10
+  rotate: false
+  xy: 257, 453
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_hj_cb1
+  rotate: false
+  xy: 244, 355
+  size: 57, 96
+  orig: 57, 96
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_hj_cb2
+  rotate: false
+  xy: 303, 355
+  size: 57, 96
+  orig: 57, 96
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_hj_zt
+  rotate: false
+  xy: 2, 259
+  size: 121, 235
+  orig: 121, 235
+  offset: 0, 0
+  index: -1
+ani_dp_hj_yueqiu
+  rotate: false
+  xy: 270, 677
+  size: 162, 158
+  orig: 162, 158
+  offset: 0, 0
+  index: -1
+ani_dp_hj_yueqiu2
+  rotate: false
+  xy: 244, 281
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+ani_dp_hj_yueqiu3
+  rotate: false
+  xy: 2, 2
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+ani_dp_hj_yun
+  rotate: false
+  xy: 270, 837
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+ani_dp_hj_zs_wq
+  rotate: false
+  xy: 2, 496
+  size: 253, 253
+  orig: 253, 253
+  offset: 0, 0
+  index: -1
+ani_dp_hj_zsbj
+  rotate: false
+  xy: 2, 751
+  size: 266, 266
+  orig: 266, 266
+  offset: 0, 0
+  index: -1

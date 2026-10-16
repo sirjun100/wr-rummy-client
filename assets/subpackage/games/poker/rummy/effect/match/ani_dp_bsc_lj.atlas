@@ -1,0 +1,20 @@
+
+ani_dp_bsc_lj.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_bsc_lj_gy
+  rotate: false
+  xy: 2, 89
+  size: 787, 418
+  orig: 787, 418
+  offset: 0, 0
+  index: -1
+ani_dp_bsc_lj_zt
+  rotate: false
+  xy: 2, 2
+  size: 406, 85
+  orig: 406, 85
+  offset: 0, 0
+  index: -1

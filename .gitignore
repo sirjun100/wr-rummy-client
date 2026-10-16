@@ -22,3 +22,9 @@ node_modules/
 # WebStorm
 #//////////////////////////
 .idea/
+
+# 勿提交凭证
+github.txt
+*.pem
+.env
+.env.*

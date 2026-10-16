@@ -1,0 +1,69 @@
+
+ani_mfbq_lvzi.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_mfbq_lvzi2_st1
+  rotate: false
+  xy: 2, 46
+  size: 62, 80
+  orig: 62, 80
+  offset: 0, 0
+  index: -1
+ani_mfbq_lvzi2_st2
+  rotate: false
+  xy: 129, 57
+  size: 53, 69
+  orig: 53, 69
+  offset: 0, 0
+  index: -1
+ani_mfbq_lvzi_ed1
+  rotate: false
+  xy: 184, 87
+  size: 31, 39
+  orig: 31, 39
+  offset: 0, 0
+  index: -1
+ani_mfbq_lvzi_ed2
+  rotate: true
+  xy: 2, 2
+  size: 42, 19
+  orig: 42, 19
+  offset: 0, 0
+  index: -1
+ani_mfbq_lvzi_st1
+  rotate: false
+  xy: 66, 52
+  size: 61, 74
+  orig: 61, 74
+  offset: 0, 0
+  index: -1
+ani_mfbq_lvzi_st2
+  rotate: true
+  xy: 66, 2
+  size: 48, 68
+  orig: 48, 68
+  offset: 0, 0
+  index: -1
+ani_mfbq_lvzi_yl1
+  rotate: false
+  xy: 23, 39
+  size: 9, 5
+  orig: 9, 5
+  offset: 0, 0
+  index: -1
+ani_mfbq_lvzi_yl2
+  rotate: false
+  xy: 184, 82
+  size: 5, 3
+  orig: 5, 3
+  offset: 0, 0
+  index: -1
+ani_mfbq_lvzi_yl3
+  rotate: false
+  xy: 129, 52
+  size: 9, 3
+  orig: 9, 3
+  offset: 0, 0
+  index: -1

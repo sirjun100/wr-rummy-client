@@ -1,0 +1,111 @@
+
+ani_sgj_jackpot_bk.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_sgj_jackpot_tx_00
+  rotate: false
+  xy: 2, 694
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_02
+  rotate: false
+  xy: 2, 427
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_04
+  rotate: false
+  xy: 144, 694
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_06
+  rotate: false
+  xy: 2, 160
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_08
+  rotate: false
+  xy: 144, 427
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_10
+  rotate: false
+  xy: 286, 694
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_12
+  rotate: false
+  xy: 144, 160
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_14
+  rotate: true
+  xy: 2, 18
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_16
+  rotate: false
+  xy: 286, 427
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_18
+  rotate: false
+  xy: 428, 694
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_20
+  rotate: false
+  xy: 286, 160
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_22
+  rotate: false
+  xy: 428, 427
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_24
+  rotate: false
+  xy: 570, 694
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_26
+  rotate: false
+  xy: 428, 160
+  size: 140, 265
+  orig: 140, 265
+  offset: 0, 0
+  index: -1
+ani_sgj_jackpot_tx_gy
+  rotate: false
+  xy: 2, 2
+  size: 206, 14
+  orig: 206, 14
+  offset: 0, 0
+  index: -1

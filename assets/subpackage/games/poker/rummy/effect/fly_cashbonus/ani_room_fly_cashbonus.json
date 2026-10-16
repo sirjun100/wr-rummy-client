@@ -1,0 +1,296 @@
+{
+  "skeleton": {
+    "hash": "Pvj2vYTLfvAyXE3mZlhSAeQCPuk",
+    "spine": "3.6.53",
+    "width": 92,
+    "height": 104,
+    "images": "C:/Users/jeff/Desktop/coins/pic"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "bouns",
+      "parent": "root"
+    },
+    {
+      "name": "cash",
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ani_room_rank_finish_coin1",
+      "bone": "cash",
+      "attachment": "ani_room_rank_finish_coin9"
+    },
+    {
+      "name": "ani_dp_mfbq_yb_01",
+      "bone": "bouns",
+      "attachment": "ani_dp_mfbq_yb_01"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_dp_mfbq_yb_01": {
+        "ani_dp_mfbq_yb_01": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_dp_mfbq_yb_02": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_dp_mfbq_yb_03": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_dp_mfbq_yb_04": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_dp_mfbq_yb_05": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_dp_mfbq_yb_06": {
+          "width": 91,
+          "height": 103
+        },
+        "ani_dp_mfbq_yb_07": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_dp_mfbq_yb_08": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_dp_mfbq_yb_09": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_dp_mfbq_yb_10": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_dp_mfbq_yb_11": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_dp_mfbq_yb_12": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_rank_finish_coin1": {
+        "ani_room_rank_finish_coin1": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin2": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin3": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin4": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin5": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin6": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin7": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin8": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin9": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin10": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin11": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin12": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin13": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin14": {
+          "width": 91,
+          "height": 89
+        },
+        "ani_room_rank_finish_coin15": {
+          "width": 91,
+          "height": 89
+        }
+      }
+    }
+  },
+  "animations": {
+    "bonus": {
+      "slots": {
+        "ani_dp_mfbq_yb_01": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_dp_mfbq_yb_01"
+            },
+            {
+              "time": 0.0667,
+              "name": "ani_dp_mfbq_yb_02"
+            },
+            {
+              "time": 0.1333,
+              "name": "ani_dp_mfbq_yb_03"
+            },
+            {
+              "time": 0.2,
+              "name": "ani_dp_mfbq_yb_04"
+            },
+            {
+              "time": 0.2667,
+              "name": "ani_dp_mfbq_yb_05"
+            },
+            {
+              "time": 0.3333,
+              "name": "ani_dp_mfbq_yb_06"
+            },
+            {
+              "time": 0.4,
+              "name": "ani_dp_mfbq_yb_07"
+            },
+            {
+              "time": 0.4667,
+              "name": "ani_dp_mfbq_yb_08"
+            },
+            {
+              "time": 0.5333,
+              "name": "ani_dp_mfbq_yb_09"
+            },
+            {
+              "time": 0.6,
+              "name": "ani_dp_mfbq_yb_10"
+            },
+            {
+              "time": 0.6667,
+              "name": "ani_dp_mfbq_yb_11"
+            },
+            {
+              "time": 0.7333,
+              "name": "ani_dp_mfbq_yb_12"
+            }
+          ]
+        },
+        "ani_room_rank_finish_coin1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      }
+    },
+    "cash": {
+      "slots": {
+        "ani_dp_mfbq_yb_01": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_rank_finish_coin1": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_rank_finish_coin1"
+            },
+            {
+              "time": 0.0294,
+              "name": "ani_room_rank_finish_coin2"
+            },
+            {
+              "time": 0.0673,
+              "name": "ani_room_rank_finish_coin2"
+            },
+            {
+              "time": 0.1068,
+              "name": "ani_room_rank_finish_coin3"
+            },
+            {
+              "time": 0.156,
+              "name": "ani_room_rank_finish_coin4"
+            },
+            {
+              "time": 0.2053,
+              "name": "ani_room_rank_finish_coin5"
+            },
+            {
+              "time": 0.2546,
+              "name": "ani_room_rank_finish_coin6"
+            },
+            {
+              "time": 0.304,
+              "name": "ani_room_rank_finish_coin7"
+            },
+            {
+              "time": 0.353,
+              "name": "ani_room_rank_finish_coin8"
+            },
+            {
+              "time": 0.4024,
+              "name": "ani_room_rank_finish_coin9"
+            },
+            {
+              "time": 0.4517,
+              "name": "ani_room_rank_finish_coin10"
+            },
+            {
+              "time": 0.5009,
+              "name": "ani_room_rank_finish_coin11"
+            },
+            {
+              "time": 0.5502,
+              "name": "ani_room_rank_finish_coin12"
+            },
+            {
+              "time": 0.5956,
+              "name": "ani_room_rank_finish_coin13"
+            },
+            {
+              "time": 0.6392,
+              "name": "ani_room_rank_finish_coin14"
+            },
+            {
+              "time": 0.6883,
+              "name": "ani_room_rank_finish_coin15"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+
+ani_hall_congratulation_nomal.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_hall_congratulation_nomal_flash
+  rotate: false
+  xy: 2, 556
+  size: 512, 465
+  orig: 512, 465
+  offset: 0, 0
+  index: -1
+ani_hall_congratulation_nomal_glow
+  rotate: false
+  xy: 2, 134
+  size: 780, 105
+  orig: 780, 105
+  offset: 0, 0
+  index: -1
+ani_hall_congratulation_nomal_hall_bg
+  rotate: true
+  xy: 516, 301
+  size: 720, 310
+  orig: 720, 310
+  offset: 0, 0
+  index: -1
+ani_hall_congratulation_nomal_room_bg
+  rotate: true
+  xy: 828, 241
+  size: 780, 155
+  orig: 780, 155
+  offset: 0, 0
+  index: -1
+ani_hall_congratulation_nomal_titile_en
+  rotate: false
+  xy: 2, 68
+  size: 565, 64
+  orig: 565, 64
+  offset: 0, 0
+  index: -1
+ani_hall_congratulation_nomal_titile_glow
+  rotate: false
+  xy: 2, 403
+  size: 497, 151
+  orig: 497, 151
+  offset: 0, 0
+  index: -1
+ani_hall_congratulation_nomal_titile_paymentsuc_en
+  rotate: false
+  xy: 2, 2
+  size: 565, 64
+  orig: 565, 64
+  offset: 0, 0
+  index: -1

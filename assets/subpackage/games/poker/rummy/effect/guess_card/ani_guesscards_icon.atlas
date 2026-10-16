@@ -1,0 +1,160 @@
+
+ani_guesscards_icon.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_guesscards_icon
+  rotate: false
+  xy: 0, 55
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash01
+  rotate: false
+  xy: 58, 141
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash02
+  rotate: false
+  xy: 120, 193
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash03
+  rotate: false
+  xy: 0, 8
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash04
+  rotate: false
+  xy: 164, 193
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash05
+  rotate: false
+  xy: 208, 193
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash06
+  rotate: false
+  xy: 58, 94
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash07
+  rotate: false
+  xy: 44, 47
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash08
+  rotate: false
+  xy: 44, 0
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash09
+  rotate: false
+  xy: 102, 141
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash10
+  rotate: false
+  xy: 102, 94
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash11
+  rotate: false
+  xy: 88, 47
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash12
+  rotate: false
+  xy: 88, 0
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash13
+  rotate: false
+  xy: 146, 146
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash14
+  rotate: false
+  xy: 146, 99
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash15
+  rotate: false
+  xy: 190, 146
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash16
+  rotate: false
+  xy: 190, 99
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash17
+  rotate: false
+  xy: 132, 47
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_flash18
+  rotate: false
+  xy: 132, 0
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_glow1
+  rotate: false
+  xy: 0, 171
+  size: 57, 68
+  orig: 57, 68
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_glow2
+  rotate: false
+  xy: 0, 102
+  size: 57, 68
+  orig: 57, 68
+  offset: 0, 0
+  index: -1
+ani_guesscards_icon_star
+  rotate: false
+  xy: 58, 188
+  size: 61, 51
+  orig: 61, 51
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,146 @@
+
+ani_stadium_start.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_stadium_start_design1
+  rotate: false
+  xy: 847, 783
+  size: 127, 134
+  orig: 127, 134
+  offset: 0, 0
+  index: -1
+ani_stadium_start_design2
+  rotate: false
+  xy: 847, 694
+  size: 86, 87
+  orig: 86, 87
+  offset: 0, 0
+  index: -1
+ani_stadium_start_design3
+  rotate: false
+  xy: 592, 209
+  size: 91, 98
+  orig: 91, 98
+  offset: 0, 0
+  index: -1
+ani_stadium_start_design4
+  rotate: false
+  xy: 699, 336
+  size: 121, 128
+  orig: 121, 128
+  offset: 0, 0
+  index: -1
+ani_stadium_start_halo
+  rotate: false
+  xy: 0, 309
+  size: 697, 155
+  orig: 697, 155
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light01
+  rotate: false
+  xy: 592, 173
+  size: 31, 34
+  orig: 31, 34
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light02
+  rotate: false
+  xy: 699, 312
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light03
+  rotate: false
+  xy: 1004, 848
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light04
+  rotate: false
+  xy: 1004, 828
+  size: 20, 18
+  orig: 20, 18
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light05
+  rotate: false
+  xy: 976, 872
+  size: 43, 45
+  orig: 43, 45
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light06
+  rotate: false
+  xy: 0, 0
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light07
+  rotate: false
+  xy: 847, 660
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light08
+  rotate: false
+  xy: 525, 112
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light09
+  rotate: false
+  xy: 935, 753
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light1
+  rotate: false
+  xy: 0, 110
+  size: 523, 20
+  orig: 523, 20
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light10
+  rotate: false
+  xy: 191, 72
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light11
+  rotate: false
+  xy: 976, 844
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+ani_stadium_start_light_s
+  rotate: false
+  xy: 0, 46
+  size: 189, 62
+  orig: 252, 76
+  offset: 32, 5
+  index: -1
+ani_stadium_start_material2
+  rotate: false
+  xy: 0, 466
+  size: 845, 451
+  orig: 845, 451
+  offset: 0, 0
+  index: -1
+ani_stadium_start_title
+  rotate: false
+  xy: 0, 132
+  size: 590, 175
+  orig: 590, 175
+  offset: 0, 0
+  index: -1

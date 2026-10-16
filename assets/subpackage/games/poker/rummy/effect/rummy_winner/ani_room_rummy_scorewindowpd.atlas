@@ -1,0 +1,41 @@
+
+ani_room_rummy_scorewindowpd.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_room_rummy_youwin_sp1
+  rotate: false
+  xy: 2, 15
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+ani_room_rummy_youwin_sp2
+  rotate: false
+  xy: 107, 33
+  size: 50, 29
+  orig: 50, 29
+  offset: 0, 0
+  index: -1
+ani_room_rummy_youwin_sp3
+  rotate: false
+  xy: 45, 34
+  size: 60, 28
+  orig: 60, 28
+  offset: 0, 0
+  index: -1
+ani_room_rummy_youwin_sp4
+  rotate: false
+  xy: 159, 38
+  size: 45, 24
+  orig: 45, 24
+  offset: 0, 0
+  index: -1
+ani_room_rummy_youwin_sp5
+  rotate: false
+  xy: 45, 2
+  size: 45, 30
+  orig: 45, 30
+  offset: 0, 0
+  index: -1

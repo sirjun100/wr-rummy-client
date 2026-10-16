@@ -1,0 +1,132 @@
+
+ani_room_multiple.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_hy4_01
+  rotate: false
+  xy: 2, 813
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_03
+  rotate: false
+  xy: 2, 628
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_05
+  rotate: false
+  xy: 183, 813
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_07
+  rotate: false
+  xy: 2, 443
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_09
+  rotate: false
+  xy: 183, 628
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_11
+  rotate: false
+  xy: 364, 813
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_13
+  rotate: false
+  xy: 2, 258
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_15
+  rotate: false
+  xy: 183, 443
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_17
+  rotate: false
+  xy: 364, 628
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_19
+  rotate: false
+  xy: 545, 813
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_21
+  rotate: false
+  xy: 2, 73
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_23
+  rotate: false
+  xy: 183, 258
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_25
+  rotate: false
+  xy: 364, 443
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_27
+  rotate: false
+  xy: 545, 628
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy4_29
+  rotate: false
+  xy: 726, 813
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+ani_hy_flash
+  rotate: false
+  xy: 364, 359
+  size: 48, 82
+  orig: 48, 82
+  offset: 0, 0
+  index: -1
+ani_hy_glow
+  rotate: false
+  xy: 2, 2
+  size: 110, 69
+  orig: 110, 69
+  offset: 0, 0
+  index: -1
+ani_hy_kuang
+  rotate: false
+  xy: 183, 119
+  size: 102, 137
+  orig: 102, 137
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+ani_actenter_room_gullak.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_actenter_room_gullak
+  rotate: true
+  xy: 76, 8
+  size: 52, 66
+  orig: 52, 66
+  offset: 0, 0
+  index: -1
+ani_actenter_room_gullak_cp1
+  rotate: false
+  xy: 144, 32
+  size: 73, 28
+  orig: 73, 28
+  offset: 0, 0
+  index: -1
+ani_actenter_room_gullak_cp2
+  rotate: false
+  xy: 219, 40
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+ani_actenter_room_gullak_cp3
+  rotate: false
+  xy: 207, 13
+  size: 17, 17
+  orig: 18, 18
+  offset: 1, 1
+  index: -1
+ani_actenter_room_gullak_name
+  rotate: false
+  xy: 144, 11
+  size: 61, 19
+  orig: 61, 19
+  offset: 0, 0
+  index: -1
+ani_actenter_room_gullakglow
+  rotate: true
+  xy: 2, 2
+  size: 58, 72
+  orig: 58, 72
+  offset: 0, 0
+  index: -1

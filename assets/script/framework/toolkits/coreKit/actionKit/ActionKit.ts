@@ -6,7 +6,7 @@
 
 
 import * as cc from 'cc';
-import { EasyEvent, EasyEvent1 } from "../../../qframework/QFramework";
+import { EasyEvent, EasyEvent1 } from "../../../QFramework";
 import { ListPool, SimpleObjectPool } from "../poolKit/PoolKit";
 import { MonoSingleton } from "../singletonKit/SingletonKit";
 

@@ -1,0 +1,90 @@
+
+ani_slots_bigwin.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_slots_bigwin_big
+  rotate: false
+  xy: 2, 295
+  size: 439, 201
+  orig: 439, 201
+  offset: 0, 0
+  index: -1
+ani_slots_bigwin_bjg
+  rotate: false
+  xy: 2, 44
+  size: 238, 147
+  orig: 238, 147
+  offset: 0, 0
+  index: -1
+ani_slots_bigwin_bjg2
+  rotate: false
+  xy: 242, 55
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+ani_slots_bigwin_bottom
+  rotate: false
+  xy: 2, 193
+  size: 400, 100
+  orig: 400, 100
+  offset: 0, 0
+  index: -1
+ani_slots_bigwin_chips1
+  rotate: false
+  xy: 443, 271
+  size: 156, 101
+  orig: 156, 101
+  offset: 0, 0
+  index: -1
+ani_slots_bigwin_chips2
+  rotate: false
+  xy: 823, 384
+  size: 174, 112
+  orig: 174, 112
+  offset: 0, 0
+  index: -1
+ani_slots_bigwin_chips3
+  rotate: false
+  xy: 729, 312
+  size: 112, 60
+  orig: 112, 60
+  offset: 0, 0
+  index: -1
+ani_slots_bigwin_chips4
+  rotate: false
+  xy: 601, 298
+  size: 126, 74
+  orig: 126, 74
+  offset: 0, 0
+  index: -1
+ani_slots_bigwin_flash
+  rotate: true
+  xy: 2, 2
+  size: 40, 135
+  orig: 40, 135
+  offset: 0, 0
+  index: -1
+ani_slots_bigwin_star
+  rotate: false
+  xy: 843, 312
+  size: 66, 70
+  orig: 66, 70
+  offset: 0, 0
+  index: -1
+ani_slots_bigwin_txg2
+  rotate: false
+  xy: 911, 325
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+ani_slots_bigwin_win
+  rotate: false
+  xy: 443, 374
+  size: 378, 122
+  orig: 378, 122
+  offset: 0, 0
+  index: -1

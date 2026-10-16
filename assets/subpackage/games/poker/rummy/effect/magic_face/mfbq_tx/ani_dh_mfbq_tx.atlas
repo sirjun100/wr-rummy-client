@@ -1,0 +1,118 @@
+
+ani_dh_mfbq_tx.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mfbp_tuoxie_yingzi
+  rotate: true
+  xy: 200, 29
+  size: 41, 85
+  orig: 41, 85
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_heilian
+  rotate: false
+  xy: 2, 16
+  size: 127, 110
+  orig: 127, 110
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_hongyun
+  rotate: false
+  xy: 352, 92
+  size: 19, 11
+  orig: 19, 11
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_qingse
+  rotate: false
+  xy: 200, 72
+  size: 111, 54
+  orig: 111, 54
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_yanjing
+  rotate: true
+  xy: 152, 2
+  size: 23, 13
+  orig: 23, 13
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_yanjing02
+  rotate: false
+  xy: 200, 2
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_yanjing03
+  rotate: false
+  xy: 2, 9
+  size: 30, 5
+  orig: 30, 5
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_yanlei
+  rotate: false
+  xy: 287, 37
+  size: 19, 33
+  orig: 19, 33
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_youmeimao01
+  rotate: false
+  xy: 308, 52
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_zui01
+  rotate: true
+  xy: 313, 72
+  size: 17, 21
+  orig: 17, 21
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_zui02
+  rotate: false
+  xy: 167, 11
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_zuomeimao01
+  rotate: true
+  xy: 131, 2
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_zuomeimao02
+  rotate: false
+  xy: 352, 105
+  size: 27, 21
+  orig: 27, 21
+  offset: 0, 0
+  index: -1
+mfbq_tuoxie_zuomeimao03
+  rotate: false
+  xy: 230, 6
+  size: 27, 21
+  orig: 27, 21
+  offset: 0, 0
+  index: -1
+tuoxie_bt
+  rotate: false
+  xy: 131, 27
+  size: 67, 99
+  orig: 67, 99
+  offset: 0, 0
+  index: -1
+xingxing
+  rotate: false
+  xy: 313, 91
+  size: 37, 35
+  orig: 37, 35
+  offset: 0, 0
+  index: -1

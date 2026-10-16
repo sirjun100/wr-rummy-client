@@ -1,0 +1,62 @@
+
+ani_mfbq_fanqie.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_mfbq_fanqie_fq1
+  rotate: true
+  xy: 353, 55
+  size: 71, 63
+  orig: 71, 63
+  offset: 0, 0
+  index: -1
+ani_mfbq_fanqie_fq2
+  rotate: false
+  xy: 418, 63
+  size: 71, 63
+  orig: 71, 63
+  offset: 0, 0
+  index: -1
+ani_mfbq_fanqie_fq3
+  rotate: true
+  xy: 2, 2
+  size: 124, 110
+  orig: 124, 110
+  offset: 0, 0
+  index: -1
+ani_mfbq_fanqie_fq3_liudong
+  rotate: true
+  xy: 114, 2
+  size: 124, 110
+  orig: 124, 110
+  offset: 0, 0
+  index: -1
+ani_mfbq_fanqie_fq4
+  rotate: false
+  xy: 226, 19
+  size: 125, 107
+  orig: 125, 107
+  offset: 0, 0
+  index: -1
+ani_mfbq_fanqie_yj1
+  rotate: true
+  xy: 418, 18
+  size: 43, 25
+  orig: 43, 25
+  offset: 0, 0
+  index: -1
+ani_mfbq_fanqie_yj2
+  rotate: true
+  xy: 353, 10
+  size: 43, 25
+  orig: 43, 25
+  offset: 0, 0
+  index: -1
+ani_mfbq_fanqie_yj3
+  rotate: true
+  xy: 380, 10
+  size: 43, 25
+  orig: 43, 25
+  offset: 0, 0
+  index: -1

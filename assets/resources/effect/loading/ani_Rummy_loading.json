@@ -1,0 +1,430 @@
+{
+  "skeleton": {
+    "hash": "0E0Mo5nMiqTMBkAs38sx5zjOaQk",
+    "spine": "3.6.53",
+    "width": 134,
+    "height": 134,
+    "images": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "huase",
+      "parent": "root"
+    },
+    {
+      "name": "quanBG",
+      "parent": "root"
+    },
+    {
+      "name": "quanquan",
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "pic/quanBG",
+      "bone": "quanBG",
+      "attachment": "pic/quanBG"
+    },
+    {
+      "name": "pic/quanquan",
+      "bone": "quanquan",
+      "attachment": "pic/quanquan"
+    },
+    {
+      "name": "pic/fang",
+      "bone": "huase",
+      "attachment": "pic/mei"
+    }
+  ],
+  "skins": {
+    "default": {
+      "pic/fang": {
+        "pic/fang": {
+          "width": 41,
+          "height": 44
+        },
+        "pic/hei": {
+          "width": 42,
+          "height": 41
+        },
+        "pic/hong": {
+          "y": -2,
+          "width": 40,
+          "height": 39
+        },
+        "pic/mei": {
+          "width": 40,
+          "height": 40
+        }
+      },
+      "pic/quanBG": {
+        "pic/quanBG": {
+          "width": 134,
+          "height": 134
+        }
+      },
+      "pic/quanquan": {
+        "pic/quanquan": {
+          "width": 106,
+          "height": 106
+        }
+      }
+    }
+  },
+  "animations": {
+    "ani_Rummy_loading": {
+      "slots": {
+        "pic/fang": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "pic/fang"
+            },
+            {
+              "time": 0.4,
+              "name": "pic/hei"
+            },
+            {
+              "time": 0.8667,
+              "name": "pic/hei"
+            },
+            {
+              "time": 1.2667,
+              "name": "pic/hong"
+            },
+            {
+              "time": 1.7333,
+              "name": "pic/hong"
+            },
+            {
+              "time": 2.1333,
+              "name": "pic/mei"
+            },
+            {
+              "time": 2.6,
+              "name": "pic/mei"
+            },
+            {
+              "time": 3,
+              "name": "pic/fang"
+            },
+            {
+              "time": 3.4667,
+              "name": "pic/fang"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "quanquan": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.3333,
+              "angle": 72
+            },
+            {
+              "time": 0.7,
+              "angle": 144
+            },
+            {
+              "time": 1.0333,
+              "angle": -144
+            },
+            {
+              "time": 1.3667,
+              "angle": -72
+            },
+            {
+              "time": 1.7,
+              "angle": -0.8
+            },
+            {
+              "time": 2.1,
+              "angle": 72
+            },
+            {
+              "time": 2.4333,
+              "angle": 144
+            },
+            {
+              "time": 2.7667,
+              "angle": -144
+            },
+            {
+              "time": 3.1,
+              "angle": -72
+            },
+            {
+              "time": 3.4667,
+              "angle": -0.8
+            }
+          ]
+        },
+        "huase": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                1,
+                0.14,
+                0.974,
+                0.97
+              ]
+            },
+            {
+              "time": 0.4,
+              "x": 0.02,
+              "y": 1,
+              "curve": [
+                0,
+                0.84,
+                0.514,
+                0.93
+              ]
+            },
+            {
+              "time": 0.8667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                1,
+                0.14,
+                0.974,
+                0.97
+              ]
+            },
+            {
+              "time": 1.2667,
+              "x": 0.02,
+              "y": 1,
+              "curve": [
+                0,
+                0.84,
+                0.514,
+                0.93
+              ]
+            },
+            {
+              "time": 1.7333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                1,
+                0.14,
+                0.974,
+                0.97
+              ]
+            },
+            {
+              "time": 2.1333,
+              "x": 0.02,
+              "y": 1,
+              "curve": [
+                0,
+                0.84,
+                0.514,
+                0.93
+              ]
+            },
+            {
+              "time": 2.6,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                1,
+                0.14,
+                0.974,
+                0.97
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.02,
+              "y": 1,
+              "curve": [
+                0,
+                0.56,
+                0.514,
+                0.93
+              ]
+            },
+            {
+              "time": 3.4667,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    },
+    "ani_Rummy_loading2": {
+      "slots": {
+        "pic/fang": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "quanquan": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.3333,
+              "angle": 72
+            },
+            {
+              "time": 0.7,
+              "angle": 144
+            },
+            {
+              "time": 1.0333,
+              "angle": -144
+            },
+            {
+              "time": 1.3667,
+              "angle": -72
+            },
+            {
+              "time": 1.7,
+              "angle": -0.8
+            },
+            {
+              "time": 2.1,
+              "angle": 72
+            },
+            {
+              "time": 2.4333,
+              "angle": 144
+            },
+            {
+              "time": 2.7667,
+              "angle": -144
+            },
+            {
+              "time": 3.1,
+              "angle": -72
+            },
+            {
+              "time": 3.4667,
+              "angle": -0.8
+            }
+          ]
+        },
+        "huase": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                1,
+                0.14,
+                0.974,
+                0.97
+              ]
+            },
+            {
+              "time": 0.4,
+              "x": 0.02,
+              "y": 1,
+              "curve": [
+                0,
+                0.84,
+                0.514,
+                0.93
+              ]
+            },
+            {
+              "time": 0.8667,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                1,
+                0.14,
+                0.974,
+                0.97
+              ]
+            },
+            {
+              "time": 1.2667,
+              "x": 0.02,
+              "y": 1,
+              "curve": [
+                0,
+                0.84,
+                0.514,
+                0.93
+              ]
+            },
+            {
+              "time": 1.7333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                1,
+                0.14,
+                0.974,
+                0.97
+              ]
+            },
+            {
+              "time": 2.1333,
+              "x": 0.02,
+              "y": 1,
+              "curve": [
+                0,
+                0.84,
+                0.514,
+                0.93
+              ]
+            },
+            {
+              "time": 2.6,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                1,
+                0.14,
+                0.974,
+                0.97
+              ]
+            },
+            {
+              "time": 3,
+              "x": 0.02,
+              "y": 1,
+              "curve": [
+                0,
+                0.56,
+                0.514,
+                0.93
+              ]
+            },
+            {
+              "time": 3.4667,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

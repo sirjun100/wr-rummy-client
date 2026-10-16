@@ -1,0 +1,130 @@
+{
+  "__type__": "cc.BitmapFont",
+  "_name": "ziti_room_tourney_xiaojiejifen",
+  "_objFlags": 0,
+  "_native": "",
+  "fntDataStr": "",
+  "spriteFrame": {
+    "__uuid__": "a16a33d8-0d2a-4b8e-a28a-1a88d9f35a76@f9941",
+    "__expectedType__": "cc.SpriteFrame"
+  },
+  "fontSize": 100,
+  "fntConfig": {
+    "commonHeight": 100,
+    "fontSize": 100,
+    "atlasName": "ziti_room_tourney_xiaojiejifen.png",
+    "fontDefDictionary": {
+      "48": {
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 62,
+        "rect": {
+          "x": 258,
+          "y": 0,
+          "width": 62,
+          "height": 105
+        }
+      },
+      "49": {
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 46,
+        "rect": {
+          "x": 568,
+          "y": 0,
+          "width": 46,
+          "height": 105
+        }
+      },
+      "50": {
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 60,
+        "rect": {
+          "x": 447,
+          "y": 0,
+          "width": 60,
+          "height": 105
+        }
+      },
+      "51": {
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 62,
+        "rect": {
+          "x": 321,
+          "y": 0,
+          "width": 62,
+          "height": 105
+        }
+      },
+      "52": {
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 65,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 65,
+          "height": 105
+        }
+      },
+      "53": {
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 63,
+        "rect": {
+          "x": 66,
+          "y": 0,
+          "width": 63,
+          "height": 105
+        }
+      },
+      "54": {
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 63,
+        "rect": {
+          "x": 130,
+          "y": 0,
+          "width": 63,
+          "height": 105
+        }
+      },
+      "55": {
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 59,
+        "rect": {
+          "x": 508,
+          "y": 0,
+          "width": 59,
+          "height": 105
+        }
+      },
+      "56": {
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 62,
+        "rect": {
+          "x": 384,
+          "y": 0,
+          "width": 62,
+          "height": 105
+        }
+      },
+      "57": {
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 63,
+        "rect": {
+          "x": 194,
+          "y": 0,
+          "width": 63,
+          "height": 105
+        }
+      }
+    },
+    "kerningDict": {}
+  }
+}

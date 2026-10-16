@@ -1,0 +1,48 @@
+
+ani_match_fail.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_match_integral_scene1
+  rotate: false
+  xy: 2, 474
+  size: 780, 316
+  orig: 780, 316
+  offset: 0, 0
+  index: -1
+ani_match_integral_scene2
+  rotate: false
+  xy: 2, 156
+  size: 780, 316
+  orig: 780, 316
+  offset: 0, 0
+  index: -1
+ani_match_integral_subject
+  rotate: false
+  xy: 784, 280
+  size: 406, 510
+  orig: 406, 510
+  offset: 0, 0
+  index: -1
+ani_match_integral_subject2
+  rotate: false
+  xy: 784, 199
+  size: 105, 79
+  orig: 105, 79
+  offset: 0, 0
+  index: -1
+ani_match_integral_subject_fragment
+  rotate: false
+  xy: 1192, 609
+  size: 357, 181
+  orig: 357, 181
+  offset: 0, 0
+  index: -1
+ani_match_integral_title_glow
+  rotate: false
+  xy: 2, 2
+  size: 474, 152
+  orig: 474, 152
+  offset: 0, 0
+  index: -1

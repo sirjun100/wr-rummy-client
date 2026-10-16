@@ -1,0 +1,212 @@
+CCEffect %{
+{
+  "techniques": [
+    {
+      "passes": [
+        {
+          "vert": "recovered-0-vs:vert",
+          "frag": "recovered-0-fs:frag",
+          "properties": {
+            "alphaThreshold": {
+              "value": 0.5
+            },
+            "startColor": {
+              "value": [
+                1,
+                1,
+                1,
+                1
+              ]
+            },
+            "endColor": {
+              "value": [
+                1,
+                1,
+                1,
+                1
+              ]
+            }
+          },
+          "rasterizerState": {
+            "cullMode": "none"
+          },
+          "depthStencilState": {
+            "depthTest": false,
+            "depthWrite": false
+          },
+          "blendState": {
+            "targets": [
+              {
+                "blend": true,
+                "blendSrc": "src_alpha",
+                "blendDst": "one_minus_src_alpha",
+                "blendDstAlpha": "one_minus_src_alpha"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
+}%
+
+CCProgram recovered-0-vs %{
+precision highp float;
+#pragma builtin(global)
+layout(set = 0, binding = 0, std140) uniform CCGlobal {
+  highp   vec4 cc_time;
+  mediump vec4 cc_screenSize;
+  mediump vec4 cc_nativeSize;
+  mediump vec4 cc_probeInfo;
+  mediump vec4 cc_debug_view_mode;
+};
+#pragma builtin(global)
+layout(set = 0, binding = 1, std140) uniform CCCamera {
+  highp   mat4 cc_matView;
+  highp   mat4 cc_matViewInv;
+  highp   mat4 cc_matProj;
+  highp   mat4 cc_matProjInv;
+  highp   mat4 cc_matViewProj;
+  highp   mat4 cc_matViewProjInv;
+  highp   vec4 cc_cameraPos;
+  mediump vec4 cc_surfaceTransform;
+  mediump vec4 cc_screenScale;
+  mediump vec4 cc_exposure;
+  mediump vec4 cc_mainLitDir;
+  mediump vec4 cc_mainLitColor;
+  mediump vec4 cc_ambientSky;
+  mediump vec4 cc_ambientGround;
+  mediump vec4 cc_fogColor;
+  mediump vec4 cc_fogBase;
+  mediump vec4 cc_fogAdd;
+  mediump vec4 cc_nearFar;
+  mediump vec4 cc_viewPort;
+};
+#if USE_LOCAL
+  #pragma builtin(local)
+layout(set = 2, binding = 0, std140) uniform CCLocal {
+    highp mat4 cc_matWorld;
+    highp mat4 cc_matWorldIT;
+    highp vec4 cc_lightingMapUVParam;
+    highp vec4 cc_localShadowBias;
+    highp vec4 cc_reflectionProbeData1;
+    highp vec4 cc_reflectionProbeData2;
+  };
+#endif
+#if SAMPLE_FROM_RT
+  #define QUATER_PI         0.78539816340
+  #define HALF_PI           1.57079632679
+  #define PI                3.14159265359
+  #define PI2               6.28318530718
+  #define PI4               12.5663706144
+  #define INV_QUATER_PI     1.27323954474
+  #define INV_HALF_PI       0.63661977237
+  #define INV_PI            0.31830988618
+  #define INV_PI2           0.15915494309
+  #define INV_PI4           0.07957747155
+  #define EPSILON           1e-6
+  #define EPSILON_LOWP      1e-4
+  #define LOG2              1.442695
+  #define EXP_VALUE         2.71828183f
+  #define FP_MAX            65504.0
+  #define FP_SCALE          0.0009765625
+  #define FP_SCALE_INV      1024.0
+  #define GRAY_VECTOR       vec3(0.299, 0.587, 0.114)
+      #define LIGHT_MAP_TYPE_DISABLED 0
+  #define LIGHT_MAP_TYPE_ALL_IN_ONE 1
+  #define LIGHT_MAP_TYPE_INDIRECT_OCCLUSION 2
+  #define REFLECTION_PROBE_TYPE_NONE 0
+  #define REFLECTION_PROBE_TYPE_CUBE 1
+  #define REFLECTION_PROBE_TYPE_PLANAR 2
+  #define LIGHT_TYPE_DIRECTIONAL 0.0
+  #define LIGHT_TYPE_POINT 1.0
+  #define LIGHT_TYPE_SPOT 2.0
+  #define LIGHT_TYPE_SPHERE 3.0
+  #define LIGHT_TYPE_RANGED_DIRECTIONAL 4.0
+  #define IS_DIRECTIONAL_LIGHT(light_type) (abs(float(light_type) - float(LIGHT_TYPE_DIRECTIONAL)) < EPSILON_LOWP)
+  #define IS_SPHERE_LIGHT(light_type) (abs(float(light_type) - float(LIGHT_TYPE_SPHERE)) < EPSILON_LOWP)
+  #define IS_SPOT_LIGHT(light_type) (abs(float(light_type) - float(LIGHT_TYPE_SPOT)) < EPSILON_LOWP)
+  #define IS_POINT_LIGHT(light_type) (abs(float(light_type) - float(LIGHT_TYPE_POINT)) < EPSILON_LOWP)
+  #define IS_RANGED_DIRECTIONAL_LIGHT(light_type) (abs(float(light_type) - float(LIGHT_TYPE_RANGED_DIRECTIONAL)) < EPSILON_LOWP)
+#endif
+in vec3 a_position;
+in vec2 a_texCoord;
+in vec4 a_color;
+out vec4 color;
+out vec2 uv0;
+vec4 vert () {
+  vec4 pos = vec4(a_position, 1);
+  #if USE_LOCAL
+    pos = cc_matWorld * pos;
+  #endif
+  #if USE_PIXEL_ALIGNMENT
+    pos = cc_matView * pos;
+    pos.xyz = floor(pos.xyz);
+    pos = cc_matProj * pos;
+  #else
+    pos = cc_matViewProj * pos;
+  #endif
+  uv0 = a_texCoord;
+  #if SAMPLE_FROM_RT
+    uv0 = cc_cameraPos.w > 1.0 ? vec2(uv0.x, 1.0 - uv0.y) : uv0;
+  #endif
+  color = a_color;
+  return pos;
+}
+}%
+
+CCProgram recovered-0-fs %{
+precision highp float;
+vec4 CCSampleWithAlphaSeparated(sampler2D tex, vec2 uv) {
+#if CC_USE_EMBEDDED_ALPHA
+  return vec4(texture(tex, uv).rgb, texture(tex, uv + vec2(0.0, 0.5)).r);
+#else
+  return texture(tex, uv);
+#endif
+}
+#if USE_ALPHA_TEST
+  layout(set = 1, binding = 0, std140) uniform ALPHA_TEST_DATA {
+    float alphaThreshold;
+  };
+#endif
+void ALPHA_TEST (in vec4 color) {
+  #if USE_ALPHA_TEST
+    if (color.a < alphaThreshold) discard;
+  #endif
+}
+void ALPHA_TEST (in float alpha) {
+  #if USE_ALPHA_TEST
+    if (alpha < alphaThreshold) discard;
+  #endif
+}
+in vec4 color;
+layout(set = 1, binding = 1, std140) uniform Constant {
+  vec4 startColor;
+  vec4 endColor;
+};
+#if USE_TEXTURE
+  in vec2 uv0;
+  #pragma builtin(local)
+layout(set = 2, binding = 12) uniform sampler2D cc_spriteTexture;
+#endif
+vec4 frag () {
+  vec4 o = vec4(1, 1, 1, 1);
+  #if USE_TEXTURE
+    o *= CCSampleWithAlphaSeparated(cc_spriteTexture, uv0);
+    #if IS_GRAY
+      float gray  = 0.2126 * o.r + 0.7152 * o.g + 0.0722 * o.b;
+      o.r = o.g = o.b = gray;
+    #endif
+    #if USE_HORIZONTAL
+       o.rgb *= mix(startColor, endColor, vec4(uv0.x)).rgb;
+    #endif
+    #if USE_VERTICAL
+       o.rgb *= mix(startColor, endColor, vec4(uv0.y)).rgb;
+    #endif
+  #endif
+  o *= color;
+  ALPHA_TEST(o);
+  return o;
+}
+}%

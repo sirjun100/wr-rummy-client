@@ -1,0 +1,13 @@
+
+ani_room_bomp_flashjoker.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomp_flashjoker_flash
+  rotate: false
+  xy: 2, 2
+  size: 269, 258
+  orig: 269, 258
+  offset: 0, 0
+  index: -1

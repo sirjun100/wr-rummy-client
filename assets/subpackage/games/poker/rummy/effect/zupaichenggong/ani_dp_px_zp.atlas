@@ -1,0 +1,34 @@
+
+ani_dp_px_zp.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_zp_bk
+  rotate: false
+  xy: 2, 4
+  size: 185, 48
+  orig: 185, 48
+  offset: 0, 0
+  index: -1
+ani_dp_zp_gy1
+  rotate: false
+  xy: 375, 2
+  size: 86, 50
+  orig: 86, 50
+  offset: 0, 0
+  index: -1
+ani_dp_zp_tw
+  rotate: false
+  xy: 189, 16
+  size: 184, 36
+  orig: 184, 36
+  offset: 0, 0
+  index: -1
+ani_dp_zp_xx1
+  rotate: false
+  xy: 463, 25
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: -1

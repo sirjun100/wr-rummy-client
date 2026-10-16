@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>frames</key>
+  <dict>
+    <key>guide_bubble_bottom_bg.png</key>
+    <dict>
+      <key>aliases</key><array/>
+      <key>spriteOffset</key><string>{0,0}</string>
+      <key>spriteSize</key><string>{192,68}</string>
+      <key>spriteSourceSize</key><string>{192,68}</string>
+      <key>textureRect</key><string>{{124,2},{192,68}}</string>
+      <key>textureRotated</key><false/>
+    </dict>
+    <key>guide_hall_hello_tips.png</key>
+    <dict>
+      <key>aliases</key><array/>
+      <key>spriteOffset</key><string>{0,0}</string>
+      <key>spriteSize</key><string>{528,146}</string>
+      <key>spriteSourceSize</key><string>{528,146}</string>
+      <key>textureRect</key><string>{{452,2},{528,146}}</string>
+      <key>textureRotated</key><false/>
+    </dict>
+    <key>guide_btn_skip.png</key>
+    <dict>
+      <key>aliases</key><array/>
+      <key>spriteOffset</key><string>{0,0}</string>
+      <key>spriteSize</key><string>{120,50}</string>
+      <key>spriteSourceSize</key><string>{120,50}</string>
+      <key>textureRect</key><string>{{2,2},{120,50}}</string>
+      <key>textureRotated</key><false/>
+    </dict>
+    <key>guide_bubble_top_bg.png</key>
+    <dict>
+      <key>aliases</key><array/>
+      <key>spriteOffset</key><string>{0,0}</string>
+      <key>spriteSize</key><string>{132,51}</string>
+      <key>spriteSourceSize</key><string>{132,51}</string>
+      <key>textureRect</key><string>{{318,2},{132,51}}</string>
+      <key>textureRotated</key><false/>
+    </dict>
+  </dict>
+  <key>metadata</key>
+  <dict>
+    <key>format</key><integer>3</integer>
+    <key>pixelFormat</key><string>RGBA8888</string>
+    <key>premultiplyAlpha</key><false/>
+    <key>realTextureFileName</key><string>guide.png</string>
+    <key>size</key><string>{982,150}</string>
+    <key>textureFileName</key><string>guide.png</string>
+  </dict>
+</dict>
+</plist>

@@ -1,0 +1,48 @@
+
+ani_startstop.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_startstop_gamestart
+  rotate: false
+  xy: 1416, 195
+  size: 236, 44
+  orig: 236, 44
+  offset: 0, 0
+  index: -1
+ani_startstop_green
+  rotate: false
+  xy: 2, 49
+  size: 705, 94
+  orig: 705, 94
+  offset: 0, 0
+  index: -1
+ani_startstop_red
+  rotate: false
+  xy: 2, 145
+  size: 705, 94
+  orig: 705, 94
+  offset: 0, 0
+  index: -1
+ani_startstop_startbetting
+  rotate: false
+  xy: 2, 2
+  size: 263, 45
+  orig: 263, 45
+  offset: 0, 0
+  index: -1
+ani_startstop_stopBetting
+  rotate: false
+  xy: 709, 98
+  size: 257, 45
+  orig: 257, 45
+  offset: 0, 0
+  index: -1
+ani_startstop_yellow
+  rotate: false
+  xy: 709, 145
+  size: 705, 94
+  orig: 705, 94
+  offset: 0, 0
+  index: -1

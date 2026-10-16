@@ -1,0 +1,1071 @@
+{
+  "skeleton": {
+    "hash": "dm5+Q/2b0E0V46DlJMCYIAzFfDs",
+    "spine": "3.6.53",
+    "width": 102,
+    "height": 103,
+    "images": "./pic/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "cash",
+      "parent": "root"
+    },
+    {
+      "name": "cashglow",
+      "parent": "cash",
+      "x": 1.19,
+      "y": -0.79
+    },
+    {
+      "name": "move",
+      "parent": "root",
+      "y": -21.9
+    },
+    {
+      "name": "down",
+      "parent": "move",
+      "y": 21.9
+    },
+    {
+      "name": "flash",
+      "parent": "root",
+      "y": -4.78
+    },
+    {
+      "name": "glow",
+      "parent": "move",
+      "x": -0.29,
+      "y": 21.01
+    },
+    {
+      "name": "golden",
+      "parent": "move",
+      "x": -1.06,
+      "y": 19.17
+    },
+    {
+      "name": "on",
+      "parent": "move",
+      "y": 18
+    },
+    {
+      "name": "star",
+      "parent": "root",
+      "x": -0.47,
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    },
+    {
+      "name": "star2",
+      "parent": "root",
+      "x": -20.03,
+      "y": -2.3,
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    },
+    {
+      "name": "star3",
+      "parent": "root",
+      "x": 21.67,
+      "y": -3.12,
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    }
+  ],
+  "slots": [
+    {
+      "name": "ani_room_treasure_chip_glow",
+      "bone": "glow",
+      "attachment": "ani_room_treasure_chip_glow"
+    },
+    {
+      "name": "ani_room_treasure_chip_on",
+      "bone": "on",
+      "attachment": "ani_room_treasure_chip_on"
+    },
+    {
+      "name": "ani_room_treasure_chip_golden",
+      "bone": "golden",
+      "attachment": "ani_room_treasure_chip_golden"
+    },
+    {
+      "name": "ani_room_treasure_chip_golden2",
+      "bone": "golden",
+      "attachment": "ani_room_treasure_chip_golden",
+      "blend": "additive"
+    },
+    {
+      "name": "down",
+      "bone": "down",
+      "attachment": "ani_room_treasure_chip_down"
+    },
+    {
+      "name": "down2",
+      "bone": "down",
+      "attachment": "ani_room_treasure_chip_down",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_treasure_chip_flash",
+      "bone": "flash",
+      "attachment": "ani_room_treasure_chip_flash",
+      "blend": "additive"
+    },
+    {
+      "name": "treasure1",
+      "bone": "cash",
+      "attachment": "ani_room_treasure_cash"
+    },
+    {
+      "name": "ani_room_treasure_chip_star",
+      "bone": "star",
+      "attachment": "ani_room_treasure_chip_star",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_treasure_chip_star2",
+      "bone": "star2",
+      "attachment": "ani_room_treasure_chip_star",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_treasure_chip_star3",
+      "bone": "star3",
+      "attachment": "ani_room_treasure_chip_star",
+      "blend": "additive"
+    },
+    {
+      "name": "treasure1_glow",
+      "bone": "cashglow",
+      "attachment": "ani_room_treasure_cashglow",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_room_treasure_chip_flash": {
+        "ani_room_treasure_chip_flash": {
+          "width": 102,
+          "height": 103
+        }
+      },
+      "ani_room_treasure_chip_glow": {
+        "ani_room_treasure_chip_glow": {
+          "x": 0.28,
+          "width": 72,
+          "height": 67
+        }
+      },
+      "ani_room_treasure_chip_golden": {
+        "ani_room_treasure_chip_golden": {
+          "x": 0.72,
+          "y": 0.48,
+          "width": 50,
+          "height": 18
+        }
+      },
+      "ani_room_treasure_chip_golden2": {
+        "ani_room_treasure_chip_golden": {
+          "x": 0.72,
+          "y": 0.48,
+          "width": 50,
+          "height": 18
+        }
+      },
+      "ani_room_treasure_chip_on": {
+        "ani_room_treasure_chip_on": {
+          "y": 12.59,
+          "width": 52,
+          "height": 34
+        }
+      },
+      "ani_room_treasure_chip_star": {
+        "ani_room_treasure_chip_star": {
+          "width": 39,
+          "height": 39
+        }
+      },
+      "ani_room_treasure_chip_star2": {
+        "ani_room_treasure_chip_star": {
+          "width": 39,
+          "height": 39
+        }
+      },
+      "ani_room_treasure_chip_star3": {
+        "ani_room_treasure_chip_star": {
+          "width": 39,
+          "height": 39
+        }
+      },
+      "down": {
+        "ani_room_treasure_chip_down": {
+          "y": -9.28,
+          "width": 52,
+          "height": 33
+        }
+      },
+      "down2": {
+        "ani_room_treasure_chip_down": {
+          "y": -9.28,
+          "width": 52,
+          "height": 33
+        }
+      },
+      "treasure1": {
+        "ani_room_treasure_cash": {
+          "width": 83,
+          "height": 62
+        }
+      },
+      "treasure1_glow": {
+        "ani_room_treasure_cashglow": {
+          "width": 97,
+          "height": 76
+        }
+      }
+    }
+  },
+  "animations": {
+    "loop": {
+      "slots": {
+        "ani_room_treasure_chip_flash": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_golden": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_golden2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_on": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.8333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.7,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "down": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "down2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "treasure1_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      }
+    },
+    "loopchip": {
+      "slots": {
+        "ani_room_treasure_chip_flash": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff97"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_golden2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff47"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.1667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.8333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "down2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "treasure1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "treasure1_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      }
+    },
+    "loopchip2": {
+      "slots": {
+        "ani_room_treasure_chip_flash": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333,
+              "color": "ffffffff",
+              "curve": [
+                0.326,
+                0.7,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffff1e"
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_golden2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00",
+              "curve": [
+                0.317,
+                0.75,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.1667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.8333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "down2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333,
+              "color": "ffffff44"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "treasure1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "treasure1_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "on": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.3667,
+              "x": 0,
+              "y": -7.86
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 3.26
+            },
+            {
+              "time": 0.6,
+              "x": 0,
+              "y": -7.54
+            },
+            {
+              "time": 0.7667,
+              "x": 0,
+              "y": 0.2
+            },
+            {
+              "time": 0.9333,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.3667,
+              "x": 1,
+              "y": 0.88
+            },
+            {
+              "time": 0.5,
+              "x": 1,
+              "y": 1.1
+            },
+            {
+              "time": 0.6,
+              "x": 1,
+              "y": 0.96
+            },
+            {
+              "time": 0.7667,
+              "x": 1,
+              "y": 1.1
+            },
+            {
+              "time": 0.9333,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "move": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "angle": 0
+            },
+            {
+              "time": 0.2667,
+              "angle": 6
+            },
+            {
+              "time": 0.4667,
+              "angle": -6
+            },
+            {
+              "time": 0.5333,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1541,
+              "x": -1,
+              "y": 4.53
+            },
+            {
+              "time": 0.2667,
+              "x": -2,
+              "y": 0
+            },
+            {
+              "time": 0.3667,
+              "x": 0,
+              "y": 6.34
+            },
+            {
+              "time": 0.4667,
+              "x": 2,
+              "y": 0
+            },
+            {
+              "time": 0.5333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "golden": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 3.55
+            },
+            {
+              "time": 0.4,
+              "x": 0,
+              "y": -1.18
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 2.03
+            },
+            {
+              "time": 0.6,
+              "x": 0,
+              "y": 0.01
+            }
+          ]
+        },
+        "flash": {
+          "rotate": [
+            {
+              "time": 0.7333,
+              "angle": -139.2
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.7333,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": [
+                0.326,
+                0.7,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3,
+              "x": 1.1,
+              "y": 1.1
+            }
+          ]
+        }
+      }
+    },
+    "standby": {
+      "slots": {
+        "ani_room_treasure_chip_flash": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_golden": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_golden2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_on": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "down": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "down2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "treasure1_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      }
+    },
+    "standbychip": {
+      "slots": {
+        "ani_room_treasure_chip_flash": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_golden2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_treasure_chip_star3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "down2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "treasure1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "treasure1_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

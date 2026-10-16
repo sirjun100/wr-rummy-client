@@ -1,0 +1,76 @@
+
+ani_dp_mfbq_jc.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mfbq_cha_bei00
+  rotate: false
+  xy: 329, 406
+  size: 125, 84
+  orig: 125, 84
+  offset: 0, 0
+  index: -1
+mfbq_cha_bei01
+  rotate: true
+  xy: 412, 315
+  size: 89, 31
+  orig: 89, 31
+  offset: 0, 0
+  index: -1
+mfbq_cha_bei02
+  rotate: true
+  xy: 456, 421
+  size: 69, 13
+  orig: 69, 13
+  offset: 0, 0
+  index: -1
+mfbq_cha_bei03
+  rotate: false
+  xy: 200, 85
+  size: 125, 84
+  orig: 125, 84
+  offset: 0, 0
+  index: -1
+mfbq_cha_hu
+  rotate: false
+  xy: 2, 31
+  size: 196, 138
+  orig: 196, 138
+  offset: 0, 0
+  index: -1
+mfbq_cha_shui01
+  rotate: false
+  xy: 329, 290
+  size: 81, 114
+  orig: 81, 114
+  offset: 0, 0
+  index: -1
+mfbq_cha_shui02
+  rotate: false
+  xy: 329, 174
+  size: 81, 114
+  orig: 81, 114
+  offset: 0, 0
+  index: -1
+mfbq_cha_shui03
+  rotate: true
+  xy: 200, 2
+  size: 81, 114
+  orig: 81, 114
+  offset: 0, 0
+  index: -1
+mfbq_cha_yezi
+  rotate: false
+  xy: 2, 21
+  size: 17, 8
+  orig: 17, 8
+  offset: 0, 0
+  index: -1
+yanb
+  rotate: false
+  xy: 2, 171
+  size: 325, 319
+  orig: 325, 319
+  offset: 0, 0
+  index: -1

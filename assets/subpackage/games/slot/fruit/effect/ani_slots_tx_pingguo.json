@@ -1,0 +1,1245 @@
+{
+  "skeleton": {
+    "hash": "t5b23NxfBEJX+oBtcCmShTK9eVE",
+    "spine": "3.6.53",
+    "width": 245,
+    "height": 256,
+    "images": "./pic/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "ZXD",
+      "parent": "root",
+      "x": 1.38,
+      "y": -1.41
+    },
+    {
+      "name": "1_kfg",
+      "parent": "ZXD"
+    },
+    {
+      "name": "1_ksg",
+      "parent": "root",
+      "y": -7.07
+    },
+    {
+      "name": "1_shuidi",
+      "parent": "ZXD",
+      "rotation": -9.6,
+      "x": -21.43,
+      "y": 20.67
+    },
+    {
+      "name": "1_xx1",
+      "parent": "ZXD",
+      "x": 48.46,
+      "y": 12.27
+    },
+    {
+      "name": "1_xx2",
+      "parent": "ZXD",
+      "x": -49.1,
+      "y": -24.47
+    },
+    {
+      "name": "2_zhuti2",
+      "parent": "ZXD",
+      "x": 19.3,
+      "y": 19.8
+    },
+    {
+      "name": "2_zhuti1",
+      "parent": "2_zhuti2",
+      "x": 4.33,
+      "y": 18.68
+    },
+    {
+      "name": "2_zhuti3",
+      "parent": "ZXD",
+      "x": 2.18,
+      "y": -7.67
+    },
+    {
+      "name": "3_di1",
+      "parent": "ZXD",
+      "x": 23.19,
+      "y": 37.96
+    },
+    {
+      "name": "3_di2",
+      "parent": "ZXD",
+      "x": 2.29,
+      "y": -4.12
+    },
+    {
+      "name": "3_di3",
+      "parent": "ZXD"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ani_slots_pingguo_di",
+      "bone": "3_di3",
+      "attachment": "ani_slots_pingguo_di"
+    },
+    {
+      "name": "ani_slots_pingguo_di3",
+      "bone": "3_di1",
+      "attachment": "ani_slots_pingguo_di3"
+    },
+    {
+      "name": "ani_slots_pingguo_di4",
+      "bone": "3_di1",
+      "attachment": "ani_slots_pingguo_di3",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_slots_pingguo_di2",
+      "bone": "3_di2",
+      "attachment": "ani_slots_pingguo_di2"
+    },
+    {
+      "name": "ani_slots_pingguo_di5",
+      "bone": "3_di2",
+      "attachment": "ani_slots_pingguo_di2",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_slots_pingguo_ksg",
+      "bone": "1_kfg",
+      "attachment": "ani_slots_pingguo_ksg",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_slots_pingguo_zhuti3",
+      "bone": "2_zhuti3",
+      "attachment": "ani_slots_pingguo_zhuti3"
+    },
+    {
+      "name": "ani_slots_pingguo_zhuti6",
+      "bone": "2_zhuti3",
+      "attachment": "ani_slots_pingguo_zhuti3",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_slots_pingguo_zhuti2",
+      "bone": "2_zhuti2",
+      "attachment": "ani_slots_pingguo_zhuti2"
+    },
+    {
+      "name": "ani_slots_pingguo_zhuti4",
+      "bone": "2_zhuti2",
+      "attachment": "ani_slots_pingguo_zhuti2",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_slots_pingguo_zhuti1",
+      "bone": "2_zhuti1",
+      "attachment": "ani_slots_pingguo_zhuti1"
+    },
+    {
+      "name": "ani_slots_pingguo_zhuti5",
+      "bone": "2_zhuti1",
+      "attachment": "ani_slots_pingguo_zhuti1",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_slots_pingguo_xx1",
+      "bone": "1_xx1",
+      "attachment": "ani_slots_pingguo_xx1"
+    },
+    {
+      "name": "ani_slots_pingguo_xx3",
+      "bone": "1_xx1",
+      "attachment": "ani_slots_pingguo_xx1",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_slots_pingguo_xx2",
+      "bone": "1_xx2",
+      "attachment": "ani_slots_pingguo_xx2"
+    },
+    {
+      "name": "ani_slots_pingguo_xx4",
+      "bone": "1_xx2",
+      "attachment": "ani_slots_pingguo_xx2",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_slots_pingguo_tx",
+      "bone": "1_ksg",
+      "attachment": "ani_slots_pingguo_tx",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_slots_pingguo_shuidi",
+      "bone": "1_shuidi",
+      "attachment": "ani_slots_pingguo_shuidi"
+    },
+    {
+      "name": "ani_slots_pingguo_shuidi2",
+      "bone": "1_shuidi",
+      "color": "ffffff13",
+      "attachment": "ani_slots_pingguo_shuidi",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_slots_pingguo_di": {
+        "ani_slots_pingguo_di": {
+          "width": 168,
+          "height": 172
+        }
+      },
+      "ani_slots_pingguo_di2": {
+        "ani_slots_pingguo_di2": {
+          "width": 115,
+          "height": 115
+        }
+      },
+      "ani_slots_pingguo_di3": {
+        "ani_slots_pingguo_di3": {
+          "x": -41.92,
+          "y": 3.84,
+          "width": 93,
+          "height": 38
+        }
+      },
+      "ani_slots_pingguo_di4": {
+        "ani_slots_pingguo_di3": {
+          "x": -41.92,
+          "y": 3.84,
+          "width": 93,
+          "height": 38
+        }
+      },
+      "ani_slots_pingguo_di5": {
+        "ani_slots_pingguo_di2": {
+          "width": 115,
+          "height": 115
+        }
+      },
+      "ani_slots_pingguo_ksg": {
+        "ani_slots_pingguo_ksg": {
+          "width": 245,
+          "height": 256
+        }
+      },
+      "ani_slots_pingguo_shuidi": {
+        "ani_slots_pingguo_shuidi": {
+          "x": 0.58,
+          "y": -4.28,
+          "width": 14,
+          "height": 19
+        }
+      },
+      "ani_slots_pingguo_shuidi2": {
+        "ani_slots_pingguo_shuidi": {
+          "x": 0.58,
+          "y": -4.28,
+          "width": 14,
+          "height": 19
+        }
+      },
+      "ani_slots_pingguo_tx": {
+        "ani_slots_pingguo_tx": {
+          "width": 162,
+          "height": 170
+        }
+      },
+      "ani_slots_pingguo_xx1": {
+        "ani_slots_pingguo_xx1": {
+          "width": 31,
+          "height": 35
+        }
+      },
+      "ani_slots_pingguo_xx2": {
+        "ani_slots_pingguo_xx2": {
+          "width": 31,
+          "height": 36
+        }
+      },
+      "ani_slots_pingguo_xx3": {
+        "ani_slots_pingguo_xx1": {
+          "width": 31,
+          "height": 35
+        }
+      },
+      "ani_slots_pingguo_xx4": {
+        "ani_slots_pingguo_xx2": {
+          "width": 31,
+          "height": 36
+        }
+      },
+      "ani_slots_pingguo_zhuti1": {
+        "ani_slots_pingguo_zhuti1": {
+          "x": -42.18,
+          "y": 5.42,
+          "width": 87,
+          "height": 29
+        }
+      },
+      "ani_slots_pingguo_zhuti2": {
+        "ani_slots_pingguo_zhuti2": {
+          "x": 6.79,
+          "y": 15.21,
+          "width": 17,
+          "height": 34
+        }
+      },
+      "ani_slots_pingguo_zhuti3": {
+        "ani_slots_pingguo_zhuti3": {
+          "width": 107,
+          "height": 98
+        }
+      },
+      "ani_slots_pingguo_zhuti4": {
+        "ani_slots_pingguo_zhuti2": {
+          "x": 6.79,
+          "y": 15.21,
+          "width": 17,
+          "height": 34
+        }
+      },
+      "ani_slots_pingguo_zhuti5": {
+        "ani_slots_pingguo_zhuti1": {
+          "x": -42.18,
+          "y": 5.42,
+          "width": 87,
+          "height": 29
+        }
+      },
+      "ani_slots_pingguo_zhuti6": {
+        "ani_slots_pingguo_zhuti3": {
+          "width": 107,
+          "height": 98
+        }
+      }
+    }
+  },
+  "animations": {
+    "pingguo": {
+      "slots": {
+        "ani_slots_pingguo_di3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff64"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffff00",
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 2.1,
+              "color": "ffffff64"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_slots_pingguo_di4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff64"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffff00",
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 2.1,
+              "color": "ffffff64"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_slots_pingguo_di5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffff00",
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 2.1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_slots_pingguo_ksg": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0667,
+              "color": "cbffdd00"
+            },
+            {
+              "time": 0.3,
+              "color": "79ff80c7",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333,
+              "color": "79ff80c7"
+            },
+            {
+              "time": 1.5333,
+              "color": "79ff8000"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.8667,
+              "color": "cbffdd00"
+            },
+            {
+              "time": 2.1,
+              "color": "79ff80c7",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333,
+              "color": "79ff80c7"
+            },
+            {
+              "time": 3.3333,
+              "color": "79ff8000"
+            }
+          ]
+        },
+        "ani_slots_pingguo_shuidi": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.5333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.2667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.7667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_slots_pingguo_shuidi2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffff1d",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff1d"
+            },
+            {
+              "time": 1.5333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.2667,
+              "color": "ffffff1d",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.7667,
+              "color": "ffffff1d"
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_slots_pingguo_tx": {
+          "color": [
+            {
+              "time": 0,
+              "color": "b9ffdd00"
+            },
+            {
+              "time": 0.1,
+              "color": "b9ffddff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "color": "b9ffddff"
+            },
+            {
+              "time": 0.5667,
+              "color": "b9ffdd00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "b9ffdd00"
+            },
+            {
+              "time": 1.9,
+              "color": "b9ffddff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.0667,
+              "color": "b9ffddff"
+            },
+            {
+              "time": 2.3667,
+              "color": "b9ffdd00"
+            }
+          ]
+        },
+        "ani_slots_pingguo_xx3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_slots_pingguo_xx4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_slots_pingguo_zhuti4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff64"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffff00",
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 2.1,
+              "color": "ffffff64"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_slots_pingguo_zhuti5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff64"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffff00",
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 2.1,
+              "color": "ffffff64"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_slots_pingguo_zhuti6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff95"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "color": "ffffff00",
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 2.1,
+              "color": "ffffff95"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "ZXD": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 0.3,
+              "angle": -4.8
+            },
+            {
+              "time": 1.2,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "angle": 0,
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 2.1,
+              "angle": -4.8
+            },
+            {
+              "time": 3,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.1,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 1.18,
+              "y": 1.18
+            },
+            {
+              "time": 1.2,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 2.1,
+              "x": 1.18,
+              "y": 1.18
+            },
+            {
+              "time": 3,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "1_kfg": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 0.3,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.8,
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 2.1,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "2_zhuti2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.3,
+              "angle": -2.4
+            },
+            {
+              "time": 1.2,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "angle": 0
+            },
+            {
+              "time": 2.1,
+              "angle": -2.4
+            },
+            {
+              "time": 3,
+              "angle": 0
+            }
+          ]
+        },
+        "2_zhuti1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 0.3,
+              "angle": -12
+            },
+            {
+              "time": 1.2,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "angle": 0
+            },
+            {
+              "time": 2.1,
+              "angle": -12
+            },
+            {
+              "time": 3,
+              "angle": 0
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 3.6
+            },
+            {
+              "time": 1.2,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.1,
+              "x": 0,
+              "y": 3.6
+            },
+            {
+              "time": 3,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "3_di1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 0.3,
+              "angle": -12
+            },
+            {
+              "time": 1.2,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "angle": 0,
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 2.1,
+              "angle": -12
+            },
+            {
+              "time": 3,
+              "angle": 0
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 3.6
+            },
+            {
+              "time": 1.2,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.319,
+                0.46,
+                0.693,
+                0.95
+              ]
+            },
+            {
+              "time": 2.1,
+              "x": 0,
+              "y": 3.6
+            },
+            {
+              "time": 3,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "1_ksg": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 0.5667,
+              "x": 1.8,
+              "y": 1.5
+            },
+            {
+              "time": 1.8,
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 2.3667,
+              "x": 1.8,
+              "y": 1.5
+            }
+          ]
+        },
+        "1_shuidi": {
+          "rotate": [
+            {
+              "time": 0.4,
+              "angle": 0
+            },
+            {
+              "time": 1.5333,
+              "angle": 8.4
+            },
+            {
+              "time": 2.2,
+              "angle": 0
+            },
+            {
+              "time": 3.3333,
+              "angle": 8.4
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.5333,
+              "x": 0,
+              "y": -15.56
+            },
+            {
+              "time": 1.8,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.2,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 3.3333,
+              "x": 0,
+              "y": -15.56
+            }
+          ]
+        }
+      }
+    }
+  }
+}

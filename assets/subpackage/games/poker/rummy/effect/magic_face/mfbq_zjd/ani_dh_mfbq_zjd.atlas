@@ -1,0 +1,97 @@
+
+ani_dh_mfbq_zjd.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jidan01
+  rotate: true
+  xy: 2, 77
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+jidan02
+  rotate: true
+  xy: 171, 77
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+jidan03
+  rotate: true
+  xy: 340, 77
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+jidan04
+  rotate: true
+  xy: 509, 77
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+jidan05
+  rotate: true
+  xy: 678, 77
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+jidan06
+  rotate: true
+  xy: 847, 77
+  size: 176, 167
+  orig: 176, 167
+  offset: 0, 0
+  index: -1
+suipian01
+  rotate: false
+  xy: 95, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+suipian02
+  rotate: false
+  xy: 50, 20
+  size: 43, 55
+  orig: 43, 55
+  offset: 0, 0
+  index: -1
+suipian03
+  rotate: false
+  xy: 95, 23
+  size: 41, 52
+  orig: 41, 52
+  offset: 0, 0
+  index: -1
+suipian04
+  rotate: false
+  xy: 170, 24
+  size: 25, 51
+  orig: 25, 51
+  offset: 0, 0
+  index: -1
+suipian05
+  rotate: false
+  xy: 138, 14
+  size: 30, 61
+  orig: 30, 61
+  offset: 0, 0
+  index: -1
+suipian06
+  rotate: true
+  xy: 2, 12
+  size: 63, 46
+  orig: 63, 46
+  offset: 0, 0
+  index: -1
+zhiye
+  rotate: true
+  xy: 197, 46
+  size: 29, 23
+  orig: 29, 23
+  offset: 0, 0
+  index: -1

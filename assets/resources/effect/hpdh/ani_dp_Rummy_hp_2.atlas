@@ -1,0 +1,371 @@
+
+ani_dp_Rummy_hp_2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hp2_gy
+  rotate: false
+  xy: 858, 402
+  size: 142, 179
+  orig: 142, 179
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_ksg
+  rotate: false
+  xy: 858, 240
+  size: 128, 160
+  orig: 128, 160
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_ksg2
+  rotate: false
+  xy: 858, 112
+  size: 126, 126
+  orig: 126, 126
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00000
+  rotate: true
+  xy: 2, 2
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00002
+  rotate: false
+  xy: 497, 583
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00004
+  rotate: true
+  xy: 430, 2
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_xzg
+  rotate: false
+  xy: 2, 520
+  size: 493, 489
+  orig: 493, 489
+  offset: 0, 0
+  index: -1
+ani_dp_hp_dian
+  rotate: false
+  xy: 497, 555
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_saoguang
+  rotate: false
+  xy: 858, 26
+  size: 147, 84
+  orig: 147, 84
+  offset: 0, 0
+  index: -1
+
+ani_dp_Rummy_hp_22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hp2_txxl_00006
+  rotate: false
+  xy: 2, 520
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00008
+  rotate: true
+  xy: 520, 430
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00010
+  rotate: true
+  xy: 2, 2
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00012
+  rotate: false
+  xy: 430, 2
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+
+ani_dp_Rummy_hp_23.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hp2_txxl_00014
+  rotate: false
+  xy: 2, 520
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00016
+  rotate: true
+  xy: 520, 430
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00018
+  rotate: true
+  xy: 2, 2
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00020
+  rotate: false
+  xy: 430, 2
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+
+ani_dp_Rummy_hp_24.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hp2_txxl_00022
+  rotate: false
+  xy: 2, 520
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00024
+  rotate: true
+  xy: 520, 430
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00026
+  rotate: true
+  xy: 2, 2
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00028
+  rotate: false
+  xy: 430, 2
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+
+ani_dp_Rummy_hp_25.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hp2_txxl_00030
+  rotate: false
+  xy: 2, 454
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp2_txxl_00032
+  rotate: false
+  xy: 2, 26
+  size: 516, 426
+  orig: 516, 426
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00001
+  rotate: false
+  xy: 520, 598
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00002
+  rotate: true
+  xy: 740, 662
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00003
+  rotate: true
+  xy: 740, 442
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00004
+  rotate: false
+  xy: 520, 314
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00005
+  rotate: true
+  xy: 740, 222
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00006
+  rotate: false
+  xy: 520, 30
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00007
+  rotate: true
+  xy: 740, 2
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+
+ani_dp_Rummy_hp_26.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hp_yanwu_kuang_00008
+  rotate: false
+  xy: 2, 726
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00009
+  rotate: true
+  xy: 2, 506
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00010
+  rotate: true
+  xy: 222, 790
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00011
+  rotate: false
+  xy: 286, 506
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00012
+  rotate: true
+  xy: 2, 286
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00013
+  rotate: true
+  xy: 286, 286
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00014
+  rotate: true
+  xy: 506, 790
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00015
+  rotate: true
+  xy: 506, 570
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00016
+  rotate: false
+  xy: 570, 286
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00017
+  rotate: false
+  xy: 790, 726
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00018
+  rotate: false
+  xy: 790, 442
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00019
+  rotate: false
+  xy: 790, 158
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00020
+  rotate: true
+  xy: 2, 66
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00021
+  rotate: true
+  xy: 286, 66
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00022
+  rotate: false
+  xy: 570, 2
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+
+ani_dp_Rummy_hp_27.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hp_yanwu_kuang_00023
+  rotate: true
+  xy: 2, 2
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1
+ani_dp_hp_yanwu_kuang_00024
+  rotate: true
+  xy: 286, 2
+  size: 218, 282
+  orig: 218, 282
+  offset: 0, 0
+  index: -1

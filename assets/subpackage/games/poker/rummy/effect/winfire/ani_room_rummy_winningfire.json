@@ -1,0 +1,336 @@
+{
+  "skeleton": {
+    "hash": "sHW7WzuO7gOWq6JtvOMd5j0exKk",
+    "spine": "3.6.53",
+    "width": 153.6,
+    "height": 147.91,
+    "images": "./pic/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "glow",
+      "parent": "root",
+      "x": 0.3,
+      "y": -0.27
+    },
+    {
+      "name": "winningfire",
+      "parent": "root",
+      "y": 20.23,
+      "scaleX": 1.2,
+      "scaleY": 1.1
+    },
+    {
+      "name": "winningfire2",
+      "parent": "root",
+      "y": 20.23,
+      "scaleX": 1.18,
+      "scaleY": 1.1
+    }
+  ],
+  "slots": [
+    {
+      "name": "glow",
+      "bone": "glow",
+      "attachment": "ani_room_rummy_winningfire_00"
+    },
+    {
+      "name": "winningfire",
+      "bone": "winningfire",
+      "attachment": "ani_room_rummy_winningfire_16"
+    },
+    {
+      "name": "winningfire2",
+      "bone": "winningfire2",
+      "attachment": "ani_room_rummy_winningfire_16",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "glow": {
+        "ani_room_rummy_winningfire_00": {
+          "width": 115,
+          "height": 114
+        }
+      },
+      "winningfire": {
+        "ani_room_rummy_winningfire_01": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_02": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_03": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_04": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_05": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_06": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_07": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_08": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_09": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_10": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_11": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_12": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_13": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_14": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_15": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_16": {
+          "width": 128,
+          "height": 128
+        }
+      },
+      "winningfire2": {
+        "ani_room_rummy_winningfire_01": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_02": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_03": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_04": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_05": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_06": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_07": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_08": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_09": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_10": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_11": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_12": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_13": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_14": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_15": {
+          "width": 128,
+          "height": 128
+        },
+        "ani_room_rummy_winningfire_16": {
+          "width": 128,
+          "height": 128
+        }
+      }
+    }
+  },
+  "animations": {
+    "animation": {
+      "slots": {
+        "winningfire": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_rummy_winningfire_01"
+            },
+            {
+              "time": 0.0568,
+              "name": "ani_room_rummy_winningfire_02"
+            },
+            {
+              "time": 0.1136,
+              "name": "ani_room_rummy_winningfire_03"
+            },
+            {
+              "time": 0.1705,
+              "name": "ani_room_rummy_winningfire_04"
+            },
+            {
+              "time": 0.2273,
+              "name": "ani_room_rummy_winningfire_05"
+            },
+            {
+              "time": 0.2841,
+              "name": "ani_room_rummy_winningfire_06"
+            },
+            {
+              "time": 0.3409,
+              "name": "ani_room_rummy_winningfire_07"
+            },
+            {
+              "time": 0.3978,
+              "name": "ani_room_rummy_winningfire_08"
+            },
+            {
+              "time": 0.4546,
+              "name": "ani_room_rummy_winningfire_09"
+            },
+            {
+              "time": 0.5114,
+              "name": "ani_room_rummy_winningfire_10"
+            },
+            {
+              "time": 0.5682,
+              "name": "ani_room_rummy_winningfire_11"
+            },
+            {
+              "time": 0.6251,
+              "name": "ani_room_rummy_winningfire_12"
+            },
+            {
+              "time": 0.6819,
+              "name": "ani_room_rummy_winningfire_13"
+            },
+            {
+              "time": 0.7387,
+              "name": "ani_room_rummy_winningfire_14"
+            },
+            {
+              "time": 0.7955,
+              "name": "ani_room_rummy_winningfire_15"
+            },
+            {
+              "time": 0.8523,
+              "name": "ani_room_rummy_winningfire_16"
+            }
+          ]
+        },
+        "winningfire2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_rummy_winningfire_01"
+            },
+            {
+              "time": 0.0568,
+              "name": "ani_room_rummy_winningfire_02"
+            },
+            {
+              "time": 0.1136,
+              "name": "ani_room_rummy_winningfire_03"
+            },
+            {
+              "time": 0.1705,
+              "name": "ani_room_rummy_winningfire_04"
+            },
+            {
+              "time": 0.2273,
+              "name": "ani_room_rummy_winningfire_05"
+            },
+            {
+              "time": 0.2841,
+              "name": "ani_room_rummy_winningfire_06"
+            },
+            {
+              "time": 0.3409,
+              "name": "ani_room_rummy_winningfire_07"
+            },
+            {
+              "time": 0.3978,
+              "name": "ani_room_rummy_winningfire_08"
+            },
+            {
+              "time": 0.4546,
+              "name": "ani_room_rummy_winningfire_09"
+            },
+            {
+              "time": 0.5114,
+              "name": "ani_room_rummy_winningfire_10"
+            },
+            {
+              "time": 0.5682,
+              "name": "ani_room_rummy_winningfire_11"
+            },
+            {
+              "time": 0.6251,
+              "name": "ani_room_rummy_winningfire_12"
+            },
+            {
+              "time": 0.6819,
+              "name": "ani_room_rummy_winningfire_13"
+            },
+            {
+              "time": 0.7387,
+              "name": "ani_room_rummy_winningfire_14"
+            },
+            {
+              "time": 0.7955,
+              "name": "ani_room_rummy_winningfire_15"
+            },
+            {
+              "time": 0.8523,
+              "name": "ani_room_rummy_winningfire_16"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+---
+description: wr-rummy-client QFramework 分层与 TypeScript 硬约束
+globs: assets/**/*.ts
+alwaysApply: false
+---
+
+# QFramework TypeScript 约束
+
+- 架构入口 `GameApp.Interface`（继承自 `Architecture.InitArchitecture()`，幂等）；System/Model/Utility 只在 `GameApp.Init()` 注册；Controller 无需手动 bootstrap。
+- 新代码落在 `assets/script/game/<command|controller|event|model|query|system|utility>/` 或 subpackage `script/`。
+- 场景组件业务控制器继承 `AbstractController`，实现 `GetArchitecture()` 返回 `GameApp.Interface`。
+- 架构事件：`RegisterEvent(EventClass, handler, target)`；禁止用字符串当架构事件。
+- `GetSystem(FooSystem)` / `GetModel(FooModel)` 必须传类 token，禁止裸泛型 Get。
+- `RegisterEvent` 返回的 `IUnRegister` 在 Component 上须绑定节点注销（`UnRegisterWhenGameObjectDestroyed` 等）。
+- UI：`UIKit.OpenPanel` / `ClosePanel`；资源：`ResKit.Init()` + `UIKit.UseResKitLoader()`；禁止 Controller 内直接 `resources.load` 做 UI。
+- 日志用 `LogKit`；新代码 `export class` 具名导出，避免 `export default`。
+- 网络：Due 传输与 `NetworkSystem` 同文件（`game/system/NetworkSystem.ts`），禁止拆 utility 网络类。
+- 勿修改 `assets/script/framework/**` 实现业务；扩展 `game/`。
+- 删除未使用的 import。
+
+详细约定：`.cursor/skills/qframework-client/SKILL.md`

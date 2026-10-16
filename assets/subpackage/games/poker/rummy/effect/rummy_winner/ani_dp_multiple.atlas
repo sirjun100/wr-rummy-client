@@ -1,0 +1,76 @@
+
+ani_dp_multiple.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_multiple_diban
+  rotate: false
+  xy: 359, 214
+  size: 84, 29
+  orig: 84, 29
+  offset: 0, 0
+  index: -1
+ani_dp_multiple_glow1
+  rotate: false
+  xy: 203, 89
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+ani_dp_multiple_glow2
+  rotate: false
+  xy: 2, 41
+  size: 199, 202
+  orig: 199, 202
+  offset: 0, 0
+  index: -1
+ani_dp_multiple_glow3
+  rotate: false
+  xy: 108, 5
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+ani_dp_multiple_star1
+  rotate: false
+  xy: 359, 174
+  size: 46, 38
+  orig: 46, 38
+  offset: 0, 0
+  index: -1
+ani_dp_multiple_star2
+  rotate: false
+  xy: 302, 68
+  size: 49, 19
+  orig: 49, 19
+  offset: 0, 0
+  index: -1
+ani_dp_multiple_star3
+  rotate: false
+  xy: 359, 157
+  size: 42, 15
+  orig: 42, 15
+  offset: 0, 0
+  index: -1
+ani_dp_multiple_star4
+  rotate: false
+  xy: 445, 222
+  size: 41, 21
+  orig: 41, 21
+  offset: 0, 0
+  index: -1
+ani_dp_multiple_winner
+  rotate: false
+  xy: 2, 2
+  size: 104, 37
+  orig: 104, 37
+  offset: 0, 0
+  index: -1
+ani_dp_multiple_winner2
+  rotate: false
+  xy: 203, 57
+  size: 97, 30
+  orig: 97, 30
+  offset: 0, 0
+  index: -1

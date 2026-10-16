@@ -1,0 +1,314 @@
+
+ani_room_treasure_chip_fly.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ani_room_Bonus01
+  rotate: false
+  xy: 104, 81
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus010
+  rotate: false
+  xy: 280, 34
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus011
+  rotate: false
+  xy: 324, 81
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus012
+  rotate: false
+  xy: 324, 34
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus013
+  rotate: false
+  xy: 368, 81
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus014
+  rotate: false
+  xy: 368, 34
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus015
+  rotate: false
+  xy: 412, 81
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus02
+  rotate: false
+  xy: 104, 34
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus03
+  rotate: false
+  xy: 148, 81
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus04
+  rotate: false
+  xy: 148, 34
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus05
+  rotate: false
+  xy: 192, 81
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus06
+  rotate: false
+  xy: 192, 34
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus07
+  rotate: false
+  xy: 236, 81
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus08
+  rotate: false
+  xy: 236, 34
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_Bonus09
+  rotate: false
+  xy: 280, 81
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_01
+  rotate: true
+  xy: 412, 34
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_08
+  rotate: true
+  xy: 412, 34
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_02
+  rotate: false
+  xy: 456, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_03
+  rotate: false
+  xy: 503, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_04
+  rotate: false
+  xy: 550, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_05
+  rotate: false
+  xy: 597, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_06
+  rotate: false
+  xy: 644, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_07
+  rotate: false
+  xy: 691, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_09
+  rotate: false
+  xy: 738, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_10
+  rotate: false
+  xy: 785, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_11
+  rotate: false
+  xy: 832, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_12
+  rotate: false
+  xy: 879, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_13
+  rotate: false
+  xy: 926, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_chip_14
+  rotate: false
+  xy: 973, 86
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion01
+  rotate: false
+  xy: 456, 44
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion010
+  rotate: false
+  xy: 644, 44
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion011
+  rotate: false
+  xy: 689, 2
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion012
+  rotate: false
+  xy: 691, 44
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion013
+  rotate: false
+  xy: 736, 2
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion014
+  rotate: false
+  xy: 738, 44
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion02
+  rotate: false
+  xy: 454, 2
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion03
+  rotate: false
+  xy: 501, 2
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion04
+  rotate: false
+  xy: 503, 44
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion05
+  rotate: false
+  xy: 548, 2
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion06
+  rotate: false
+  xy: 550, 44
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion07
+  rotate: false
+  xy: 595, 2
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion08
+  rotate: false
+  xy: 597, 44
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_cion09
+  rotate: false
+  xy: 642, 2
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+images/ani_room_treasure_chip_glow
+  rotate: false
+  xy: 2, 26
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

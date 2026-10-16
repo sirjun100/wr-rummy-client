@@ -1,0 +1,713 @@
+
+ani_ani_Avatar_animation_Mecharm.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_ani_Avatar_animation_Mecharm_1shangbi
+  rotate: true
+  xy: 251, 94
+  size: 36, 24
+  orig: 36, 24
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_3xiaobi
+  rotate: false
+  xy: 204, 134
+  size: 26, 40
+  orig: 26, 40
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_4shouzhang
+  rotate: false
+  xy: 337, 262
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_4shouzhang_1
+  rotate: true
+  xy: 546, 373
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00000
+  rotate: true
+  xy: 496, 392
+  size: 31, 33
+  orig: 108, 73
+  offset: 72, 26
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00001
+  rotate: true
+  xy: 720, 798
+  size: 93, 41
+  orig: 108, 73
+  offset: 13, 23
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00002
+  rotate: false
+  xy: 527, 656
+  size: 102, 51
+  orig: 108, 73
+  offset: 4, 18
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00003
+  rotate: true
+  xy: 958, 922
+  size: 101, 65
+  orig: 108, 73
+  offset: 4, 8
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00004
+  rotate: false
+  xy: 0, 0
+  size: 99, 68
+  orig: 108, 73
+  offset: 7, 5
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00005
+  rotate: true
+  xy: 582, 565
+  size: 89, 67
+  orig: 108, 73
+  offset: 15, 6
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00006
+  rotate: false
+  xy: 763, 767
+  size: 101, 70
+  orig: 108, 73
+  offset: 3, 3
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00007
+  rotate: false
+  xy: 113, 278
+  size: 102, 62
+  orig: 108, 73
+  offset: 4, 3
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00008
+  rotate: false
+  xy: 131, 342
+  size: 103, 59
+  orig: 108, 73
+  offset: 3, 4
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00009
+  rotate: false
+  xy: 856, 839
+  size: 90, 46
+  orig: 108, 73
+  offset: 13, 23
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00010
+  rotate: false
+  xy: 410, 522
+  size: 99, 45
+  orig: 108, 73
+  offset: 8, 28
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00011
+  rotate: false
+  xy: 236, 343
+  size: 100, 53
+  orig: 108, 73
+  offset: 7, 20
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00012
+  rotate: true
+  xy: 339, 386
+  size: 99, 56
+  orig: 108, 73
+  offset: 9, 17
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00013
+  rotate: false
+  xy: 397, 380
+  size: 97, 43
+  orig: 108, 73
+  offset: 10, 14
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00014
+  rotate: false
+  xy: 113, 228
+  size: 102, 48
+  orig: 108, 73
+  offset: 6, 7
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00015
+  rotate: false
+  xy: 262, 487
+  size: 103, 42
+  orig: 108, 73
+  offset: 4, 11
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00016
+  rotate: true
+  xy: 490, 661
+  size: 104, 35
+  orig: 108, 73
+  offset: 3, 18
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00017
+  rotate: false
+  xy: 655, 893
+  size: 104, 32
+  orig: 108, 73
+  offset: 3, 19
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00018
+  rotate: true
+  xy: 378, 533
+  size: 103, 30
+  orig: 108, 73
+  offset: 4, 17
+  index: -1
+ani_ani_Avatar_animation_Mecharm_dianliu_00019
+  rotate: true
+  xy: 217, 239
+  size: 101, 43
+  orig: 108, 73
+  offset: 2, 4
+  index: -1
+ani_ani_Avatar_animation_Mecharm_guangquan
+  rotate: false
+  xy: 577, 487
+  size: 76, 76
+  orig: 76, 76
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_napai_shou1
+  rotate: false
+  xy: 546, 344
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_napai_shou2
+  rotate: false
+  xy: 290, 167
+  size: 49, 37
+  orig: 49, 37
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_napai_shou3
+  rotate: false
+  xy: 501, 240
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_pai
+  rotate: true
+  xy: 338, 344
+  size: 40, 55
+  orig: 40, 55
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_pai_TX
+  rotate: false
+  xy: 511, 493
+  size: 64, 79
+  orig: 64, 79
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_00
+  rotate: false
+  xy: 465, 187
+  size: 22, 24
+  orig: 75, 39
+  offset: 3, 11
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_01
+  rotate: true
+  xy: 367, 500
+  size: 29, 28
+  orig: 75, 39
+  offset: 3, 9
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_02
+  rotate: true
+  xy: 341, 169
+  size: 35, 30
+  orig: 75, 39
+  offset: 3, 7
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_03
+  rotate: false
+  xy: 277, 97
+  size: 40, 32
+  orig: 75, 39
+  offset: 3, 5
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_04
+  rotate: false
+  xy: 280, 131
+  size: 45, 34
+  orig: 75, 39
+  offset: 3, 3
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_05
+  rotate: false
+  xy: 494, 343
+  size: 50, 35
+  orig: 75, 39
+  offset: 3, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_06
+  rotate: false
+  xy: 955, 751
+  size: 56, 35
+  orig: 75, 39
+  offset: 3, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_07
+  rotate: false
+  xy: 438, 250
+  size: 61, 35
+  orig: 75, 39
+  offset: 3, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_08
+  rotate: false
+  xy: 958, 885
+  size: 65, 35
+  orig: 75, 39
+  offset: 3, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_09
+  rotate: true
+  xy: 161, 6
+  size: 67, 35
+  orig: 75, 39
+  offset: 4, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_10
+  rotate: false
+  xy: 359, 213
+  size: 64, 35
+  orig: 75, 39
+  offset: 7, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_11
+  rotate: false
+  xy: 425, 213
+  size: 59, 35
+  orig: 75, 39
+  offset: 12, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_12
+  rotate: false
+  xy: 233, 169
+  size: 55, 35
+  orig: 75, 39
+  offset: 16, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_13
+  rotate: true
+  xy: 196, 176
+  size: 50, 35
+  orig: 75, 39
+  offset: 21, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_14
+  rotate: false
+  xy: 232, 132
+  size: 46, 35
+  orig: 75, 39
+  offset: 25, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_15
+  rotate: false
+  xy: 531, 392
+  size: 40, 33
+  orig: 75, 39
+  offset: 31, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_16
+  rotate: false
+  xy: 373, 179
+  size: 35, 32
+  orig: 75, 39
+  offset: 36, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_17
+  rotate: false
+  xy: 410, 179
+  size: 29, 32
+  orig: 75, 39
+  offset: 42, 2
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_18
+  rotate: false
+  xy: 441, 181
+  size: 22, 30
+  orig: 75, 39
+  offset: 49, 3
+  index: -1
+ani_ani_Avatar_animation_Mecharm_saoguang_19
+  rotate: false
+  xy: 113, 354
+  size: 16, 24
+  orig: 75, 39
+  offset: 55, 5
+  index: -1
+ani_ani_Avatar_animation_Mecharm_shoubi_tx_01
+  rotate: true
+  xy: 99, 172
+  size: 54, 95
+  orig: 54, 95
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_shoubi_tx_02
+  rotate: false
+  xy: 397, 425
+  size: 54, 95
+  orig: 54, 95
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_shoubi_tx_03
+  rotate: false
+  xy: 453, 425
+  size: 54, 95
+  orig: 54, 95
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_shoubi_tx_04
+  rotate: true
+  xy: 573, 431
+  size: 54, 95
+  orig: 54, 95
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_shoubi_tx_05
+  rotate: false
+  xy: 955, 788
+  size: 54, 95
+  orig: 54, 95
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_shoubi_tx_06
+  rotate: false
+  xy: 148, 75
+  size: 54, 95
+  orig: 54, 95
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_shoubi_tx_07
+  rotate: true
+  xy: 573, 375
+  size: 54, 95
+  orig: 54, 95
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_shoubi_tx_08
+  rotate: true
+  xy: 262, 206
+  size: 54, 95
+  orig: 54, 95
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_shoubi_tx_09
+  rotate: true
+  xy: 337, 287
+  size: 54, 95
+  orig: 54, 95
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_shoubi_tx_10
+  rotate: true
+  xy: 434, 287
+  size: 54, 95
+  orig: 54, 95
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_touxiangkuang
+  rotate: false
+  xy: 0, 70
+  size: 96, 96
+  orig: 114, 114
+  offset: 9, 12
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_01
+  rotate: false
+  xy: 262, 262
+  size: 73, 79
+  orig: 131, 127
+  offset: 34, 18
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_02
+  rotate: false
+  xy: 866, 749
+  size: 87, 88
+  orig: 131, 127
+  offset: 25, 11
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_03
+  rotate: false
+  xy: 763, 839
+  size: 91, 86
+  orig: 131, 127
+  offset: 22, 11
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_05
+  rotate: false
+  xy: 527, 709
+  size: 93, 87
+  orig: 131, 127
+  offset: 18, 11
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_07
+  rotate: false
+  xy: 248, 398
+  size: 89, 87
+  orig: 131, 127
+  offset: 16, 12
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_09
+  rotate: false
+  xy: 860, 937
+  size: 96, 86
+  orig: 131, 127
+  offset: 16, 13
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_11
+  rotate: false
+  xy: 630, 799
+  size: 88, 92
+  orig: 131, 127
+  offset: 23, 8
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_13
+  rotate: false
+  xy: 761, 927
+  size: 97, 96
+  orig: 131, 127
+  offset: 12, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_15
+  rotate: false
+  xy: 393, 658
+  size: 95, 107
+  orig: 131, 127
+  offset: 11, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_17
+  rotate: false
+  xy: 0, 168
+  size: 97, 97
+  orig: 131, 127
+  offset: 10, 10
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_19
+  rotate: false
+  xy: 524, 798
+  size: 104, 96
+  orig: 131, 127
+  offset: 15, 11
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_21
+  rotate: false
+  xy: 131, 403
+  size: 115, 104
+  orig: 131, 127
+  offset: 8, 6
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_23
+  rotate: false
+  xy: 262, 531
+  size: 114, 105
+  orig: 131, 127
+  offset: 9, 12
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_baozha1
+  rotate: false
+  xy: 499, 574
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_baozha2
+  rotate: true
+  xy: 101, 8
+  size: 60, 58
+  orig: 60, 58
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_baozha_yanwu
+  rotate: false
+  xy: 509, 427
+  size: 62, 64
+  orig: 62, 64
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_guangyun
+  rotate: false
+  xy: 204, 85
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_lankuang
+  rotate: false
+  xy: 410, 569
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_00
+  rotate: false
+  xy: 0, 896
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_01
+  rotate: false
+  xy: 655, 927
+  size: 104, 96
+  orig: 104, 96
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_02
+  rotate: false
+  xy: 0, 767
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_04
+  rotate: false
+  xy: 131, 896
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_06
+  rotate: false
+  xy: 0, 638
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_08
+  rotate: false
+  xy: 131, 767
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_10
+  rotate: false
+  xy: 262, 896
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_12
+  rotate: false
+  xy: 0, 509
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_14
+  rotate: false
+  xy: 131, 638
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_16
+  rotate: false
+  xy: 262, 767
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_18
+  rotate: false
+  xy: 393, 896
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_20
+  rotate: false
+  xy: 0, 380
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_22
+  rotate: false
+  xy: 131, 509
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_24
+  rotate: false
+  xy: 262, 638
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_26
+  rotate: false
+  xy: 393, 767
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_28
+  rotate: false
+  xy: 524, 896
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_sl_di_00
+  rotate: false
+  xy: 0, 267
+  size: 111, 111
+  orig: 129, 127
+  offset: 8, 8
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_xinhao_1
+  rotate: false
+  xy: 233, 206
+  size: 27, 31
+  orig: 27, 31
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_yj_1
+  rotate: false
+  xy: 860, 887
+  size: 96, 48
+  orig: 96, 48
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_yj_2
+  rotate: true
+  xy: 98, 70
+  size: 96, 48
+  orig: 96, 48
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_yjmh1
+  rotate: false
+  xy: 395, 343
+  size: 97, 35
+  orig: 97, 35
+  offset: 0, 0
+  index: -1
+ani_ani_Avatar_animation_Mecharm_tx_yjmh2
+  rotate: false
+  xy: 359, 250
+  size: 77, 35
+  orig: 77, 35
+  offset: 0, 0
+  index: -1

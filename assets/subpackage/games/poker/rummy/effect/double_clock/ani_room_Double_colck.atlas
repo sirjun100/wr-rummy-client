@@ -1,0 +1,20 @@
+
+ani_room_Double_colck.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_room_Double_colck_bell
+  rotate: false
+  xy: 2, 2
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+ani_room_Double_colck_clock
+  rotate: false
+  xy: 2, 27
+  size: 66, 79
+  orig: 66, 79
+  offset: 0, 0
+  index: -1

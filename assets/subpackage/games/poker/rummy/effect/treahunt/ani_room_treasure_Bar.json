@@ -1,0 +1,142 @@
+{
+  "skeleton": {
+    "hash": "O5JlajpERK1gYYqNgUmZA5whGRM",
+    "spine": "3.6.53",
+    "width": 0,
+    "height": 0,
+    "images": "./images/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "bone",
+      "parent": "root",
+      "scaleX": 0.3,
+      "scaleY": 0.3
+    }
+  ],
+  "slots": [
+    {
+      "name": "saoguang_00001",
+      "bone": "bone",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "saoguang_00001": {
+        "saoguang_00001": {
+          "width": 294,
+          "height": 72
+        },
+        "saoguang_00002": {
+          "width": 294,
+          "height": 72
+        },
+        "saoguang_00003": {
+          "width": 294,
+          "height": 72
+        },
+        "saoguang_00004": {
+          "width": 294,
+          "height": 72
+        },
+        "saoguang_00005": {
+          "width": 294,
+          "height": 72
+        },
+        "saoguang_00006": {
+          "width": 294,
+          "height": 72
+        },
+        "saoguang_00007": {
+          "width": 294,
+          "height": 72
+        },
+        "saoguang_00008": {
+          "width": 294,
+          "height": 72
+        },
+        "saoguang_00009": {
+          "width": 294,
+          "height": 72
+        },
+        "saoguang_00010": {
+          "width": 294,
+          "height": 72
+        },
+        "saoguang_00011": {
+          "width": 294,
+          "height": 72
+        }
+      }
+    }
+  },
+  "animations": {
+    "Play": {
+      "slots": {
+        "saoguang_00001": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "saoguang_00001"
+            },
+            {
+              "time": 0.0667,
+              "name": "saoguang_00002"
+            },
+            {
+              "time": 0.1333,
+              "name": "saoguang_00003"
+            },
+            {
+              "time": 0.2,
+              "name": "saoguang_00004"
+            },
+            {
+              "time": 0.2667,
+              "name": "saoguang_00005"
+            },
+            {
+              "time": 0.3333,
+              "name": "saoguang_00006"
+            },
+            {
+              "time": 0.4,
+              "name": "saoguang_00007"
+            },
+            {
+              "time": 0.4667,
+              "name": "saoguang_00008"
+            },
+            {
+              "time": 0.5333,
+              "name": "saoguang_00009"
+            },
+            {
+              "time": 0.6,
+              "name": "saoguang_00010"
+            },
+            {
+              "time": 0.6667,
+              "name": "saoguang_00011"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "bone": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.867,
+              "y": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "skeleton": {
+    "hash": "5gDs+6mecu6i7pELXp6J6S5DA6E",
+    "spine": "3.6.53",
+    "width": 0,
+    "height": 0,
+    "images": "./image/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "moveA",
+      "parent": "root",
+      "x": 22.9
+    },
+    {
+      "name": "glowA",
+      "parent": "moveA",
+      "x": 70,
+      "y": 1
+    },
+    {
+      "name": "glowA2",
+      "parent": "moveA",
+      "x": 70,
+      "y": 1
+    },
+    {
+      "name": "glowB",
+      "parent": "root",
+      "y": 1
+    },
+    {
+      "name": "glowB2",
+      "parent": "root",
+      "y": 1
+    },
+    {
+      "name": "moveC",
+      "parent": "root",
+      "x": -22.81
+    },
+    {
+      "name": "glowC",
+      "parent": "moveC",
+      "x": -70,
+      "y": 1
+    },
+    {
+      "name": "glowC2",
+      "parent": "moveC",
+      "x": -70,
+      "y": 1
+    }
+  ],
+  "slots": [
+    {
+      "name": "cutC",
+      "bone": "moveC",
+      "attachment": "cutA"
+    },
+    {
+      "name": "ani_room_rummy_combination_glowC",
+      "bone": "glowC",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_rummy_combination_glowC2",
+      "bone": "glowC2",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_rummy_combination_glowB",
+      "bone": "glowB",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_rummy_combination_glowB2",
+      "bone": "glowB2",
+      "blend": "additive"
+    },
+    {
+      "name": "cutA",
+      "bone": "moveA",
+      "attachment": "cutA"
+    },
+    {
+      "name": "ani_room_rummy_combination_glowA",
+      "bone": "glowA",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_rummy_combination_glowA2",
+      "bone": "glowA2",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_room_rummy_combination_glowA": {
+        "ani_room_rummy_combination_glow1": {
+          "x": -80,
+          "width": 50,
+          "height": 206
+        }
+      },
+      "ani_room_rummy_combination_glowA2": {
+        "ani_room_rummy_combination_glow1": {
+          "x": -80,
+          "width": 50,
+          "height": 206
+        }
+      },
+      "ani_room_rummy_combination_glowB": {
+        "ani_room_rummy_combination_glow2": {
+          "width": 100,
+          "height": 206
+        }
+      },
+      "ani_room_rummy_combination_glowB2": {
+        "ani_room_rummy_combination_glow2": {
+          "width": 100,
+          "height": 206
+        }
+      },
+      "ani_room_rummy_combination_glowC": {
+        "ani_room_rummy_combination_glow1": {
+          "x": 80,
+          "scaleX": -1,
+          "width": 50,
+          "height": 206
+        }
+      },
+      "ani_room_rummy_combination_glowC2": {
+        "ani_room_rummy_combination_glow1": {
+          "x": 80,
+          "scaleX": -1,
+          "width": 50,
+          "height": 206
+        }
+      },
+      "cutA": {
+        "cutA": {
+          "type": "clipping",
+          "end": "ani_room_rummy_combination_glowA2",
+          "vertexCount": 4,
+          "color": "fff20000",
+          "vertices": [
+            0.03,
+            128.82,
+            0.03,
+            -128.69,
+            -103.23,
+            -128.69,
+            -102,
+            128.2
+          ]
+        }
+      },
+      "cutC": {
+        "cutA": {
+          "type": "clipping",
+          "end": "ani_room_rummy_combination_glowC2",
+          "vertexCount": 4,
+          "color": "ffffff00",
+          "vertices": [
+            102.08,
+            128.82,
+            102.08,
+            -128.69,
+            0.01,
+            -128,
+            0.02,
+            128.02
+          ]
+        }
+      }
+    }
+  },
+  "animations": {
+    "A": {
+      "slots": {
+        "ani_room_rummy_combination_glowA": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffff",
+              "curve": [
+                0.427,
+                0.8,
+                0.581,
+                0.85
+              ]
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_rummy_combination_glow1"
+            }
+          ]
+        },
+        "ani_room_rummy_combination_glowA2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": [
+                0.427,
+                0.8,
+                0.581,
+                0.85
+              ]
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_rummy_combination_glow1"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "glowA2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.385,
+                0.73,
+                0.505,
+                0.94
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 1.17,
+              "y": 1.2
+            }
+          ]
+        }
+      }
+    },
+    "B": {
+      "slots": {
+        "ani_room_rummy_combination_glowB": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffff",
+              "curve": [
+                0.427,
+                0.8,
+                0.581,
+                0.85
+              ]
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_rummy_combination_glow2"
+            }
+          ]
+        },
+        "ani_room_rummy_combination_glowB2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": [
+                0.427,
+                0.8,
+                0.581,
+                0.85
+              ]
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_rummy_combination_glow2"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "glowB2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.385,
+                0.73,
+                0.505,
+                0.94
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 1,
+              "y": 1.2
+            }
+          ]
+        }
+      }
+    },
+    "C": {
+      "slots": {
+        "ani_room_rummy_combination_glowC": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffff",
+              "curve": [
+                0.427,
+                0.8,
+                0.581,
+                0.85
+              ]
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_rummy_combination_glow1"
+            }
+          ]
+        },
+        "ani_room_rummy_combination_glowC2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": [
+                0.427,
+                0.8,
+                0.581,
+                0.85
+              ]
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_rummy_combination_glow1"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "glowC2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.385,
+                0.73,
+                0.505,
+                0.94
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 1.17,
+              "y": 1.2
+            }
+          ]
+        }
+      }
+    }
+  }
+}

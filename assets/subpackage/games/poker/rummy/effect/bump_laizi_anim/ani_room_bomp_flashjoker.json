@@ -1,0 +1,136 @@
+{
+  "skeleton": {
+    "hash": "SdgmXOSIDLxnYmAKhPGr1nA9/uk",
+    "spine": "3.6.53",
+    "width": 269,
+    "height": 258,
+    "images": "./pic/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "flash",
+      "parent": "root",
+      "x": -205.45
+    }
+  ],
+  "slots": [
+    {
+      "name": "card_size",
+      "bone": "root",
+      "attachment": "card_size"
+    },
+    {
+      "name": "bomp_flashjoker_flash",
+      "bone": "flash",
+      "attachment": "bomp_flashjoker_flash",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "bomp_flashjoker_flash": {
+        "bomp_flashjoker_flash": {
+          "width": 269,
+          "height": 258
+        }
+      },
+      "card_size": {
+        "card_size": {
+          "type": "clipping",
+          "end": "bomp_flashjoker_flash",
+          "vertexCount": 22,
+          "color": "20f55000",
+          "vertices": [
+            70.6,
+            115.74,
+            -73.79,
+            115.24,
+            -75.77,
+            114.86,
+            -78.82,
+            113.11,
+            -81.07,
+            110.75,
+            -82.29,
+            107.47,
+            -82.25,
+            104.75,
+            -82.23,
+            -102.53,
+            -81.41,
+            -106.79,
+            -78.95,
+            -109.25,
+            -75.67,
+            -111.71,
+            -72.22,
+            -112.37,
+            71.56,
+            -112.21,
+            75.23,
+            -111.75,
+            78.29,
+            -110.07,
+            80.74,
+            -107.77,
+            82.27,
+            -104.87,
+            82.11,
+            105.97,
+            81.5,
+            109.66,
+            80.11,
+            112.28,
+            77.19,
+            114.59,
+            73.8,
+            115.52
+          ]
+        }
+      }
+    }
+  },
+  "animations": {
+    "animation": {
+      "slots": {
+        "bomp_flashjoker_flash": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "flash": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 5.45,
+              "y": 0,
+              "curve": [
+                0.21,
+                0.49,
+                0.438,
+                0.88
+              ]
+            },
+            {
+              "time": 1,
+              "x": 429.39,
+              "y": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

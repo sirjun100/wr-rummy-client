@@ -1,0 +1,62 @@
+
+ani_room_treasure.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_room_treasure_cash
+  rotate: false
+  xy: 205, 63
+  size: 83, 62
+  orig: 83, 62
+  offset: 0, 0
+  index: -1
+ani_room_treasure_cashglow
+  rotate: false
+  xy: 106, 49
+  size: 97, 76
+  orig: 97, 76
+  offset: 0, 0
+  index: -1
+ani_room_treasure_chip_down
+  rotate: false
+  xy: 418, 92
+  size: 52, 33
+  orig: 52, 33
+  offset: 0, 0
+  index: -1
+ani_room_treasure_chip_flash
+  rotate: false
+  xy: 2, 22
+  size: 102, 103
+  orig: 102, 103
+  offset: 0, 0
+  index: -1
+ani_room_treasure_chip_glow
+  rotate: false
+  xy: 290, 58
+  size: 72, 67
+  orig: 72, 67
+  offset: 0, 0
+  index: -1
+ani_room_treasure_chip_golden
+  rotate: false
+  xy: 2, 2
+  size: 50, 18
+  orig: 50, 18
+  offset: 0, 0
+  index: -1
+ani_room_treasure_chip_on
+  rotate: false
+  xy: 364, 91
+  size: 52, 34
+  orig: 52, 34
+  offset: 0, 0
+  index: -1
+ani_room_treasure_chip_star
+  rotate: false
+  xy: 364, 50
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1

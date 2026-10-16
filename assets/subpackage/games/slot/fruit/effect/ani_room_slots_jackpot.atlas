@@ -1,0 +1,125 @@
+
+ani_room_slots_jackpot.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_room_slots_jackpot_board
+  rotate: false
+  xy: 454, 864
+  size: 536, 136
+  orig: 536, 136
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_chips1
+  rotate: false
+  xy: 355, 85
+  size: 92, 104
+  orig: 92, 104
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_chips2
+  rotate: false
+  xy: 905, 758
+  size: 92, 104
+  orig: 92, 104
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_chips3
+  rotate: true
+  xy: 687, 609
+  size: 92, 104
+  orig: 92, 104
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_chips4
+  rotate: true
+  xy: 793, 609
+  size: 92, 104
+  orig: 92, 104
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_chips5
+  rotate: false
+  xy: 442, 512
+  size: 92, 104
+  orig: 92, 104
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_chips6
+  rotate: false
+  xy: 442, 406
+  size: 92, 104
+  orig: 92, 104
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_chips7
+  rotate: false
+  xy: 536, 512
+  size: 92, 104
+  orig: 92, 104
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_circleglow
+  rotate: false
+  xy: 2, 15
+  size: 174, 174
+  orig: 174, 174
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_crown
+  rotate: false
+  xy: 178, 44
+  size: 175, 145
+  orig: 175, 145
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_flash
+  rotate: true
+  xy: 178, 2
+  size: 40, 135
+  orig: 40, 135
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_glow
+  rotate: false
+  xy: 2, 640
+  size: 450, 360
+  orig: 450, 360
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_jackpot
+  rotate: false
+  xy: 454, 703
+  size: 449, 159
+  orig: 449, 159
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_lineglow
+  rotate: false
+  xy: 2, 191
+  size: 491, 85
+  orig: 491, 85
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_star
+  rotate: false
+  xy: 442, 315
+  size: 85, 89
+  orig: 85, 89
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_sunlight
+  rotate: false
+  xy: 2, 278
+  size: 438, 360
+  orig: 438, 360
+  offset: 0, 0
+  index: -1
+ani_room_slots_jackpot_wordspot
+  rotate: false
+  xy: 454, 618
+  size: 231, 83
+  orig: 231, 83
+  offset: 0, 0
+  index: -1

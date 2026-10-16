@@ -1,0 +1,195 @@
+{
+  "skeleton": {
+    "hash": "OowrjSjaD+i6QWtgXN8HlwbuVpY",
+    "spine": "3.6.53",
+    "width": 280,
+    "height": 530,
+    "images": "./素材/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "GY",
+      "parent": "root",
+      "y": 230.23
+    },
+    {
+      "name": "GY2",
+      "parent": "root",
+      "y": -264.36
+    },
+    {
+      "name": "TX_1",
+      "parent": "root",
+      "y": -10.32,
+      "scaleX": 2,
+      "scaleY": 2
+    }
+  ],
+  "slots": [
+    {
+      "name": "ani_sgj_jackpot_tx_00",
+      "bone": "TX_1",
+      "attachment": "ani_sgj_jackpot_tx_00",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_sgj_jackpot_tx_gy",
+      "bone": "GY",
+      "attachment": "ani_sgj_jackpot_tx_gy",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_sgj_jackpot_tx_gy2",
+      "bone": "GY2",
+      "attachment": "ani_sgj_jackpot_tx_gy",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_sgj_jackpot_tx_00": {
+        "ani_sgj_jackpot_tx_00": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_02": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_04": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_06": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_08": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_10": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_12": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_14": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_16": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_18": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_20": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_22": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_24": {
+          "width": 140,
+          "height": 265
+        },
+        "ani_sgj_jackpot_tx_26": {
+          "width": 140,
+          "height": 265
+        }
+      },
+      "ani_sgj_jackpot_tx_gy": {
+        "ani_sgj_jackpot_tx_gy": {
+          "width": 206,
+          "height": 14
+        }
+      },
+      "ani_sgj_jackpot_tx_gy2": {
+        "ani_sgj_jackpot_tx_gy": {
+          "width": 206,
+          "height": 14
+        }
+      }
+    }
+  },
+  "animations": {
+    "jackpot_bk": {
+      "slots": {
+        "ani_sgj_jackpot_tx_00": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_sgj_jackpot_tx_00"
+            },
+            {
+              "time": 0.0382,
+              "name": "ani_sgj_jackpot_tx_02"
+            },
+            {
+              "time": 0.0763,
+              "name": "ani_sgj_jackpot_tx_04"
+            },
+            {
+              "time": 0.1145,
+              "name": "ani_sgj_jackpot_tx_06"
+            },
+            {
+              "time": 0.1526,
+              "name": "ani_sgj_jackpot_tx_08"
+            },
+            {
+              "time": 0.1908,
+              "name": "ani_sgj_jackpot_tx_10"
+            },
+            {
+              "time": 0.229,
+              "name": "ani_sgj_jackpot_tx_12"
+            },
+            {
+              "time": 0.2671,
+              "name": "ani_sgj_jackpot_tx_14"
+            },
+            {
+              "time": 0.3053,
+              "name": "ani_sgj_jackpot_tx_16"
+            },
+            {
+              "time": 0.3434,
+              "name": "ani_sgj_jackpot_tx_18"
+            },
+            {
+              "time": 0.3816,
+              "name": "ani_sgj_jackpot_tx_20"
+            },
+            {
+              "time": 0.4198,
+              "name": "ani_sgj_jackpot_tx_22"
+            },
+            {
+              "time": 0.4579,
+              "name": "ani_sgj_jackpot_tx_24"
+            },
+            {
+              "time": 0.4961,
+              "name": "ani_sgj_jackpot_tx_26"
+            },
+            {
+              "time": 0.5292,
+              "name": "ani_sgj_jackpot_tx_26"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

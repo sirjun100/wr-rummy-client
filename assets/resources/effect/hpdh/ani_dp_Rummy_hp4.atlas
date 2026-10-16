@@ -1,0 +1,48 @@
+
+ani_dp_Rummy_hp4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hp3_dian
+  rotate: false
+  xy: 402, 483
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+ani_dp_hp3_glow1
+  rotate: false
+  xy: 2, 511
+  size: 446, 446
+  orig: 446, 446
+  offset: 0, 0
+  index: -1
+ani_dp_hp3_glow2
+  rotate: true
+  xy: 2, 51
+  size: 458, 398
+  orig: 458, 398
+  offset: 0, 0
+  index: -1
+ani_dp_hp3_glow3
+  rotate: false
+  xy: 2, 2
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+ani_dp_hp3_glow4
+  rotate: false
+  xy: 450, 707
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+ani_dp_hp3_pg
+  rotate: false
+  xy: 450, 526
+  size: 142, 179
+  orig: 142, 179
+  offset: 0, 0
+  index: -1

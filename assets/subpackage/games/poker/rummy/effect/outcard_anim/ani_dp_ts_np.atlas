@@ -1,0 +1,34 @@
+
+ani_dp_ts_np.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_ts_np_jt1
+  rotate: false
+  xy: 304, 48
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+ani_dp_ts_np_jt2
+  rotate: false
+  xy: 304, 83
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+ani_dp_ts_np_kuang1
+  rotate: true
+  xy: 2, 2
+  size: 114, 149
+  orig: 114, 149
+  offset: 0, 0
+  index: -1
+ani_dp_ts_np_kuang2
+  rotate: true
+  xy: 153, 2
+  size: 114, 149
+  orig: 114, 149
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+ani_hd_welcomebonus.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_hd_welcomebonus_balloon
+  rotate: true
+  xy: 619, 41
+  size: 63, 140
+  orig: 63, 140
+  offset: 0, 0
+  index: -1
+ani_hd_welcomebonus_cdA
+  rotate: false
+  xy: 844, 78
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+ani_hd_welcomebonus_cdB
+  rotate: false
+  xy: 844, 62
+  size: 22, 14
+  orig: 22, 14
+  offset: 0, 0
+  index: -1
+ani_hd_welcomebonus_cdC
+  rotate: true
+  xy: 619, 12
+  size: 27, 104
+  orig: 27, 104
+  offset: 0, 0
+  index: -1
+ani_hd_welcomebonus_cdD
+  rotate: false
+  xy: 725, 19
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+ani_hd_welcomebonus_title1
+  rotate: false
+  xy: 2, 2
+  size: 615, 252
+  orig: 615, 253
+  offset: 0, 1
+  index: -1
+ani_hd_welcomebonus_title2
+  rotate: false
+  xy: 619, 106
+  size: 401, 148
+  orig: 401, 148
+  offset: 0, 0
+  index: -1
+ani_welcomebonus_star
+  rotate: true
+  xy: 761, 24
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1

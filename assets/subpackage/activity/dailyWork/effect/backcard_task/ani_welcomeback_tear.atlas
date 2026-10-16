@@ -1,0 +1,41 @@
+
+ani_welcomeback_tear.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_welcomeback_big_en_1
+  rotate: false
+  xy: 606, 194
+  size: 240, 190
+  orig: 240, 190
+  offset: 0, 0
+  index: -1
+ani_welcomeback_big_en_2
+  rotate: false
+  xy: 606, 2
+  size: 240, 190
+  orig: 240, 190
+  offset: 0, 0
+  index: -1
+ani_welcomeback_big_en_3
+  rotate: false
+  xy: 364, 12
+  size: 240, 190
+  orig: 240, 190
+  offset: 0, 0
+  index: -1
+ani_welcomeback_crazy_en
+  rotate: false
+  xy: 2, 204
+  size: 600, 180
+  orig: 600, 180
+  offset: 0, 0
+  index: -1
+ani_welcomeback_double_en
+  rotate: false
+  xy: 2, 12
+  size: 360, 190
+  orig: 360, 190
+  offset: 0, 0
+  index: -1

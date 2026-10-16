@@ -1,0 +1,138 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "1a0b0c9b-0d97-4a35-8fb5-8d0f583fd6d5",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "1a0b0c9b-0d97-4a35-8fb5-8d0f583fd6d5@6c48a",
+      "displayName": "fruit_machine_fruit12",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "1a0b0c9b-0d97-4a35-8fb5-8d0f583fd6d5",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "1a0b0c9b-0d97-4a35-8fb5-8d0f583fd6d5@f9941",
+      "displayName": "fruit_machine_fruit12",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0.5,
+        "trimX": 1,
+        "trimY": 27,
+        "width": 178,
+        "height": 125,
+        "rawWidth": 180,
+        "rawHeight": 180,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -89,
+            -62.5,
+            0,
+            89,
+            -62.5,
+            0,
+            -89,
+            62.5,
+            0,
+            89,
+            62.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            1,
+            153,
+            179,
+            153,
+            1,
+            28,
+            179,
+            28
+          ],
+          "nuv": [
+            0.005555555555555556,
+            0.15555555555555556,
+            0.9944444444444445,
+            0.15555555555555556,
+            0.005555555555555556,
+            0.85,
+            0.9944444444444445,
+            0.85
+          ],
+          "minPos": [
+            -89,
+            -62.5,
+            0
+          ],
+          "maxPos": [
+            89,
+            62.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1a0b0c9b-0d97-4a35-8fb5-8d0f583fd6d5@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": true,
+    "hasAlpha": true,
+    "redirect": "1a0b0c9b-0d97-4a35-8fb5-8d0f583fd6d5@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "rummy-slim"
+    }
+  }
+}

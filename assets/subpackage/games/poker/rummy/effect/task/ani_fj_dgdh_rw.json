@@ -1,0 +1,490 @@
+{
+  "skeleton": {
+    "hash": "N0cx/F2vKeK4EbIGO2nByU66Bxg",
+    "spine": "3.6.53",
+    "width": 70,
+    "height": 70,
+    "images": "./png/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "GOU",
+      "parent": "root"
+    },
+    {
+      "name": "WQ",
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "wq_cj",
+      "bone": "WQ",
+      "attachment": "wq_cj"
+    },
+    {
+      "name": "ani_fj_dgdh_wq",
+      "bone": "WQ",
+      "attachment": "ani_fj_dgdh_wq"
+    },
+    {
+      "name": "ani_fj_dgdh_wq2",
+      "bone": "WQ",
+      "attachment": "ani_fj_dgdh_wq",
+      "blend": "additive"
+    },
+    {
+      "name": "gou_cj",
+      "bone": "GOU",
+      "attachment": "gou_cj"
+    },
+    {
+      "name": "ani_fj_dgdh_gou",
+      "bone": "GOU",
+      "attachment": "ani_fj_dgdh_gou"
+    },
+    {
+      "name": "ani_fj_dgdh_gou2",
+      "bone": "GOU",
+      "attachment": "ani_fj_dgdh_gou",
+      "blend": "additive"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_fj_dgdh_gou": {
+        "ani_fj_dgdh_gou": {
+          "width": 70,
+          "height": 70
+        }
+      },
+      "ani_fj_dgdh_gou2": {
+        "ani_fj_dgdh_gou": {
+          "width": 70,
+          "height": 70
+        }
+      },
+      "ani_fj_dgdh_wq": {
+        "ani_fj_dgdh_wq": {
+          "width": 70,
+          "height": 70
+        }
+      },
+      "ani_fj_dgdh_wq2": {
+        "ani_fj_dgdh_wq": {
+          "width": 70,
+          "height": 70
+        }
+      },
+      "gou_cj": {
+        "gou_cj": {
+          "type": "clipping",
+          "end": "ani_fj_dgdh_gou2",
+          "vertexCount": 6,
+          "color": "ce3a3aff",
+          "vertices": [
+            -2.48,
+            2.18,
+            -13.45,
+            13.36,
+            -25.25,
+            -0.92,
+            -2.89,
+            -20.18,
+            27.13,
+            9.22,
+            14.08,
+            20.81
+          ]
+        }
+      },
+      "wq_cj": {
+        "wq_cj": {
+          "type": "clipping",
+          "end": "ani_fj_dgdh_wq2",
+          "vertexCount": 10,
+          "color": "ce3a3aff",
+          "vertices": [
+            0.02,
+            2.28,
+            0.02,
+            45.88,
+            36.68,
+            33.58,
+            48.52,
+            2.64,
+            34.82,
+            -29.81,
+            0.6,
+            -43.96,
+            -35.77,
+            -29.15,
+            -49.19,
+            1.52,
+            -36.32,
+            33.8,
+            -0.03,
+            45.88
+          ]
+        }
+      }
+    }
+  },
+  "animations": {
+    "fj_dgdh": {
+      "slots": {
+        "ani_fj_dgdh_gou": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3528,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.4157,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_fj_dgdh_gou2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3528,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.4157,
+              "color": "4dff3680"
+            },
+            {
+              "time": 0.488,
+              "color": "4cff3556"
+            },
+            {
+              "time": 0.6017,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_fj_dgdh_wq": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0146,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0427,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_fj_dgdh_wq2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0146,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0589,
+              "color": "4fff39ff"
+            },
+            {
+              "time": 0.3087,
+              "color": "4fff3880"
+            },
+            {
+              "time": 0.5367,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "GOU": {
+          "translate": [
+            {
+              "time": 0.3528,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.4467,
+              "x": 0,
+              "y": 1
+            },
+            {
+              "time": 0.6017,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.3528,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.4157,
+              "x": 1.25,
+              "y": 1.25
+            },
+            {
+              "time": 0.4903,
+              "x": 1.35,
+              "y": 1.35
+            },
+            {
+              "time": 0.6017,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "gou_cj": {
+            "gou_cj": [
+              {
+                "time": 0,
+                "curve": "stepped",
+                "vertices": [
+                  -8.30999,
+                  9.14098,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -21.60596,
+                  15.51197,
+                  -49.30591,
+                  -10.52597,
+                  -28.53096,
+                  -11.91097
+                ]
+              },
+              {
+                "time": 0.3528,
+                "vertices": [
+                  -8.30999,
+                  9.14098,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -21.60596,
+                  15.51197,
+                  -49.30591,
+                  -10.52597,
+                  -28.53096,
+                  -11.91097
+                ]
+              },
+              {
+                "time": 0.4057,
+                "offset": 6,
+                "vertices": [
+                  -4.432,
+                  4.15498,
+                  -36.00991,
+                  -20.22097,
+                  -16.34297,
+                  -21.05195
+                ]
+              },
+              {
+                "time": 0.437,
+                "offset": 6,
+                "vertices": [
+                  -4.432,
+                  4.15498,
+                  -30.74692,
+                  -26.03796,
+                  -16.61996,
+                  -21.05195
+                ]
+              },
+              {
+                "time": 0.4703,
+                "offset": 6,
+                "vertices": [
+                  -4.432,
+                  4.15498,
+                  -18.00495,
+                  -18.28198,
+                  -15.78895,
+                  -20.49795
+                ]
+              },
+              {
+                "time": 0.6017,
+                "offset": 6,
+                "vertices": [
+                  -1.93901,
+                  2.76999,
+                  -3.60097,
+                  -4.432,
+                  -2.49298,
+                  -2.76997
+                ]
+              }
+            ]
+          },
+          "wq_cj": {
+            "wq_cj": [
+              {
+                "time": 0
+              },
+              {
+                "time": 0.0146,
+                "offset": 12,
+                "vertices": [
+                  67.09134,
+                  0.53892,
+                  92.30076,
+                  -0.1333,
+                  68.56627,
+                  -3.61703,
+                  0.16578,
+                  -4.90905
+                ]
+              },
+              {
+                "time": 0.0453,
+                "offset": 12,
+                "vertices": [
+                  31.52754,
+                  -11.24879,
+                  78.53503,
+                  -28.36704,
+                  77.54176,
+                  -32.51438,
+                  29.07224,
+                  -16.92645
+                ]
+              },
+              {
+                "time": 0.079,
+                "offset": 12,
+                "vertices": [
+                  37.04871,
+                  -11.81638,
+                  60.68146,
+                  -36.79072,
+                  67.95703,
+                  -59.52047,
+                  43.57898,
+                  -43.55256
+                ]
+              },
+              {
+                "time": 0.1167,
+                "offset": 12,
+                "vertices": [
+                  33.53992,
+                  -13.67397,
+                  50.56788,
+                  -42.8279,
+                  69.78883,
+                  -62.14562,
+                  31.57627,
+                  -72.50066
+                ]
+              },
+              {
+                "time": 0.157,
+                "offset": 12,
+                "vertices": [
+                  4.644,
+                  -11.09397,
+                  23.99393,
+                  -37.92591,
+                  26.05794,
+                  -70.43383,
+                  0.57335,
+                  -86.2796
+                ]
+              },
+              {
+                "time": 0.198,
+                "offset": 14,
+                "vertices": [
+                  8.25598,
+                  -28.37994,
+                  1.28999,
+                  -58.30787,
+                  -33.62232,
+                  -72.8718
+                ]
+              },
+              {
+                "time": 0.2432,
+                "offset": 18,
+                "vertices": [
+                  -38.85169,
+                  -44.14825
+                ]
+              },
+              {
+                "time": 0.2923,
+                "offset": 18,
+                "vertices": [
+                  -32.76593,
+                  -14.44797
+                ]
+              },
+              {
+                "time": 0.3524,
+                "offset": 18,
+                "vertices": [
+                  0.4
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+
+ani_match_integral.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_match_integral_Patch1
+  rotate: false
+  xy: 2, 2
+  size: 31, 48
+  orig: 31, 48
+  offset: 0, 0
+  index: -1
+ani_match_integral_Patch2
+  rotate: false
+  xy: 772, 125
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+ani_match_integral_Patch3
+  rotate: false
+  xy: 1687, 699
+  size: 19, 26
+  orig: 19, 26
+  offset: 0, 0
+  index: -1
+ani_match_integral_dd_01
+  rotate: false
+  xy: 525, 88
+  size: 36, 25
+  orig: 36, 25
+  offset: 0, 0
+  index: -1
+ani_match_integral_dd_02
+  rotate: false
+  xy: 2003, 995
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+ani_match_integral_dd_03
+  rotate: false
+  xy: 974, 332
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+ani_match_integral_dd_04
+  rotate: false
+  xy: 1056, 377
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+ani_match_integral_gy_2
+  rotate: true
+  xy: 1307, 414
+  size: 239, 241
+  orig: 239, 241
+  offset: 0, 0
+  index: -1
+ani_match_integral_gy_3
+  rotate: false
+  xy: 772, 157
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ani_match_integral_gy_4
+  rotate: true
+  xy: 1783, 830
+  size: 191, 218
+  orig: 191, 218
+  offset: 0, 0
+  index: -1
+ani_match_integral_gy_5
+  rotate: false
+  xy: 1307, 655
+  size: 378, 212
+  orig: 378, 212
+  offset: 0, 0
+  index: -1
+ani_match_integral_pd_1_4
+  rotate: true
+  xy: 784, 359
+  size: 105, 270
+  orig: 105, 270
+  offset: 0, 0
+  index: -1
+ani_match_integral_pd_2_4
+  rotate: true
+  xy: 525, 115
+  size: 270, 245
+  orig: 270, 245
+  offset: 0, 0
+  index: -1
+ani_match_integral_pd_hou
+  rotate: true
+  xy: 1687, 727
+  size: 140, 92
+  orig: 140, 92
+  offset: 0, 0
+  index: -1
+ani_match_integral_scene1
+  rotate: false
+  xy: 2, 705
+  size: 780, 316
+  orig: 780, 316
+  offset: 0, 0
+  index: -1
+ani_match_integral_scene2
+  rotate: false
+  xy: 2, 387
+  size: 780, 316
+  orig: 780, 316
+  offset: 0, 0
+  index: -1
+ani_match_integral_star
+  rotate: false
+  xy: 1056, 401
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+ani_match_integral_subject
+  rotate: false
+  xy: 784, 466
+  size: 521, 555
+  orig: 521, 555
+  offset: 0, 0
+  index: -1
+ani_match_integral_subject2
+  rotate: false
+  xy: 1550, 434
+  size: 129, 219
+  orig: 129, 219
+  offset: 0, 0
+  index: -1
+ani_match_integral_subject_gy
+  rotate: false
+  xy: 2, 52
+  size: 521, 333
+  orig: 521, 333
+  offset: 0, 0
+  index: -1
+ani_match_integral_title_glow
+  rotate: false
+  xy: 1307, 869
+  size: 474, 152
+  orig: 474, 152
+  offset: 0, 0
+  index: -1

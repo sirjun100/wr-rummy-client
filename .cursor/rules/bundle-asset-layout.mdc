@@ -1,0 +1,23 @@
+---
+description: wr-rummy-client Asset Bundle 目录白名单
+globs: assets/**/*
+alwaysApply: false
+---
+
+# Bundle 资源目录
+
+每个 bundle 下**仅允许**以下子目录（见仓库 `AI.txt`）：
+
+- `audio` — 音频（游戏 bundle 需要；其他 bundle 可选）
+- `config` — 配置（多为语言表）
+- `prefab` — 预制体
+- `script` — 脚本
+- `effect` — Spine 等动画
+- `texture` — 图片
+
+**禁止**在 bundle 下新增其它目录名（如随意的 `res`、`ui`）。
+
+- **场景**：放在对应 bundle 的**根目录**，不要放进上述子目录之一。
+- 脚本与 prefab 命名保持一致，便于 `UIKit.OpenPanel(PanelClass, ..., bundleName, prefabName)` 维护。
+
+详细约定：`.cursor/skills/qframework-client/SKILL.md`

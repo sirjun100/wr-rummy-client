@@ -1,0 +1,289 @@
+{
+  "skeleton": {
+    "hash": "g+jzk55dHeiXOYRJQVoO8x/S2A4",
+    "spine": "3.6.53",
+    "width": 64,
+    "height": 1391,
+    "images": "./pic/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "roll",
+      "parent": "root"
+    },
+    {
+      "name": "shuzi",
+      "parent": "root",
+      "y": -2.04
+    }
+  ],
+  "slots": [
+    {
+      "name": "cut",
+      "bone": "root",
+      "attachment": "cut"
+    },
+    {
+      "name": "shuzi",
+      "bone": "shuzi",
+      "attachment": "shuzi"
+    },
+    {
+      "name": "rolling",
+      "bone": "roll",
+      "attachment": "ani_room_tourney_samll_sum_rolling1"
+    }
+  ],
+  "skins": {
+    "0": {
+      "shuzi": {
+        "shuzi": {
+          "name": "ani_room_tourney_samll_sum_rolling_0",
+          "width": 62,
+          "height": 105
+        }
+      }
+    },
+    "1": {
+      "shuzi": {
+        "shuzi": {
+          "name": "ani_room_tourney_samll_sum_rolling_1",
+          "width": 46,
+          "height": 105
+        }
+      }
+    },
+    "2": {
+      "shuzi": {
+        "shuzi": {
+          "name": "ani_room_tourney_samll_sum_rolling_2",
+          "width": 60,
+          "height": 105
+        }
+      }
+    },
+    "3": {
+      "shuzi": {
+        "shuzi": {
+          "name": "ani_room_tourney_samll_sum_rolling_3",
+          "width": 62,
+          "height": 105
+        }
+      }
+    },
+    "4": {
+      "shuzi": {
+        "shuzi": {
+          "name": "ani_room_tourney_samll_sum_rolling_4",
+          "width": 65,
+          "height": 105
+        }
+      }
+    },
+    "5": {
+      "shuzi": {
+        "shuzi": {
+          "name": "ani_room_tourney_samll_sum_rolling_5",
+          "width": 63,
+          "height": 105
+        }
+      }
+    },
+    "6": {
+      "shuzi": {
+        "shuzi": {
+          "name": "ani_room_tourney_samll_sum_rolling_6",
+          "width": 63,
+          "height": 105
+        }
+      }
+    },
+    "7": {
+      "shuzi": {
+        "shuzi": {
+          "name": "ani_room_tourney_samll_sum_rolling_7",
+          "width": 59,
+          "height": 105
+        }
+      }
+    },
+    "8": {
+      "shuzi": {
+        "shuzi": {
+          "name": "ani_room_tourney_samll_sum_rolling_8",
+          "width": 62,
+          "height": 105
+        }
+      }
+    },
+    "9": {
+      "shuzi": {
+        "shuzi": {
+          "name": "ani_room_tourney_samll_sum_rolling_9",
+          "width": 63,
+          "height": 105
+        }
+      }
+    },
+    "default": {
+      "cut": {
+        "cut": {
+          "type": "clipping",
+          "end": "cut",
+          "vertexCount": 4,
+          "color": "818181ff",
+          "vertices": [
+            -33.35,
+            71.64,
+            -33.55,
+            -81.44,
+            32.91,
+            -81.44,
+            33.42,
+            71.43
+          ]
+        }
+      },
+      "rolling": {
+        "ani_room_tourney_samll_sum_rolling1": {
+          "width": 64,
+          "height": 1391
+        }
+      }
+    }
+  },
+  "animations": {
+    "roll0": {
+      "slots": {
+        "rolling": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "shuzi": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      }
+    },
+    "roll1": {
+      "slots": {
+        "rolling": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "shuzi": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1,
+              "x": 0,
+              "y": 10.35,
+              "curve": [
+                0.25,
+                0,
+                0.904,
+                0.77
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": -136.62
+            }
+          ]
+        }
+      }
+    },
+    "roll2": {
+      "slots": {
+        "shuzi": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "roll": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 628.4
+            },
+            {
+              "time": 1.1667,
+              "x": 0,
+              "y": -642.3
+            }
+          ]
+        }
+      }
+    },
+    "roll3": {
+      "slots": {
+        "rolling": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {
+        "shuzi": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 113.85
+            },
+            {
+              "time": 0.1,
+              "x": 0,
+              "y": -20.7,
+              "curve": [
+                0,
+                0.16,
+                0.467,
+                0.98
+              ]
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

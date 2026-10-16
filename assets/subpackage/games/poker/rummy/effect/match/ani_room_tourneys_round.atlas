@@ -1,0 +1,132 @@
+
+ani_room_tourneys_round.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_room_tourneys_round_00
+  rotate: false
+  xy: 2, 110
+  size: 92, 86
+  orig: 92, 86
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_01
+  rotate: false
+  xy: 508, 263
+  size: 92, 86
+  orig: 92, 86
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_02
+  rotate: false
+  xy: 2, 22
+  size: 92, 86
+  orig: 92, 86
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_03
+  rotate: false
+  xy: 96, 110
+  size: 92, 86
+  orig: 92, 86
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_04
+  rotate: false
+  xy: 96, 22
+  size: 92, 86
+  orig: 92, 86
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_05
+  rotate: false
+  xy: 190, 110
+  size: 92, 86
+  orig: 92, 86
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_06
+  rotate: false
+  xy: 190, 22
+  size: 92, 86
+  orig: 92, 86
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_07
+  rotate: false
+  xy: 284, 110
+  size: 92, 86
+  orig: 92, 86
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_08
+  rotate: false
+  xy: 284, 22
+  size: 92, 86
+  orig: 92, 86
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_09
+  rotate: false
+  xy: 378, 110
+  size: 92, 86
+  orig: 92, 86
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_black
+  rotate: false
+  xy: 602, 329
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_diban
+  rotate: false
+  xy: 2, 351
+  size: 665, 142
+  orig: 665, 142
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_glow1
+  rotate: false
+  xy: 2, 198
+  size: 504, 151
+  orig: 504, 151
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_round
+  rotate: false
+  xy: 669, 415
+  size: 233, 78
+  orig: 233, 78
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_sp1
+  rotate: false
+  xy: 904, 471
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_sp2
+  rotate: false
+  xy: 508, 239
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_sp3
+  rotate: false
+  xy: 2, 2
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+ani_room_tourneys_round_sp4
+  rotate: false
+  xy: 669, 379
+  size: 31, 34
+  orig: 31, 34
+  offset: 0, 0
+  index: -1

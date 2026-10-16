@@ -1,0 +1,183 @@
+{
+  "skeleton": {
+    "hash": "fmnP4hLlCq60dOqp0p+LOKdaPyE",
+    "spine": "3.6.53",
+    "width": 2215.76,
+    "height": 1089.55,
+    "images": "./pic/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "YQ1",
+      "parent": "root",
+      "x": 708.15,
+      "y": 54.77
+    },
+    {
+      "name": "YQ2",
+      "parent": "root",
+      "x": -1105.11
+    },
+    {
+      "name": "YQ3",
+      "parent": "root",
+      "x": -271.94,
+      "y": 828.82
+    }
+  ],
+  "slots": [
+    {
+      "name": "ani_dp_hj_cj_yueqiu2",
+      "bone": "YQ2",
+      "attachment": "ani_dp_hj_cj_yueqiu2"
+    },
+    {
+      "name": "ani_dp_hj_cj_yueqiu1",
+      "bone": "YQ1",
+      "attachment": "ani_dp_hj_cj_yueqiu1"
+    },
+    {
+      "name": "ani_dp_hj_cj_yueqiu3",
+      "bone": "YQ3",
+      "attachment": "ani_dp_hj_cj_yueqiu3"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_dp_hj_cj_yueqiu1": {
+        "ani_dp_hj_cj_yueqiu1": {
+          "width": 551,
+          "height": 551
+        }
+      },
+      "ani_dp_hj_cj_yueqiu2": {
+        "ani_dp_hj_cj_yueqiu2": {
+          "width": 254,
+          "height": 254
+        }
+      },
+      "ani_dp_hj_cj_yueqiu3": {
+        "ani_dp_hj_cj_yueqiu3": {
+          "width": 129,
+          "height": 80
+        }
+      }
+    }
+  },
+  "animations": {
+    "hj_xq": {
+      "slots": {
+        "ani_dp_hj_cj_yueqiu1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.2667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_dp_hj_cj_yueqiu2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 9.6,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_dp_hj_cj_yueqiu3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 13.9333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 14,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "YQ1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -110.53,
+              "y": 472.47
+            },
+            {
+              "time": 5.3333,
+              "x": -110.55,
+              "y": -590.57
+            }
+          ]
+        },
+        "YQ2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 507.35,
+              "y": 466.1
+            },
+            {
+              "time": 9.6667,
+              "x": 507.31,
+              "y": -611.97
+            }
+          ]
+        },
+        "YQ3": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -65.58
+            },
+            {
+              "time": 14,
+              "x": 0,
+              "y": -1248.63
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+
+ani_room_tourney_samll_sum_glow.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_room_tourney_small_sum_glow
+  rotate: false
+  xy: 2, 140
+  size: 889, 100
+  orig: 889, 100
+  offset: 0, 0
+  index: -1
+ani_room_tourney_small_sum_item_glow1
+  rotate: false
+  xy: 2, 2
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+ani_room_tourney_small_sum_item_glow2
+  rotate: false
+  xy: 2, 64
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+ani_room_tourney_small_sum_item_glow3
+  rotate: false
+  xy: 893, 170
+  size: 61, 70
+  orig: 61, 70
+  offset: 0, 0
+  index: -1
+ani_room_tourney_small_sum_star
+  rotate: false
+  xy: 78, 102
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1

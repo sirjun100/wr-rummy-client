@@ -1,0 +1,587 @@
+
+ani_Avatar_animation_plutocrat.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_Avatar_animation_plutocrat_huishou_suduxian1
+  rotate: false
+  xy: 305, 0
+  size: 16, 52
+  orig: 42, 90
+  offset: 2, 38
+  index: -1
+ani_Avatar_animation_plutocrat_huishou_suduxian2
+  rotate: false
+  xy: 771, 661
+  size: 34, 79
+  orig: 42, 90
+  offset: 0, 1
+  index: -1
+ani_Avatar_animation_plutocrat_huishou_suduxian3
+  rotate: true
+  xy: 229, 1
+  size: 40, 74
+  orig: 42, 90
+  offset: 2, 0
+  index: -1
+ani_Avatar_animation_plutocrat_shou_out_1
+  rotate: false
+  xy: 864, 699
+  size: 37, 47
+  orig: 37, 47
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_shou_out_1_2
+  rotate: false
+  xy: 864, 658
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_shou_out_1_3
+  rotate: false
+  xy: 900, 662
+  size: 27, 35
+  orig: 27, 35
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_shou_out_1_pai
+  rotate: false
+  xy: 162, 0
+  size: 65, 41
+  orig: 65, 41
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_shou_out_2
+  rotate: false
+  xy: 929, 663
+  size: 26, 34
+  orig: 26, 34
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_shou_out_3
+  rotate: false
+  xy: 404, 200
+  size: 35, 26
+  orig: 35, 26
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_shou_sl1
+  rotate: false
+  xy: 796, 759
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_shou_sl2
+  rotate: false
+  xy: 711, 635
+  size: 59, 23
+  orig: 59, 23
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_shou_sl4
+  rotate: true
+  xy: 386, 260
+  size: 59, 22
+  orig: 59, 22
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_st
+  rotate: false
+  xy: 482, 464
+  size: 66, 70
+  orig: 66, 70
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_st2
+  rotate: false
+  xy: 305, 196
+  size: 67, 66
+  orig: 67, 66
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_st_jinlianzi1
+  rotate: false
+  xy: 410, 259
+  size: 42, 35
+  orig: 42, 35
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_st_jinlianzi2
+  rotate: false
+  xy: 364, 54
+  size: 17, 22
+  orig: 17, 22
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou
+  rotate: false
+  xy: 305, 125
+  size: 57, 69
+  orig: 57, 69
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou2
+  rotate: false
+  xy: 419, 317
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou3
+  rotate: false
+  xy: 305, 54
+  size: 57, 69
+  orig: 57, 69
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_bizi
+  rotate: true
+  xy: 474, 300
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_bizi1
+  rotate: false
+  xy: 534, 452
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_erduo
+  rotate: false
+  xy: 363, 7
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_huzi
+  rotate: false
+  xy: 903, 699
+  size: 45, 12
+  orig: 45, 12
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_huzi2
+  rotate: true
+  xy: 441, 212
+  size: 45, 13
+  orig: 45, 13
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_huzi3
+  rotate: false
+  xy: 806, 644
+  size: 45, 14
+  orig: 45, 14
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_meimao
+  rotate: false
+  xy: 796, 748
+  size: 17, 9
+  orig: 17, 9
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_meimao1
+  rotate: true
+  xy: 1017, 1007
+  size: 17, 7
+  orig: 17, 7
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_meimao2
+  rotate: true
+  xy: 1012, 670
+  size: 17, 10
+  orig: 17, 10
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_meimao3
+  rotate: true
+  xy: 496, 429
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_toujin
+  rotate: false
+  xy: 772, 635
+  size: 32, 24
+  orig: 32, 24
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_yanjing
+  rotate: true
+  xy: 386, 205
+  size: 53, 16
+  orig: 53, 16
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_yanjing2
+  rotate: true
+  xy: 374, 205
+  size: 57, 10
+  orig: 57, 10
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_yanjing3
+  rotate: false
+  xy: 807, 660
+  size: 55, 15
+  orig: 55, 15
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_youshou1
+  rotate: false
+  xy: 456, 211
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_youshou2
+  rotate: false
+  xy: 510, 449
+  size: 22, 13
+  orig: 22, 13
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_youshou2_huany
+  rotate: false
+  xy: 513, 430
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_youshou_daku
+  rotate: false
+  xy: 456, 228
+  size: 18, 29
+  orig: 18, 31
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_youshou_huanying1
+  rotate: false
+  xy: 404, 228
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_youshou_huanying2
+  rotate: false
+  xy: 323, 8
+  size: 38, 44
+  orig: 38, 44
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuiba
+  rotate: false
+  xy: 374, 187
+  size: 28, 16
+  orig: 28, 16
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuiba1
+  rotate: false
+  xy: 482, 448
+  size: 26, 14
+  orig: 26, 14
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuiba3
+  rotate: false
+  xy: 392, 167
+  size: 28, 18
+  orig: 28, 18
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuiba4
+  rotate: true
+  xy: 363, 25
+  size: 27, 14
+  orig: 27, 14
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuiba5
+  rotate: false
+  xy: 404, 187
+  size: 29, 11
+  orig: 29, 11
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuoshou1
+  rotate: false
+  xy: 957, 660
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuoshou1_napai
+  rotate: false
+  xy: 454, 259
+  size: 20, 35
+  orig: 20, 35
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuoshou2
+  rotate: false
+  xy: 477, 426
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuoshou2_napai
+  rotate: false
+  xy: 364, 162
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuoshou2_napai2
+  rotate: false
+  xy: 364, 135
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuoshou3
+  rotate: false
+  xy: 422, 168
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuoshou3_napai
+  rotate: false
+  xy: 477, 403
+  size: 16, 21
+  orig: 16, 21
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuoshou3_napai2
+  rotate: false
+  xy: 986, 661
+  size: 24, 26
+  orig: 24, 26
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_tou_zuoshou3_napai_pai
+  rotate: false
+  xy: 364, 106
+  size: 19, 27
+  orig: 19, 27
+  offset: 0, 0
+  index: -1
+ani_Avatar_animation_plutocrat_yanlei1
+  rotate: false
+  xy: 419, 455
+  size: 61, 79
+  orig: 62, 80
+  offset: 1, 1
+  index: -1
+ani_Avatar_animation_plutocrat_yanlei2
+  rotate: false
+  xy: 711, 660
+  size: 58, 80
+  orig: 62, 80
+  offset: 4, 0
+  index: -1
+ani_Avatar_animation_plutocrat_yanlei3
+  rotate: false
+  xy: 807, 677
+  size: 55, 69
+  orig: 62, 80
+  offset: 0, 8
+  index: -1
+ani_Avatar_animation_plutocrat_yanlei4
+  rotate: false
+  xy: 419, 380
+  size: 56, 73
+  orig: 62, 80
+  offset: 0, 7
+  index: -1
+ani_Avatar_animation_plutocrat_yinying
+  rotate: false
+  xy: 410, 296
+  size: 62, 19
+  orig: 62, 19
+  offset: 0, 0
+  index: -1
+caidai2_00001
+  rotate: false
+  xy: 441, 200
+  size: 13, 10
+  orig: 282, 282
+  offset: 135, 8
+  index: -1
+caidai2_00002
+  rotate: false
+  xy: 441, 200
+  size: 13, 10
+  orig: 282, 282
+  offset: 135, 8
+  index: -1
+caidai2_00003
+  rotate: true
+  xy: 477, 381
+  size: 20, 16
+  orig: 282, 282
+  offset: 132, 52
+  index: -1
+caidai2_00004
+  rotate: true
+  xy: 364, 78
+  size: 26, 20
+  orig: 282, 282
+  offset: 129, 97
+  index: -1
+caidai2_00005
+  rotate: false
+  xy: 903, 713
+  size: 47, 33
+  orig: 282, 282
+  offset: 117, 126
+  index: -1
+caidai2_00006
+  rotate: true
+  xy: 961, 689
+  size: 96, 63
+  orig: 282, 282
+  offset: 90, 127
+  index: -1
+caidai2_00007
+  rotate: false
+  xy: 554, 638
+  size: 155, 102
+  orig: 282, 282
+  offset: 59, 108
+  index: -1
+caidai2_00008
+  rotate: true
+  xy: 162, 43
+  size: 213, 141
+  orig: 282, 282
+  offset: 28, 89
+  index: -1
+caidai2_00009
+  rotate: true
+  xy: 0, 0
+  size: 255, 160
+  orig: 282, 282
+  offset: 7, 72
+  index: -1
+caidai2_00010
+  rotate: false
+  xy: 556, 857
+  size: 265, 167
+  orig: 282, 282
+  offset: 3, 65
+  index: -1
+caidai2_00011
+  rotate: false
+  xy: 0, 536
+  size: 271, 163
+  orig: 282, 282
+  offset: 1, 58
+  index: -1
+caidai2_00012
+  rotate: false
+  xy: 0, 701
+  size: 274, 161
+  orig: 282, 282
+  offset: 0, 46
+  index: -1
+caidai2_00013
+  rotate: false
+  xy: 0, 864
+  size: 276, 160
+  orig: 282, 282
+  offset: 0, 33
+  index: -1
+caidai2_00014
+  rotate: false
+  xy: 278, 866
+  size: 276, 158
+  orig: 282, 282
+  offset: 0, 21
+  index: -1
+caidai2_00015
+  rotate: true
+  xy: 0, 257
+  size: 277, 156
+  orig: 282, 282
+  offset: 0, 9
+  index: -1
+caidai2_00016
+  rotate: true
+  xy: 158, 258
+  size: 276, 143
+  orig: 282, 282
+  offset: 0, 7
+  index: -1
+caidai2_00017
+  rotate: true
+  xy: 823, 748
+  size: 276, 136
+  orig: 282, 282
+  offset: 0, 0
+  index: -1
+caidai2_00018
+  rotate: false
+  xy: 278, 742
+  size: 276, 122
+  orig: 282, 282
+  offset: 0, 0
+  index: -1
+caidai2_00019
+  rotate: false
+  xy: 276, 632
+  size: 276, 108
+  orig: 282, 282
+  offset: 0, 0
+  index: -1
+caidai2_00020
+  rotate: false
+  xy: 273, 536
+  size: 275, 94
+  orig: 282, 282
+  offset: 0, 0
+  index: -1
+caidai2_00021
+  rotate: true
+  xy: 303, 264
+  size: 270, 81
+  orig: 282, 282
+  offset: 4, 0
+  index: -1
+caidai2_00022
+  rotate: false
+  xy: 556, 787
+  size: 265, 68
+  orig: 282, 282
+  offset: 8, 0
+  index: -1
+caidai2_00023
+  rotate: true
+  xy: 961, 787
+  size: 237, 54
+  orig: 282, 282
+  offset: 28, 1
+  index: -1
+caidai2_00024
+  rotate: false
+  xy: 556, 742
+  size: 238, 43
+  orig: 282, 282
+  offset: 28, 0
+  index: -1
+caidai2_00025
+  rotate: true
+  xy: 386, 321
+  size: 213, 31
+  orig: 282, 282
+  offset: 36, 0
+  index: -1

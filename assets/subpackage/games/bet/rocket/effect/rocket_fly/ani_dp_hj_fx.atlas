@@ -1,0 +1,272 @@
+
+ani_dp_hj_fx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hj_cjb
+  rotate: false
+  xy: 363, 656
+  size: 149, 132
+  orig: 149, 132
+  offset: 0, 0
+  index: -1
+ani_dp_hj_cjb1
+  rotate: true
+  xy: 1001, 663
+  size: 77, 12
+  orig: 77, 12
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_01
+  rotate: false
+  xy: 223, 790
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_02
+  rotate: false
+  xy: 2, 285
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_03
+  rotate: false
+  xy: 342, 790
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_04
+  rotate: false
+  xy: 2, 61
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_05
+  rotate: false
+  xy: 461, 790
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_06
+  rotate: false
+  xy: 580, 790
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_07
+  rotate: false
+  xy: 699, 790
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_08
+  rotate: false
+  xy: 818, 790
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_09
+  rotate: false
+  xy: 125, 522
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_10
+  rotate: false
+  xy: 244, 566
+  size: 117, 222
+  orig: 117, 222
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_fsg
+  rotate: false
+  xy: 2, 746
+  size: 219, 266
+  orig: 219, 266
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_hj_cb1
+  rotate: true
+  xy: 2, 2
+  size: 57, 96
+  orig: 57, 96
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_hj_cb2
+  rotate: true
+  xy: 244, 507
+  size: 57, 96
+  orig: 57, 96
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_hj_zt
+  rotate: false
+  xy: 2, 509
+  size: 121, 235
+  orig: 121, 235
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_01
+  rotate: false
+  xy: 363, 577
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_02
+  rotate: false
+  xy: 514, 711
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_03
+  rotate: false
+  xy: 650, 711
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_04
+  rotate: false
+  xy: 786, 711
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_05
+  rotate: false
+  xy: 514, 632
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_06
+  rotate: false
+  xy: 650, 632
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_07
+  rotate: false
+  xy: 786, 632
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_08
+  rotate: false
+  xy: 499, 553
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_09
+  rotate: false
+  xy: 635, 553
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_10
+  rotate: false
+  xy: 771, 553
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_11
+  rotate: false
+  xy: 363, 498
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_12
+  rotate: false
+  xy: 499, 474
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_13
+  rotate: false
+  xy: 635, 474
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_14
+  rotate: false
+  xy: 771, 474
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_15
+  rotate: true
+  xy: 937, 742
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_16
+  rotate: true
+  xy: 922, 606
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_17
+  rotate: true
+  xy: 907, 470
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_18
+  rotate: true
+  xy: 121, 373
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_19
+  rotate: true
+  xy: 121, 237
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_20
+  rotate: true
+  xy: 121, 101
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_21
+  rotate: false
+  xy: 200, 428
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1
+ani_dp_hj_fx_weiyan_22
+  rotate: true
+  xy: 937, 878
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1

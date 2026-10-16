@@ -1,0 +1,20 @@
+
+ani_public_click.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_xshd_gy2
+  rotate: false
+  xy: 2, 2
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+ani_dp_xshd_shouzhi
+  rotate: false
+  xy: 108, 27
+  size: 83, 79
+  orig: 83, 79
+  offset: 0, 0
+  index: -1

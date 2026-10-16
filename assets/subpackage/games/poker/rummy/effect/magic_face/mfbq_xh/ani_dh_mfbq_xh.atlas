@@ -1,0 +1,48 @@
+
+ani_dh_mfbq_xh.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hubantx
+  rotate: false
+  xy: 2, 2
+  size: 27, 26
+  orig: 27, 26
+  offset: 0, 0
+  index: -1
+huohuan2
+  rotate: false
+  xy: 2, 30
+  size: 208, 213
+  orig: 208, 213
+  offset: 0, 0
+  index: -1
+mfbq_meigui_tx01
+  rotate: false
+  xy: 212, 91
+  size: 162, 152
+  orig: 162, 152
+  offset: 0, 0
+  index: -1
+mfbq_meigui_zt
+  rotate: true
+  xy: 376, 38
+  size: 88, 95
+  orig: 88, 95
+  offset: 0, 0
+  index: -1
+mfbq_meigui_zt01
+  rotate: true
+  xy: 212, 23
+  size: 66, 116
+  orig: 66, 116
+  offset: 0, 0
+  index: -1
+star_00000
+  rotate: false
+  xy: 376, 128
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1

@@ -6,7 +6,7 @@
 
 
 import * as cc from 'cc';
-import { EasyEvent, EasyEvent1, EasyEvent2, IUnRegister } from "../../../qframework/QFramework";
+import { EasyEvent, EasyEvent1, EasyEvent2, IUnRegister } from "../../../QFramework";
 
 // #region StringEventSystem
 

@@ -8,7 +8,7 @@
 
 import * as cc from 'cc';
 import { PlayerPrefsBooleanProperty, PlayerPrefsFloatProperty } from "../coreKit/bindablePropertyKit/BindablePropertyKit";
-import { BindableProperty } from "../../qframework/QFramework";
+import { BindableProperty } from "../../QFramework";
 import { LogKit } from "../coreKit/logKit/LogKit";
 import { IPoolable, IPoolType, SafeObjectPool } from "../coreKit/poolKit/PoolKit";
 import { MonoSingleton } from "../coreKit/singletonKit/SingletonKit";

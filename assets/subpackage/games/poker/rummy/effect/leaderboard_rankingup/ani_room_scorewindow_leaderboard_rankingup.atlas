@@ -1,0 +1,48 @@
+
+ani_room_scorewindow_leaderboard_rankingup.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_room_scorewindow_leaderboard_rankingup_board2
+  rotate: false
+  xy: 334, 56
+  size: 312, 69
+  orig: 312, 69
+  offset: 0, 0
+  index: -1
+ani_room_scorewindow_leaderboard_rankingup_board3
+  rotate: false
+  xy: 2, 2
+  size: 160, 37
+  orig: 160, 37
+  offset: 0, 0
+  index: -1
+ani_room_scorewindow_leaderboard_rankingup_board4
+  rotate: false
+  xy: 2, 41
+  size: 330, 84
+  orig: 330, 84
+  offset: 0, 0
+  index: -1
+ani_room_scorewindow_leaderboard_rankingup_fastglow
+  rotate: true
+  xy: 334, 45
+  size: 9, 66
+  orig: 9, 66
+  offset: 0, 0
+  index: -1
+ani_room_scorewindow_leaderboard_rankingup_glow
+  rotate: false
+  xy: 648, 75
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ani_room_scorewindow_leaderboard_rankingup_h
+  rotate: false
+  xy: 164, 18
+  size: 22, 21
+  orig: 22, 21
+  offset: 0, 0
+  index: -1

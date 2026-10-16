@@ -1,0 +1,139 @@
+
+ani_room_congratulations_win_cashfly.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_room_cion01
+  rotate: false
+  xy: 66, 17
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion010
+  rotate: false
+  xy: 747, 61
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion011
+  rotate: false
+  xy: 801, 61
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion012
+  rotate: false
+  xy: 963, 63
+  size: 50, 45
+  orig: 50, 45
+  offset: 0, 0
+  index: -1
+ani_room_cion013
+  rotate: false
+  xy: 855, 61
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion014
+  rotate: false
+  xy: 909, 61
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion02
+  rotate: false
+  xy: 369, 61
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion03
+  rotate: false
+  xy: 120, 17
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion04
+  rotate: false
+  xy: 423, 61
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion05
+  rotate: false
+  xy: 477, 61
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion06
+  rotate: false
+  xy: 531, 61
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion07
+  rotate: false
+  xy: 585, 61
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion08
+  rotate: false
+  xy: 639, 61
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion09
+  rotate: false
+  xy: 693, 61
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_money
+  rotate: false
+  xy: 2, 66
+  size: 196, 42
+  orig: 196, 42
+  offset: 0, 0
+  index: -1
+ani_room_wingo_cash
+  rotate: false
+  xy: 305, 17
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+ani_room_wingo_cash_glow
+  rotate: false
+  xy: 2, 2
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+ani_room_wingo_cash_glow_three
+  rotate: false
+  xy: 200, 5
+  size: 103, 103
+  orig: 103, 103
+  offset: 0, 0
+  index: -1
+ani_room_wingo_cash_glow_two
+  rotate: false
+  xy: 305, 46
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1

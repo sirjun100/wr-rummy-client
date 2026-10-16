@@ -1,0 +1,27 @@
+
+ani_dp_hj_cj_xq.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_dp_hj_cj_yueqiu1
+  rotate: false
+  xy: 2, 258
+  size: 551, 551
+  orig: 551, 551
+  offset: 0, 0
+  index: -1
+ani_dp_hj_cj_yueqiu2
+  rotate: false
+  xy: 2, 2
+  size: 254, 254
+  orig: 254, 254
+  offset: 0, 0
+  index: -1
+ani_dp_hj_cj_yueqiu3
+  rotate: false
+  xy: 555, 729
+  size: 129, 80
+  orig: 129, 80
+  offset: 0, 0
+  index: -1

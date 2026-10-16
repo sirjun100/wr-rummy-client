@@ -1,0 +1,132 @@
+
+ani_room_wingo_win_cashfly.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_room_cion01
+  rotate: false
+  xy: 235, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion010
+  rotate: false
+  xy: 721, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion011
+  rotate: false
+  xy: 775, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion012
+  rotate: false
+  xy: 937, 60
+  size: 50, 45
+  orig: 50, 45
+  offset: 0, 0
+  index: -1
+ani_room_cion013
+  rotate: false
+  xy: 829, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion014
+  rotate: false
+  xy: 883, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion02
+  rotate: false
+  xy: 289, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion03
+  rotate: false
+  xy: 343, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion04
+  rotate: false
+  xy: 397, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion05
+  rotate: false
+  xy: 451, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion06
+  rotate: false
+  xy: 505, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion07
+  rotate: false
+  xy: 559, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion08
+  rotate: false
+  xy: 613, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_cion09
+  rotate: false
+  xy: 667, 58
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+ani_room_wingo_cash
+  rotate: false
+  xy: 107, 14
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+ani_room_wingo_cash_glow
+  rotate: false
+  xy: 107, 43
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+ani_room_wingo_cash_glow_three
+  rotate: false
+  xy: 2, 2
+  size: 103, 103
+  orig: 103, 103
+  offset: 0, 0
+  index: -1
+ani_room_wingo_cash_glow_two
+  rotate: false
+  xy: 171, 43
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1

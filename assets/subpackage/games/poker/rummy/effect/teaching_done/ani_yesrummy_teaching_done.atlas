@@ -1,0 +1,34 @@
+
+ani_yesrummy_teaching_done.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_yesrummy_teaching_done_circle
+  rotate: false
+  xy: 2, 64
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+ani_yesrummy_teaching_done_done
+  rotate: false
+  xy: 65, 73
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+ani_yesrummy_teaching_done_done2
+  rotate: false
+  xy: 65, 99
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+ani_yesrummy_teaching_done_glow
+  rotate: false
+  xy: 2, 2
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1

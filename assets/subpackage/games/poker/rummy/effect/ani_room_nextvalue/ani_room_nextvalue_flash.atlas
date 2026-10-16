@@ -1,0 +1,13 @@
+
+ani_room_nextvalue_flash.png
+size: 32,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_room_nextvalue_flash
+  rotate: false
+  xy: 2, 2
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1

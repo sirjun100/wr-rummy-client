@@ -1,0 +1,7054 @@
+{
+  "skeleton": {
+    "hash": "KXQKOmc3u9MaLIrICDvSs1aBPws",
+    "spine": "3.6.53",
+    "width": 1724.76,
+    "height": 904.88,
+    "images": "./pic/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "0",
+      "parent": "root",
+      "y": 63.62
+    },
+    {
+      "name": "1",
+      "parent": "root",
+      "y": 63.62
+    },
+    {
+      "name": "2",
+      "parent": "root",
+      "y": 63.62
+    },
+    {
+      "name": "1.jackpot",
+      "parent": "root",
+      "y": 23.18
+    },
+    {
+      "name": "2.crown",
+      "parent": "root",
+      "y": 64.72
+    },
+    {
+      "name": "3.board",
+      "parent": "root",
+      "y": -116.72
+    },
+    {
+      "name": "chips1",
+      "parent": "0",
+      "x": -823.85,
+      "y": 410,
+      "scaleX": 1.4,
+      "scaleY": 1.4
+    },
+    {
+      "name": "chips2",
+      "parent": "0",
+      "x": -715.73,
+      "y": 410
+    },
+    {
+      "name": "chips3",
+      "parent": "0",
+      "x": -604.91,
+      "y": 410,
+      "scaleX": 1.1,
+      "scaleY": 1.1
+    },
+    {
+      "name": "chips4",
+      "parent": "0",
+      "x": -483.27,
+      "y": 410,
+      "scaleX": 1.2,
+      "scaleY": 1.2
+    },
+    {
+      "name": "chips5",
+      "parent": "0",
+      "x": -402.18,
+      "y": 410
+    },
+    {
+      "name": "chips6",
+      "parent": "0",
+      "x": -294.07,
+      "y": 410
+    },
+    {
+      "name": "chips7",
+      "parent": "0",
+      "x": -669.78,
+      "y": 410,
+      "scaleX": 0.8,
+      "scaleY": 0.8
+    },
+    {
+      "name": "chips8",
+      "parent": "0",
+      "x": -442.73,
+      "y": 410,
+      "scaleX": 0.9,
+      "scaleY": 0.9
+    },
+    {
+      "name": "chips9",
+      "parent": "1",
+      "x": 646.08,
+      "y": 410,
+      "scaleX": 1.2,
+      "scaleY": 1.2
+    },
+    {
+      "name": "chips10",
+      "parent": "1",
+      "x": 376.84,
+      "y": 410,
+      "scaleX": 1.1,
+      "scaleY": 1.1
+    },
+    {
+      "name": "chips11",
+      "parent": "1",
+      "x": 442.66,
+      "y": 410,
+      "scaleX": 0.6,
+      "scaleY": 0.6
+    },
+    {
+      "name": "chips12",
+      "parent": "1",
+      "x": 799.71,
+      "y": 410,
+      "scaleX": 0.8,
+      "scaleY": 0.8
+    },
+    {
+      "name": "chips13",
+      "parent": "1",
+      "x": 349.89,
+      "y": 410,
+      "scaleX": 0.9,
+      "scaleY": 0.9
+    },
+    {
+      "name": "chips14",
+      "parent": "1",
+      "x": 557.9,
+      "y": 410,
+      "scaleX": 1.2,
+      "scaleY": 1.2
+    },
+    {
+      "name": "chips15",
+      "parent": "1",
+      "x": 734.37,
+      "y": 410,
+      "scaleX": 1.1,
+      "scaleY": 1.1
+    },
+    {
+      "name": "chips16",
+      "parent": "1",
+      "x": 426.55,
+      "y": 410
+    },
+    {
+      "name": "chips17",
+      "parent": "2",
+      "x": 77.25,
+      "y": 410
+    },
+    {
+      "name": "chips18",
+      "parent": "2",
+      "x": 1.17,
+      "y": 410
+    },
+    {
+      "name": "chips19",
+      "parent": "2",
+      "x": 146.25,
+      "y": 410,
+      "scaleX": 1.1,
+      "scaleY": 1.1
+    },
+    {
+      "name": "chips20",
+      "parent": "2",
+      "x": 234.95,
+      "y": 410,
+      "scaleX": 1.1,
+      "scaleY": 1.1
+    },
+    {
+      "name": "chips21",
+      "parent": "2",
+      "x": -38.35,
+      "y": 410
+    },
+    {
+      "name": "chips22",
+      "parent": "2",
+      "x": -193.9,
+      "y": 410
+    },
+    {
+      "name": "chips23",
+      "parent": "2",
+      "x": -308.14,
+      "y": 410
+    },
+    {
+      "name": "chips24",
+      "parent": "2",
+      "x": -122.71,
+      "y": 410
+    },
+    {
+      "name": "circleglow",
+      "parent": "root"
+    },
+    {
+      "name": "flash",
+      "parent": "root",
+      "rotation": -37.2,
+      "x": -253.99,
+      "y": 30.95,
+      "scaleY": 2.02
+    },
+    {
+      "name": "flash2",
+      "parent": "root",
+      "rotation": -37.2,
+      "x": -364.2,
+      "y": 30.95,
+      "scaleY": 2.02
+    },
+    {
+      "name": "glow",
+      "parent": "root",
+      "y": 77.66
+    },
+    {
+      "name": "glow2",
+      "parent": "root",
+      "y": 77.66
+    },
+    {
+      "name": "lineglow",
+      "parent": "root",
+      "y": 1.54
+    },
+    {
+      "name": "lineglow2",
+      "parent": "root",
+      "y": 1.54
+    },
+    {
+      "name": "number",
+      "parent": "3.board",
+      "y": 20.69
+    },
+    {
+      "name": "star",
+      "parent": "root",
+      "x": -204.42,
+      "y": -17.92,
+      "scaleX": 0.3,
+      "scaleY": 0.3
+    },
+    {
+      "name": "star2",
+      "parent": "root",
+      "x": 7.43,
+      "y": 93.29,
+      "scaleX": 0.3,
+      "scaleY": 0.3
+    },
+    {
+      "name": "star3",
+      "parent": "root",
+      "x": 200.95,
+      "y": 46.09,
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    },
+    {
+      "name": "word",
+      "parent": "root",
+      "y": 28.81
+    }
+  ],
+  "slots": [
+    {
+      "name": "ani_room_slots_jackpot_glow",
+      "bone": "glow",
+      "attachment": "ani_room_slots_jackpot_glow"
+    },
+    {
+      "name": "ani_room_slots_jackpot_glow2",
+      "bone": "glow2",
+      "attachment": "ani_room_slots_jackpot_glow",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_slots_jackpot_sunlight",
+      "bone": "lineglow",
+      "attachment": "ani_room_slots_jackpot_sunlight",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_slots_jackpot_sunlight2",
+      "bone": "lineglow2",
+      "attachment": "ani_room_slots_jackpot_sunlight",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_slots_jackpot_circleglow",
+      "bone": "circleglow",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips",
+      "bone": "chips1",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips9",
+      "bone": "chips9",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips2",
+      "bone": "chips2",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips10",
+      "bone": "chips10",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips18",
+      "bone": "chips18",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips3",
+      "bone": "chips3",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips11",
+      "bone": "chips11",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips21",
+      "bone": "chips21",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips19",
+      "bone": "chips19",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips4",
+      "bone": "chips4",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips12",
+      "bone": "chips12",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips20",
+      "bone": "chips20",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips5",
+      "bone": "chips5",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips13",
+      "bone": "chips13",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips6",
+      "bone": "chips6",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips14",
+      "bone": "chips14",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips22",
+      "bone": "chips22",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips7",
+      "bone": "chips7",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips15",
+      "bone": "chips15",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips23",
+      "bone": "chips23",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips8",
+      "bone": "chips8",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips16",
+      "bone": "chips16",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_board",
+      "bone": "3.board",
+      "attachment": "ani_room_slots_jackpot_board"
+    },
+    {
+      "name": "ani_room_slots_jackpot_crown",
+      "bone": "2.crown",
+      "attachment": "ani_room_slots_jackpot_crown"
+    },
+    {
+      "name": "ani_room_slots_jackpot_crown2",
+      "bone": "2.crown",
+      "attachment": "ani_room_slots_jackpot_crown",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_slots_jackpot_jackpot",
+      "bone": "1.jackpot",
+      "attachment": "ani_room_slots_jackpot_jackpot"
+    },
+    {
+      "name": "ani_room_slots_jackpot_jackpot2",
+      "bone": "1.jackpot",
+      "attachment": "ani_room_slots_jackpot_jackpot",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_slots_jackpot_circleglow2",
+      "bone": "circleglow",
+      "blend": "additive"
+    },
+    {
+      "name": "cut",
+      "bone": "1.jackpot",
+      "attachment": "cut"
+    },
+    {
+      "name": "ani_room_slots_jackpot_flash2",
+      "bone": "flash2",
+      "color": "feff8389",
+      "attachment": "ani_room_slots_jackpot_flash",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_slots_jackpot_flash",
+      "bone": "flash",
+      "color": "feff8389",
+      "attachment": "ani_room_slots_jackpot_flash",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_slots_jackpot_wordspot",
+      "bone": "word",
+      "blend": "additive"
+    },
+    {
+      "name": "line",
+      "bone": "1.jackpot",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_slots_jackpot_star",
+      "bone": "star",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_slots_jackpot_star2",
+      "bone": "star2",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_slots_jackpot_star3",
+      "bone": "star3",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips24",
+      "bone": "chips24",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    },
+    {
+      "name": "ani_room_slots_jackpot_chips17",
+      "bone": "chips17",
+      "attachment": "ani_room_slots_jackpot_chips1"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_room_slots_jackpot_board": {
+        "ani_room_slots_jackpot_board": {
+          "width": 536,
+          "height": 136
+        }
+      },
+      "ani_room_slots_jackpot_chips": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips10": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips11": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips12": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips13": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips14": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips15": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips16": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips17": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips18": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips19": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips2": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips20": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips21": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips22": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips23": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips24": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips3": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips4": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips5": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips6": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips7": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips8": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_chips9": {
+        "ani_room_slots_jackpot_chips1": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "width": 92,
+          "height": 104
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "width": 92,
+          "height": 104
+        }
+      },
+      "ani_room_slots_jackpot_circleglow": {
+        "ani_room_slots_jackpot_circleglow": {
+          "width": 174,
+          "height": 174
+        }
+      },
+      "ani_room_slots_jackpot_circleglow2": {
+        "ani_room_slots_jackpot_circleglow": {
+          "width": 174,
+          "height": 174
+        }
+      },
+      "ani_room_slots_jackpot_crown": {
+        "ani_room_slots_jackpot_crown": {
+          "y": 68.32,
+          "width": 175,
+          "height": 145
+        }
+      },
+      "ani_room_slots_jackpot_crown2": {
+        "ani_room_slots_jackpot_crown": {
+          "y": 68.32,
+          "width": 175,
+          "height": 145
+        }
+      },
+      "ani_room_slots_jackpot_flash": {
+        "ani_room_slots_jackpot_flash": {
+          "width": 40,
+          "height": 135
+        }
+      },
+      "ani_room_slots_jackpot_flash2": {
+        "ani_room_slots_jackpot_flash": {
+          "width": 40,
+          "height": 135
+        }
+      },
+      "ani_room_slots_jackpot_glow": {
+        "ani_room_slots_jackpot_glow": {
+          "x": 1.12,
+          "y": -63.7,
+          "scaleX": 2,
+          "scaleY": 2,
+          "width": 450,
+          "height": 360
+        }
+      },
+      "ani_room_slots_jackpot_glow2": {
+        "ani_room_slots_jackpot_glow": {
+          "x": 1.12,
+          "y": -63.7,
+          "scaleX": 2,
+          "scaleY": 2,
+          "width": 450,
+          "height": 360
+        }
+      },
+      "ani_room_slots_jackpot_jackpot": {
+        "ani_room_slots_jackpot_jackpot": {
+          "width": 449,
+          "height": 159
+        }
+      },
+      "ani_room_slots_jackpot_jackpot2": {
+        "ani_room_slots_jackpot_jackpot": {
+          "width": 449,
+          "height": 159
+        }
+      },
+      "ani_room_slots_jackpot_star": {
+        "ani_room_slots_jackpot_star": {
+          "width": 85,
+          "height": 89
+        }
+      },
+      "ani_room_slots_jackpot_star2": {
+        "ani_room_slots_jackpot_star": {
+          "width": 85,
+          "height": 89
+        }
+      },
+      "ani_room_slots_jackpot_star3": {
+        "ani_room_slots_jackpot_star": {
+          "width": 85,
+          "height": 89
+        }
+      },
+      "ani_room_slots_jackpot_sunlight": {
+        "ani_room_slots_jackpot_sunlight": {
+          "scaleX": 2,
+          "scaleY": 2,
+          "width": 438,
+          "height": 360
+        }
+      },
+      "ani_room_slots_jackpot_sunlight2": {
+        "ani_room_slots_jackpot_sunlight": {
+          "scaleX": 2,
+          "scaleY": 2,
+          "width": 438,
+          "height": 360
+        }
+      },
+      "ani_room_slots_jackpot_wordspot": {
+        "ani_room_slots_jackpot_wordspot": {
+          "scaleX": 2,
+          "scaleY": 2,
+          "width": 231,
+          "height": 83
+        }
+      },
+      "cut": {
+        "cut": {
+          "type": "clipping",
+          "end": "ani_room_slots_jackpot_flash",
+          "vertexCount": 152,
+          "color": "4fff0000",
+          "vertices": [
+            -194.77,
+            43.63,
+            -201.17,
+            -34.6,
+            -202.89,
+            -39.27,
+            -207.56,
+            -41.98,
+            -211.99,
+            -42.71,
+            -212.24,
+            -60.92,
+            -203.14,
+            -59.93,
+            -195.76,
+            -59.2,
+            -185.18,
+            -57.23,
+            -180.5,
+            -53.05,
+            -176.81,
+            -46.9,
+            -175.09,
+            -38.78,
+            -174.6,
+            -31.89,
+            -168.95,
+            49.01,
+            -169.72,
+            49.53,
+            -152.47,
+            53.06,
+            -172.63,
+            -57.97,
+            -145.33,
+            -55.75,
+            -142.62,
+            -35.09,
+            -133.27,
+            -33.61,
+            -133.27,
+            -55.01,
+            -105.87,
+            -53.59,
+            -115.59,
+            59.34,
+            -115.94,
+            60.19,
+            -91.58,
+            56.76,
+            -96.13,
+            49.97,
+            -98.52,
+            41.85,
+            -99.62,
+            29.9,
+            -100.88,
+            3.96,
+            -101.69,
+            -22.03,
+            -101.39,
+            -30.24,
+            -99.33,
+            -39.4,
+            -93.67,
+            -48.37,
+            -86.53,
+            -53.05,
+            -79.89,
+            -55.01,
+            -68.82,
+            -55.01,
+            -60.95,
+            -53.78,
+            -53.38,
+            -49.4,
+            -46.87,
+            -42.89,
+            -43.98,
+            -36.86,
+            -41.81,
+            -29.63,
+            -40.36,
+            -21.68,
+            -40.12,
+            -14.45,
+            -39.88,
+            -1.68,
+            -65.73,
+            -2.25,
+            -66.62,
+            -3.53,
+            -66.61,
+            -23.65,
+            -67.35,
+            -31.08,
+            -70.97,
+            -33.97,
+            -75.07,
+            -31.32,
+            -73.14,
+            42.18,
+            -72.17,
+            47.48,
+            -68.8,
+            49.65,
+            -64.7,
+            48.21,
+            -64.22,
+            43.63,
+            -65.67,
+            16.88,
+            -39.64,
+            18.32,
+            -39.64,
+            44.11,
+            -39.88,
+            50.86,
+            -42.79,
+            57.77,
+            -47.19,
+            63.16,
+            -30.02,
+            64.2,
+            -31.45,
+            -51.57,
+            -5.42,
+            -51.32,
+            -5.18,
+            1.94,
+            5.43,
+            -51.08,
+            32.9,
+            -51.32,
+            15.77,
+            16.08,
+            29.57,
+            69.07,
+            29.19,
+            69.99,
+            35.78,
+            69.57,
+            35.45,
+            68.92,
+            37.09,
+            -51.48,
+            63.64,
+            -51.71,
+            61.53,
+            -2.37,
+            69.99,
+            -2.84,
+            77.98,
+            -2.13,
+            85.5,
+            1.16,
+            89.73,
+            6.56,
+            91.14,
+            12.91,
+            90.35,
+            42.84,
+            89.84,
+            46.04,
+            97.46,
+            46.84,
+            97.25,
+            44.61,
+            99.13,
+            -25.16,
+            100.22,
+            -32.21,
+            103.5,
+            -40.17,
+            107.71,
+            -46.72,
+            114.73,
+            -52.1,
+            121.51,
+            -55.61,
+            129.47,
+            -57.02,
+            137.43,
+            -57.02,
+            144.68,
+            -54.91,
+            149.83,
+            -51.87,
+            153.81,
+            -47.89,
+            157.08,
+            -41.81,
+            158.95,
+            -35.26,
+            155.91,
+            25.82,
+            154.65,
+            34.91,
+            159.86,
+            33.98,
+            160.48,
+            32.71,
+            175.33,
+            29.78,
+            181.69,
+            -57.75,
+            207.77,
+            -59.71,
+            200.6,
+            24.72,
+            215.75,
+            20.49,
+            214.13,
+            40.21,
+            159.52,
+            54.06,
+            159.68,
+            36.79,
+            159.86,
+            34.05,
+            154.63,
+            34.99,
+            152.67,
+            41.68,
+            150.07,
+            47.22,
+            145.67,
+            53.09,
+            137.68,
+            58.46,
+            129.85,
+            62.05,
+            120.89,
+            63.68,
+            112.58,
+            63.03,
+            104.59,
+            59.61,
+            100.51,
+            54.39,
+            97.58,
+            46.89,
+            89.77,
+            46.25,
+            88.68,
+            50.68,
+            86.25,
+            56.37,
+            83.4,
+            60.68,
+            79.08,
+            63.87,
+            73.14,
+            66.72,
+            64.17,
+            68.29,
+            50.67,
+            69.29,
+            35.75,
+            69.71,
+            29.13,
+            70.07,
+            6.37,
+            70.41,
+            -4.88,
+            24.94,
+            -4.82,
+            69.73,
+            -5.73,
+            70.45,
+            -29.08,
+            69.55,
+            -29.91,
+            69.03,
+            -30,
+            64.24,
+            -47.2,
+            63.19,
+            -50.8,
+            65.67,
+            -57.1,
+            68.37,
+            -63.92,
+            69.49,
+            -73.22,
+            68.59,
+            -78.6,
+            66.94,
+            -85.02,
+            63.58,
+            -89.98,
+            58.47,
+            -91.52,
+            56.79,
+            -116.15,
+            60.28,
+            -117.05,
+            60.4,
+            -152.49,
+            53.12,
+            -169.82,
+            49.55,
+            -170.16,
+            49.59
+          ]
+        }
+      },
+      "line": {
+        "ani_room_slots_jackpot_lineglow": {
+          "y": 54.54,
+          "width": 491,
+          "height": 85
+        }
+      }
+    }
+  },
+  "animations": {
+    "animation": {
+      "slots": {
+        "ani_room_slots_jackpot_chips": {
+          "attachment": [
+            {
+              "time": 0.489,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.5529,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.6168,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.6807,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 0.7446,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 0.8085,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 0.8724,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 0.9363,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.0642,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.4796,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.5435,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.6074,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.6713,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips6"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips2": {
+          "attachment": [
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.3198,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.6393,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.7032,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.7671,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.8311,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.895,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.3104,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.3743,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.5021,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.566,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.6299,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.6938,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.7577,
+              "name": "ani_room_slots_jackpot_chips6"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips3": {
+          "attachment": [
+            {
+              "time": 0.8085,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.8724,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.9363,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.0642,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.3198,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.6393,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.3104,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.3743,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips4": {
+          "attachment": [
+            {
+              "time": 1.2878,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.3517,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.4156,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.4796,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.5435,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.6074,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.6713,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.5021,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.566,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.6299,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.6938,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.7577,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.8216,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.8856,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.9495,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 3.0134,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 3.0773,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 3.1412,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 3.2051,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 3.269,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips5": {
+          "attachment": [
+            {
+              "time": 0.457,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.5209,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.5848,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.6487,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 0.7127,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 0.7766,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 0.8405,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 0.9044,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.9683,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.0322,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.0961,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.16,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.2239,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.2878,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.3517,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.4156,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.4796,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.5435,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.6074,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.6713,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.3104,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.3743,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.5021,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.566,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.6299,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.6938,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.7577,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.8216,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.8856,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.9495,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 3.0134,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 3.0773,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips6": {
+          "attachment": [
+            {
+              "time": 0.5529,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.6168,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.6807,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.7446,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 0.8085,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 0.8724,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 0.9363,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.0642,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.3198,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.8311,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.895,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.9589,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.0228,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.0867,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.1506,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.2145,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.2784,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.3423,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.4062,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.4701,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.5341,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.598,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.6619,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.7258,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.7897,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.8536,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.9175,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.9814,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 3.0453,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 3.1092,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips7": {
+          "attachment": [
+            {
+              "time": 0.2972,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.3612,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.4251,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.489,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 0.5529,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 0.6168,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 0.6807,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 0.7446,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.8085,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.8724,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.9363,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.0642,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.3198,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.6393,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.7032,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.7671,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.8311,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.895,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.9589,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.0228,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.0867,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.1506,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.2145,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.2784,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.3423,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.4062,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.4701,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.5341,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.598,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.6619,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.7258,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.7897,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips8": {
+          "attachment": [
+            {
+              "time": 1.16,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.2239,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.2878,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.3517,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.4156,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.4796,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.5435,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.6074,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.6713,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.9333,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.3104,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.3743,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips9": {
+          "attachment": [
+            {
+              "time": 0.489,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.5529,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.6168,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.6807,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 0.7446,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 0.8085,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 0.8724,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 0.9363,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.0642,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.4796,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.5435,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.6074,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.6713,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips6"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips10": {
+          "attachment": [
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.3198,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.6393,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.7032,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.7671,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.8311,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.895,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.3104,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.3743,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.5021,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.566,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.6299,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.6938,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.7577,
+              "name": "ani_room_slots_jackpot_chips6"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips11": {
+          "attachment": [
+            {
+              "time": 0.7446,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.8085,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.8724,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.9363,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.0642,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.3198,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.3104,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.3743,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips12": {
+          "attachment": [
+            {
+              "time": 1.2878,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.3517,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.4156,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.4796,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.5435,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.6074,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.6713,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.5021,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.566,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.6299,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.6938,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.7577,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.8216,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.8856,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.9495,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 3.0134,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 3.0773,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 3.1412,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 3.2051,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 3.269,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips13": {
+          "attachment": [
+            {
+              "time": 0.457,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.5209,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.5848,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.6487,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 0.7127,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 0.7766,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 0.8405,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 0.9044,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.9683,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.0322,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.0961,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.16,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.2239,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.2878,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.3517,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.4156,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.4796,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.5435,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.6074,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.6713,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.3104,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.3743,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.5021,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.566,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.6299,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.6938,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.7577,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.8216,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.8856,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.9495,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 3.0134,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 3.0773,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips14": {
+          "attachment": [
+            {
+              "time": 0.5529,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.6168,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.6807,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.7446,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 0.8085,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 0.8724,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 0.9363,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.0642,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.3198,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.8311,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.895,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.9589,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.0228,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.0867,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.1506,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.2145,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.2784,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.3423,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.4062,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.4701,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.5341,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.598,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.6619,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.7258,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.7897,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.8536,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.9175,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.9814,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 3.0453,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 3.1092,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips15": {
+          "attachment": [
+            {
+              "time": 0.2972,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.3612,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.4251,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.489,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 0.5529,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 0.6168,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 0.6807,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 0.7446,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.8085,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.8724,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.9363,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.0642,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.3198,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.6393,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.7032,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.7671,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.8311,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.895,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.9589,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.0228,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.0867,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.1506,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.2145,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.2784,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.3423,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.4062,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.4701,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.5341,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.598,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.6619,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.7258,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.7897,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips16": {
+          "attachment": [
+            {
+              "time": 1.16,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.2239,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.2878,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.3517,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.4156,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.4796,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.5435,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.6074,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.6713,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.3104,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.3743,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips17": {
+          "attachment": [
+            {
+              "time": 0.489,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.5529,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.6168,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.6807,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 0.7446,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 0.8085,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 0.8724,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 0.9363,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.0642,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.4796,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.5435,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.6074,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.6713,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips6"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips18": {
+          "attachment": [
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.3198,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.6393,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.7032,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.7671,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.8311,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.895,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.3104,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.3743,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.5021,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.566,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.6299,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.6938,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.7577,
+              "name": "ani_room_slots_jackpot_chips6"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips19": {
+          "attachment": [
+            {
+              "time": 0.8085,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.8724,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.9363,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.0642,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.3198,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.6393,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.3104,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.3743,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips20": {
+          "attachment": [
+            {
+              "time": 1.2878,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.3517,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.4156,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.4796,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.5435,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.6074,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.6713,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.5021,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.566,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.6299,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.6938,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.7577,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.8216,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.8856,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.9495,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 3.0134,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 3.0773,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 3.1412,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 3.2051,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 3.269,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips21": {
+          "attachment": [
+            {
+              "time": 0.457,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.5209,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.5848,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.6487,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 0.7127,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 0.7766,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 0.8405,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 0.9044,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.9683,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.0322,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.0961,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.16,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.2239,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.2878,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.3517,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.4156,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.4796,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.5435,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.6074,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.6713,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.7352,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.7991,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.863,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.9269,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.9908,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.0547,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.1186,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.1826,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.2465,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.3104,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.3743,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.4382,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.5021,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.566,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.6299,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.6938,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.7577,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.8216,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.8856,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.9495,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 3.0134,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 3.0773,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips22": {
+          "attachment": [
+            {
+              "time": 0.5529,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.6168,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.6807,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.7446,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 0.8085,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 0.8724,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 0.9363,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.0642,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.3198,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.8311,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.895,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.9589,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.0228,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.0867,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.1506,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.2145,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.2784,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.3423,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.4062,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.4701,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.5341,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.598,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.6619,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.7258,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.7897,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.8536,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.9175,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.9814,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 3.0453,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 3.1092,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips23": {
+          "attachment": [
+            {
+              "time": 0.2972,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.3612,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.4251,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.489,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 0.5529,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 0.6168,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 0.6807,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 0.7446,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 0.8085,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 0.8724,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 0.9363,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.0642,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.1281,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.192,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.2559,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.3198,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.6393,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.7032,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.7671,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.8311,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.895,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.9589,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.0228,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.0867,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.1506,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.2145,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.2784,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.3423,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.4062,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.4701,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.5341,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.598,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.6619,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.7258,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.7897,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_chips24": {
+          "attachment": [
+            {
+              "time": 1.3837,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.4476,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.5115,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 1.5754,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 1.6393,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 1.7032,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 1.7671,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 1.8311,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 1.895,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 1.9589,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.0228,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.0867,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.1506,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.2145,
+              "name": "ani_room_slots_jackpot_chips7"
+            },
+            {
+              "time": 2.2784,
+              "name": "ani_room_slots_jackpot_chips1"
+            },
+            {
+              "time": 2.3423,
+              "name": "ani_room_slots_jackpot_chips2"
+            },
+            {
+              "time": 2.4062,
+              "name": "ani_room_slots_jackpot_chips3"
+            },
+            {
+              "time": 2.4701,
+              "name": "ani_room_slots_jackpot_chips4"
+            },
+            {
+              "time": 2.5341,
+              "name": "ani_room_slots_jackpot_chips5"
+            },
+            {
+              "time": 2.598,
+              "name": "ani_room_slots_jackpot_chips6"
+            },
+            {
+              "time": 2.6619,
+              "name": "ani_room_slots_jackpot_chips7"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_circleglow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "fff0a2ff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "fff0a2ff",
+              "curve": [
+                0.05,
+                0.23,
+                0.097,
+                0.85
+              ]
+            },
+            {
+              "time": 0.7333,
+              "color": "fff0a200"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_slots_jackpot_circleglow"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_circleglow2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "fff0a2ff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "color": "fff0a2ff",
+              "curve": [
+                0.05,
+                0.23,
+                0.097,
+                0.85
+              ]
+            },
+            {
+              "time": 0.7333,
+              "color": "fff0a200"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_slots_jackpot_circleglow"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_crown": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_crown2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00",
+              "curve": [
+                0.26,
+                0,
+                0.618,
+                0.44
+              ]
+            },
+            {
+              "time": 0.4,
+              "color": "ffffffff",
+              "curve": [
+                0.359,
+                0.43,
+                0.756,
+                1
+              ]
+            },
+            {
+              "time": 0.7333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.0667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_glow2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffb4",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.4667,
+              "color": "ffffff08",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.4,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_jackpot": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_jackpot2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff7d",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_star": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_slots_jackpot_star"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_star2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.3333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_slots_jackpot_star"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_star3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8667,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 2.2,
+              "color": "ffffffff",
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.5333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_room_slots_jackpot_star"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_sunlight": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_sunlight2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.7798,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.9667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.1641,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_room_slots_jackpot_wordspot": {
+          "color": [
+            {
+              "time": 0.2,
+              "color": "e6ff34bf",
+              "curve": [
+                0.26,
+                0.64,
+                0.429,
+                0.94
+              ]
+            },
+            {
+              "time": 1,
+              "color": "e7ff3400"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.2,
+              "name": "ani_room_slots_jackpot_wordspot"
+            }
+          ]
+        },
+        "line": {
+          "color": [
+            {
+              "time": 1.6667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.6667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 1.6667,
+              "name": "ani_room_slots_jackpot_lineglow"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "1.jackpot": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.362,
+                0.05,
+                0.599,
+                0.86
+              ]
+            },
+            {
+              "time": 0.2333,
+              "x": 1.4,
+              "y": 1.4,
+              "curve": [
+                0.333,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4667,
+              "x": 0.8,
+              "y": 0.8,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6667,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.1333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 3.2333,
+              "x": 1.2,
+              "y": 1.2
+            },
+            {
+              "time": 3.3333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "2.crown": {
+          "translate": [
+            {
+              "time": 0.2,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3667,
+              "x": 0,
+              "y": 12.48,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5667,
+              "x": 0,
+              "y": -21.44,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.7667,
+              "x": 0,
+              "y": 2.81,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.1333,
+              "x": 0,
+              "y": 2.81,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.2333,
+              "x": 0,
+              "y": 42.91
+            },
+            {
+              "time": 3.3333,
+              "x": 0,
+              "y": -49.7
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.244,
+                0,
+                0.641,
+                0.57
+              ]
+            },
+            {
+              "time": 0.3667,
+              "x": 1.2,
+              "y": 1.2,
+              "curve": [
+                0.382,
+                0.56,
+                0.74,
+                1
+              ]
+            },
+            {
+              "time": 0.5667,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.1333,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 3.2333,
+              "x": 1.2,
+              "y": 1.2
+            },
+            {
+              "time": 3.3333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "3.board": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 14.11,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 0,
+              "y": 14.11,
+              "curve": [
+                0.498,
+                0.99,
+                0.95,
+                0.99
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.1333,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 3.2667,
+              "x": 0,
+              "y": -21.73,
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "x": 0,
+              "y": 112.06
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3333,
+              "x": 1.2,
+              "y": 1.2,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.1333,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.625,
+                0.5
+              ]
+            },
+            {
+              "time": 3.2667,
+              "x": 1.2,
+              "y": 1.2,
+              "curve": [
+                0.375,
+                0.5,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 3.3333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "lineglow": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 2,
+              "angle": 20
+            }
+          ]
+        },
+        "circleglow": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1667,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.099,
+                0.52,
+                0.02,
+                0.76
+              ]
+            },
+            {
+              "time": 0.7333,
+              "x": 8,
+              "y": 8
+            }
+          ]
+        },
+        "flash": {
+          "translate": [
+            {
+              "time": 0.8333,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "x": 541.31,
+              "y": 0
+            }
+          ]
+        },
+        "flash2": {
+          "translate": [
+            {
+              "time": 0.8333,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.2333,
+              "x": 659.39,
+              "y": 0
+            }
+          ]
+        },
+        "lineglow2": {
+          "rotate": [
+            {
+              "time": 1.1667,
+              "angle": 0
+            },
+            {
+              "time": 3.1641,
+              "angle": 20
+            }
+          ]
+        },
+        "word": {
+          "scale": [
+            {
+              "time": 0.2,
+              "x": 1.2,
+              "y": 1.2,
+              "curve": [
+                0.177,
+                0.49,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "x": 1.3,
+              "y": 1.3
+            }
+          ]
+        },
+        "star": {
+          "rotate": [
+            {
+              "time": 1.3333,
+              "angle": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "angle": 40
+            }
+          ],
+          "scale": [
+            {
+              "time": 1.3333,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.6667,
+              "x": 2,
+              "y": 2,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "star2": {
+          "rotate": [
+            {
+              "time": 1.6667,
+              "angle": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.3333,
+              "angle": 40
+            }
+          ],
+          "scale": [
+            {
+              "time": 1.6667,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2,
+              "x": 2,
+              "y": 2,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.3333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "star3": {
+          "rotate": [
+            {
+              "time": 1.8667,
+              "angle": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.5333,
+              "angle": 40
+            }
+          ],
+          "scale": [
+            {
+              "time": 1.8667,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.2,
+              "x": 2,
+              "y": 2,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 2.5333,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "chips1": {
+          "rotate": [
+            {
+              "time": 0.489,
+              "angle": 0
+            },
+            {
+              "time": 1.2559,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.4796,
+              "angle": 0
+            },
+            {
+              "time": 2.2465,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.489,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.2559,
+              "x": 0,
+              "y": -951.58,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.4796,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.2465,
+              "x": 0,
+              "y": -942.97
+            }
+          ]
+        },
+        "chips2": {
+          "rotate": [
+            {
+              "time": 1.1281,
+              "angle": 0
+            },
+            {
+              "time": 1.895,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.9908,
+              "angle": 0
+            },
+            {
+              "time": 2.7577,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 1.1281,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.895,
+              "x": 0,
+              "y": -974.55,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.9908,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.7577,
+              "x": 0,
+              "y": -942.97
+            }
+          ]
+        },
+        "chips3": {
+          "rotate": [
+            {
+              "time": 0.9044,
+              "angle": 0
+            },
+            {
+              "time": 1.6713,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7032,
+              "angle": 0
+            },
+            {
+              "time": 2.4701,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.9044,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.6713,
+              "x": 0,
+              "y": -928.62,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7032,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.4701,
+              "x": 0,
+              "y": -951.58
+            }
+          ]
+        },
+        "chips4": {
+          "rotate": [
+            {
+              "time": 1.3517,
+              "angle": 0
+            },
+            {
+              "time": 2.1186,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.4382,
+              "angle": 0
+            },
+            {
+              "time": 3.2051,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 1.3517,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.1186,
+              "x": 0,
+              "y": -951.58,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.4382,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 3.2051,
+              "x": 0,
+              "y": -948.71
+            }
+          ]
+        },
+        "chips5": {
+          "rotate": [
+            {
+              "time": 0.8724,
+              "angle": 0
+            },
+            {
+              "time": 1.6393,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.895,
+              "angle": 0
+            },
+            {
+              "time": 2.6619,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.8724,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.6393,
+              "x": 0,
+              "y": -914.26,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.895,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.6619,
+              "x": 0,
+              "y": -928.62
+            }
+          ]
+        },
+        "chips6": {
+          "rotate": [
+            {
+              "time": 0.7446,
+              "angle": 0
+            },
+            {
+              "time": 1.5115,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8311,
+              "angle": 0
+            },
+            {
+              "time": 2.598,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.7446,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.5115,
+              "x": 0,
+              "y": -942.97,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8311,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.598,
+              "x": 0,
+              "y": -902.78
+            }
+          ]
+        },
+        "chips7": {
+          "rotate": [
+            {
+              "time": 0.6168,
+              "angle": 0
+            },
+            {
+              "time": 1.3837,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.895,
+              "angle": 0
+            },
+            {
+              "time": 2.6619,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.6168,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.3837,
+              "x": 0,
+              "y": -991.78,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.895,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.6619,
+              "x": 0,
+              "y": -951.58
+            }
+          ]
+        },
+        "chips8": {
+          "rotate": [
+            {
+              "time": 1.16,
+              "angle": 0
+            },
+            {
+              "time": 1.9333,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.0867,
+              "angle": 0
+            },
+            {
+              "time": 2.8536,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 1.16,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.9333,
+              "x": 0,
+              "y": -940.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.0867,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.8536,
+              "x": 0,
+              "y": -948.71
+            }
+          ]
+        },
+        "chips9": {
+          "rotate": [
+            {
+              "time": 0.489,
+              "angle": 0,
+              "curve": [
+                0.445,
+                0.07,
+                0.818,
+                0.56
+              ]
+            },
+            {
+              "time": 1.2559,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.4796,
+              "angle": 0
+            },
+            {
+              "time": 2.2465,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.489,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.445,
+                0.07,
+                0.818,
+                0.56
+              ]
+            },
+            {
+              "time": 1.2559,
+              "x": 0,
+              "y": -940.1,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.4796,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.2465,
+              "x": 0,
+              "y": -925.75
+            }
+          ]
+        },
+        "chips10": {
+          "rotate": [
+            {
+              "time": 1.1281,
+              "angle": 0,
+              "curve": [
+                0.737,
+                0.13,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 1.895,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.9908,
+              "angle": 0
+            },
+            {
+              "time": 2.7577,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 1.1281,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.737,
+                0.13,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 1.895,
+              "x": 0,
+              "y": -948.71,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.9908,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.7577,
+              "x": 0,
+              "y": -951.58
+            }
+          ]
+        },
+        "chips11": {
+          "rotate": [
+            {
+              "time": 0.7446,
+              "angle": 0
+            },
+            {
+              "time": 1.5115,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7032,
+              "angle": 0
+            },
+            {
+              "time": 2.4701,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.7446,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.425,
+                0.07,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 1.5115,
+              "x": 0,
+              "y": -960.2,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7032,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.187,
+                0.42,
+                0.599,
+                0.83
+              ]
+            },
+            {
+              "time": 2.4701,
+              "x": 0,
+              "y": -948.71
+            }
+          ]
+        },
+        "chips12": {
+          "rotate": [
+            {
+              "time": 1.2878,
+              "angle": 0
+            },
+            {
+              "time": 2.1186,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6299,
+              "angle": 0
+            },
+            {
+              "time": 3.2051,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 1.2878,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.1186,
+              "x": 0,
+              "y": -934.36,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6299,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 3.2051,
+              "x": 0,
+              "y": -917.13
+            }
+          ]
+        },
+        "chips13": {
+          "rotate": [
+            {
+              "time": 0.8724,
+              "angle": 0
+            },
+            {
+              "time": 1.6393,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.895,
+              "angle": 0
+            },
+            {
+              "time": 2.6619,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.8724,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.6393,
+              "x": 0,
+              "y": -937.23,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.895,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.6619,
+              "x": 0,
+              "y": -940.1
+            }
+          ]
+        },
+        "chips14": {
+          "rotate": [
+            {
+              "time": 0.6168,
+              "angle": 0,
+              "curve": [
+                0.503,
+                0.27,
+                0.906,
+                0.81
+              ]
+            },
+            {
+              "time": 1.4796,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8311,
+              "angle": 0
+            },
+            {
+              "time": 2.7577,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.6168,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.503,
+                0.27,
+                0.906,
+                0.81
+              ]
+            },
+            {
+              "time": 1.4796,
+              "x": 0,
+              "y": -983.17,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8311,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.7577,
+              "x": 0,
+              "y": -954.46
+            }
+          ]
+        },
+        "chips15": {
+          "rotate": [
+            {
+              "time": 0.6168,
+              "angle": 0
+            },
+            {
+              "time": 1.3837,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.895,
+              "angle": 0
+            },
+            {
+              "time": 2.6619,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.6168,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.3837,
+              "x": 0,
+              "y": -945.84,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.895,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2.6619,
+              "x": 0,
+              "y": -965.94
+            }
+          ]
+        },
+        "chips16": {
+          "rotate": [
+            {
+              "time": 0.9683,
+              "angle": 0,
+              "curve": [
+                0.44,
+                0.13,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 1.7352,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.1826,
+              "angle": 0,
+              "curve": [
+                0.333,
+                0.04,
+                0.847,
+                0.78
+              ]
+            },
+            {
+              "time": 2.8536,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.9683,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.44,
+                0.13,
+                0.813,
+                0.59
+              ]
+            },
+            {
+              "time": 1.7352,
+              "x": 0,
+              "y": -925.75,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.1826,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.333,
+                0.04,
+                0.847,
+                0.78
+              ]
+            },
+            {
+              "time": 2.8536,
+              "x": 0,
+              "y": -991.78
+            }
+          ]
+        },
+        "chips17": {
+          "rotate": [
+            {
+              "time": 0.489,
+              "angle": 0,
+              "curve": [
+                0.562,
+                0.12,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 1.2559,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.4796,
+              "angle": 0,
+              "curve": [
+                0.406,
+                0.21,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 2.2465,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.489,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.562,
+                0.12,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 1.2559,
+              "x": 0,
+              "y": -971.68,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.4796,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.406,
+                0.21,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 2.2465,
+              "x": 0,
+              "y": -954.46
+            }
+          ]
+        },
+        "chips18": {
+          "rotate": [
+            {
+              "time": 1.1281,
+              "angle": 0,
+              "curve": [
+                0.445,
+                0.08,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 1.895,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.9908,
+              "angle": 0,
+              "curve": [
+                0.518,
+                0.09,
+                0.784,
+                0.52
+              ]
+            },
+            {
+              "time": 2.7577,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 1.1281,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.445,
+                0.08,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 1.895,
+              "x": 0,
+              "y": -986.04,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.9908,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.518,
+                0.09,
+                0.784,
+                0.52
+              ]
+            },
+            {
+              "time": 2.7577,
+              "x": 0,
+              "y": -951.58
+            }
+          ]
+        },
+        "chips19": {
+          "rotate": [
+            {
+              "time": 0.9044,
+              "angle": 0,
+              "curve": [
+                0.459,
+                0.11,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 1.6713,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7032,
+              "angle": 0,
+              "curve": [
+                0.644,
+                0.13,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 2.4701,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.9044,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.459,
+                0.11,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 1.6713,
+              "x": 0,
+              "y": -965.94,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7032,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.644,
+                0.13,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 2.4701,
+              "x": 0,
+              "y": -954.46
+            }
+          ]
+        },
+        "chips20": {
+          "rotate": [
+            {
+              "time": 1.3517,
+              "angle": 0,
+              "curve": [
+                0.732,
+                0.33,
+                0.872,
+                0.7
+              ]
+            },
+            {
+              "time": 2.1186,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.4382,
+              "angle": 0,
+              "curve": [
+                0.508,
+                0.13,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 3.2051,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 1.3517,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.732,
+                0.33,
+                0.872,
+                0.7
+              ]
+            },
+            {
+              "time": 2.1186,
+              "x": 0,
+              "y": -954.46,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.4382,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.508,
+                0.13,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 3.2051,
+              "x": 0,
+              "y": -977.42
+            }
+          ]
+        },
+        "chips21": {
+          "rotate": [
+            {
+              "time": 0.8724,
+              "angle": 0,
+              "curve": [
+                0.43,
+                0.05,
+                0.804,
+                0.59
+              ]
+            },
+            {
+              "time": 1.6393,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.895,
+              "angle": 0,
+              "curve": [
+                0.493,
+                0.08,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 2.6619,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.8724,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.43,
+                0.05,
+                0.804,
+                0.59
+              ]
+            },
+            {
+              "time": 1.6393,
+              "x": 0,
+              "y": -974.55,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.895,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.493,
+                0.08,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 2.6619,
+              "x": 0,
+              "y": -957.33
+            }
+          ]
+        },
+        "chips22": {
+          "rotate": [
+            {
+              "time": 0.7446,
+              "angle": 0,
+              "curve": [
+                0.221,
+                0.33,
+                0.648,
+                0.79
+              ]
+            },
+            {
+              "time": 1.5115,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8311,
+              "angle": 0,
+              "curve": [
+                0.235,
+                0.39,
+                0.541,
+                0.8
+              ]
+            },
+            {
+              "time": 2.598,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.7446,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.221,
+                0.33,
+                0.648,
+                0.79
+              ]
+            },
+            {
+              "time": 1.5115,
+              "x": 0,
+              "y": -922.87,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8311,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.235,
+                0.39,
+                0.541,
+                0.8
+              ]
+            },
+            {
+              "time": 2.598,
+              "x": 0,
+              "y": -965.94
+            }
+          ]
+        },
+        "chips23": {
+          "rotate": [
+            {
+              "time": 0.6168,
+              "angle": 0
+            },
+            {
+              "time": 1.3837,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.895,
+              "angle": 0,
+              "curve": [
+                0.644,
+                0.04,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 2.6619,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.6168,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 1.3837,
+              "x": 0,
+              "y": -934.36,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.895,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.644,
+                0.04,
+                0.808,
+                0.71
+              ]
+            },
+            {
+              "time": 2.6619,
+              "x": 0,
+              "y": -940.1
+            }
+          ]
+        },
+        "chips24": {
+          "rotate": [
+            {
+              "time": 1.3837,
+              "angle": 0,
+              "curve": [
+                0.659,
+                0.03,
+                0.623,
+                0.21
+              ]
+            },
+            {
+              "time": 2.1506,
+              "angle": 100,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3104,
+              "angle": 0,
+              "curve": [
+                0.107,
+                0.31,
+                0.594,
+                0.73
+              ]
+            },
+            {
+              "time": 3.0773,
+              "angle": 100
+            }
+          ],
+          "translate": [
+            {
+              "time": 1.3837,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.659,
+                0.03,
+                0.623,
+                0.21
+              ]
+            },
+            {
+              "time": 2.1506,
+              "x": 0,
+              "y": -925.75,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3104,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.107,
+                0.31,
+                0.594,
+                0.73
+              ]
+            },
+            {
+              "time": 3.0773,
+              "x": 0,
+              "y": -940.1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

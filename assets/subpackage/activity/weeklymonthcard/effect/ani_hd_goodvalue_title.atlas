@@ -1,0 +1,27 @@
+
+ani_hd_goodvalue_title.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ani_goodvalue_flash_3
+  rotate: false
+  xy: 2, 2
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+ani_goodvalue_title
+  rotate: false
+  xy: 2, 85
+  size: 415, 119
+  orig: 415, 119
+  offset: 0, 0
+  index: -1
+ani_goodvalue_titlebar
+  rotate: false
+  xy: 2, 206
+  size: 591, 46
+  orig: 591, 46
+  offset: 0, 0
+  index: -1

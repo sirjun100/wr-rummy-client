@@ -1,0 +1,2791 @@
+{
+  "skeleton": {
+    "hash": "/3BI84rwhTieHs37p2zEbKngzGw",
+    "spine": "3.6.53",
+    "width": 400,
+    "height": 80,
+    "images": "./pic/"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "bannerglow",
+      "parent": "root"
+    },
+    {
+      "name": "boxmove",
+      "parent": "root",
+      "x": -154.3,
+      "y": -26.83
+    },
+    {
+      "name": "box",
+      "parent": "boxmove",
+      "x": -0.03,
+      "y": 25.72
+    },
+    {
+      "name": "box2",
+      "parent": "box",
+      "y": -1.63
+    },
+    {
+      "name": "cash1",
+      "parent": "root",
+      "x": -154.42
+    },
+    {
+      "name": "cash2",
+      "parent": "root",
+      "rotation": 9,
+      "x": -154.42
+    },
+    {
+      "name": "cash3",
+      "parent": "root",
+      "rotation": 45,
+      "x": -154.42
+    },
+    {
+      "name": "cash4",
+      "parent": "root",
+      "rotation": 80,
+      "x": -154.42
+    },
+    {
+      "name": "cash5",
+      "parent": "root",
+      "rotation": 80,
+      "x": -154.42
+    },
+    {
+      "name": "cash6",
+      "parent": "root",
+      "rotation": 80,
+      "x": -154.42
+    },
+    {
+      "name": "glow2",
+      "parent": "root",
+      "scaleY": 1.1
+    },
+    {
+      "name": "glow3",
+      "parent": "root",
+      "scaleY": 1.1
+    },
+    {
+      "name": "star",
+      "parent": "root"
+    },
+    {
+      "name": "star2",
+      "parent": "root"
+    },
+    {
+      "name": "star3",
+      "parent": "root"
+    },
+    {
+      "name": "star4",
+      "parent": "root"
+    },
+    {
+      "name": "star5",
+      "parent": "root"
+    },
+    {
+      "name": "star6",
+      "parent": "root"
+    },
+    {
+      "name": "star7",
+      "parent": "root"
+    },
+    {
+      "name": "star8",
+      "parent": "root"
+    },
+    {
+      "name": "star9",
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ani_hd_bonusforest_experience_glow2",
+      "bone": "glow2",
+      "attachment": "ani_settle_treasure_banner_glow2",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_hd_bonusforest_experience_glow3",
+      "bone": "glow3",
+      "attachment": "ani_settle_treasure_banner_glow3",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_hd_bonusforest_experience_star",
+      "bone": "star",
+      "attachment": "ani_settle_treasure_banner_star",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_hd_bonusforest_experience_star2",
+      "bone": "star2",
+      "attachment": "ani_settle_treasure_banner_star",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_hd_bonusforest_experience_star3",
+      "bone": "star3",
+      "attachment": "ani_settle_treasure_banner_star",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_hd_bonusforest_experience_star4",
+      "bone": "star4",
+      "attachment": "ani_settle_treasure_banner_star",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_hd_bonusforest_experience_star5",
+      "bone": "star5",
+      "attachment": "ani_settle_treasure_banner_star",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_hd_bonusforest_experience_star6",
+      "bone": "star6",
+      "attachment": "ani_settle_treasure_banner_star",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_hd_bonusforest_experience_star7",
+      "bone": "star7",
+      "attachment": "ani_settle_treasure_banner_star",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_hd_bonusforest_experience_star9",
+      "bone": "star9",
+      "attachment": "ani_settle_treasure_banner_star",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_hd_bonusforest_experience_star8",
+      "bone": "star8",
+      "attachment": "ani_settle_treasure_banner_star",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_settle_treasure_banner_glow",
+      "bone": "bannerglow",
+      "attachment": "ani_settle_treasure_banner_glow"
+    },
+    {
+      "name": "ani_settle_treasure_banner_glow2",
+      "bone": "bannerglow",
+      "attachment": "ani_settle_treasure_banner_glow",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_settle_treasure_banner_box3",
+      "bone": "box2",
+      "attachment": "ani_settle_treasure_banner_box2"
+    },
+    {
+      "name": "ani_settle_treasure_banner_box",
+      "bone": "box",
+      "attachment": "ani_settle_treasure_banner_box"
+    },
+    {
+      "name": "ani_settle_treasure_banner_box2",
+      "bone": "box",
+      "attachment": "ani_settle_treasure_banner_box",
+      "blend": "additive"
+    },
+    {
+      "name": "ani_huodong_dh_1",
+      "bone": "cash1",
+      "attachment": "ani_huodong_dh_1"
+    },
+    {
+      "name": "ani_huodong_dh_3",
+      "bone": "cash3",
+      "attachment": "ani_huodong_dh_1"
+    },
+    {
+      "name": "ani_huodong_dh_2",
+      "bone": "cash2",
+      "attachment": "ani_huodong_dh_1"
+    },
+    {
+      "name": "ani_huodong_dh_4",
+      "bone": "cash4",
+      "attachment": "ani_huodong_dh_chip_9"
+    },
+    {
+      "name": "ani_huodong_dh_5",
+      "bone": "cash5",
+      "attachment": "ani_huodong_dh_chip_9"
+    },
+    {
+      "name": "ani_huodong_dh_6",
+      "bone": "cash6",
+      "attachment": "ani_huodong_dh_yb"
+    }
+  ],
+  "skins": {
+    "default": {
+      "ani_hd_bonusforest_experience_glow2": {
+        "ani_settle_treasure_banner_glow2": {
+          "width": 26,
+          "height": 28
+        }
+      },
+      "ani_hd_bonusforest_experience_glow3": {
+        "ani_settle_treasure_banner_glow3": {
+          "width": 10,
+          "height": 28
+        }
+      },
+      "ani_hd_bonusforest_experience_star": {
+        "ani_settle_treasure_banner_star": {
+          "width": 12,
+          "height": 12
+        }
+      },
+      "ani_hd_bonusforest_experience_star2": {
+        "ani_settle_treasure_banner_star": {
+          "width": 12,
+          "height": 12
+        }
+      },
+      "ani_hd_bonusforest_experience_star3": {
+        "ani_settle_treasure_banner_star": {
+          "width": 12,
+          "height": 12
+        }
+      },
+      "ani_hd_bonusforest_experience_star4": {
+        "ani_settle_treasure_banner_star": {
+          "width": 12,
+          "height": 12
+        }
+      },
+      "ani_hd_bonusforest_experience_star5": {
+        "ani_settle_treasure_banner_star": {
+          "width": 12,
+          "height": 12
+        }
+      },
+      "ani_hd_bonusforest_experience_star6": {
+        "ani_settle_treasure_banner_star": {
+          "width": 12,
+          "height": 12
+        }
+      },
+      "ani_hd_bonusforest_experience_star7": {
+        "ani_settle_treasure_banner_star": {
+          "width": 12,
+          "height": 12
+        }
+      },
+      "ani_hd_bonusforest_experience_star8": {
+        "ani_settle_treasure_banner_star": {
+          "width": 12,
+          "height": 12
+        }
+      },
+      "ani_hd_bonusforest_experience_star9": {
+        "ani_settle_treasure_banner_star": {
+          "width": 12,
+          "height": 12
+        }
+      },
+      "ani_huodong_dh_1": {
+        "ani_huodong_dh_1": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_2": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_3": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_4": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_5": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_6": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_7": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_8": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_9": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_10": {
+          "width": 42,
+          "height": 44
+        }
+      },
+      "ani_huodong_dh_2": {
+        "ani_huodong_dh_1": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_2": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_3": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_4": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_5": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_6": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_7": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_8": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_9": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_10": {
+          "width": 42,
+          "height": 44
+        }
+      },
+      "ani_huodong_dh_3": {
+        "ani_huodong_dh_1": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_2": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_3": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_4": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_5": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_6": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_7": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_8": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_9": {
+          "width": 42,
+          "height": 44
+        },
+        "ani_huodong_dh_10": {
+          "width": 42,
+          "height": 44
+        }
+      },
+      "ani_huodong_dh_4": {
+        "ani_huodong_dh_chip_1": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_2": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_3": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_4": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_5": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_6": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_7": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_8": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_9": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_10": {
+          "width": 45,
+          "height": 40
+        }
+      },
+      "ani_huodong_dh_5": {
+        "ani_huodong_dh_chip_1": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_2": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_3": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_4": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_5": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_6": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_7": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_8": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_9": {
+          "width": 45,
+          "height": 40
+        },
+        "ani_huodong_dh_chip_10": {
+          "width": 45,
+          "height": 40
+        }
+      },
+      "ani_huodong_dh_6": {
+        "ani_huodong_dh_yb": {
+          "rotation": -80,
+          "width": 22,
+          "height": 26
+        }
+      },
+      "ani_settle_treasure_banner_box": {
+        "ani_settle_treasure_banner_box": {
+          "width": 64,
+          "height": 63
+        }
+      },
+      "ani_settle_treasure_banner_box2": {
+        "ani_settle_treasure_banner_box": {
+          "width": 64,
+          "height": 63
+        }
+      },
+      "ani_settle_treasure_banner_box3": {
+        "ani_settle_treasure_banner_box2": {
+          "y": 17,
+          "width": 64,
+          "height": 40
+        }
+      },
+      "ani_settle_treasure_banner_glow": {
+        "ani_settle_treasure_banner_glow": {
+          "width": 400,
+          "height": 80
+        }
+      },
+      "ani_settle_treasure_banner_glow2": {
+        "ani_settle_treasure_banner_glow": {
+          "width": 400,
+          "height": 80
+        }
+      }
+    }
+  },
+  "animations": {
+    "glow": {
+      "slots": {
+        "ani_hd_bonusforest_experience_glow2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_glow3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star8": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star9": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_huodong_dh_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0282,
+              "color": "ffffffff",
+              "curve": [
+                1,
+                0,
+                0.901,
+                0.18
+              ]
+            },
+            {
+              "time": 0.819,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_huodong_dh_1"
+            },
+            {
+              "time": 0.0282,
+              "name": "ani_huodong_dh_2"
+            },
+            {
+              "time": 0.0565,
+              "name": "ani_huodong_dh_3"
+            },
+            {
+              "time": 0.0847,
+              "name": "ani_huodong_dh_4"
+            },
+            {
+              "time": 0.113,
+              "name": "ani_huodong_dh_5"
+            },
+            {
+              "time": 0.1412,
+              "name": "ani_huodong_dh_6"
+            },
+            {
+              "time": 0.1694,
+              "name": "ani_huodong_dh_7"
+            },
+            {
+              "time": 0.1977,
+              "name": "ani_huodong_dh_8"
+            },
+            {
+              "time": 0.2259,
+              "name": "ani_huodong_dh_9"
+            },
+            {
+              "time": 0.2542,
+              "name": "ani_huodong_dh_10"
+            },
+            {
+              "time": 0.2824,
+              "name": "ani_huodong_dh_1"
+            },
+            {
+              "time": 0.3106,
+              "name": "ani_huodong_dh_2"
+            },
+            {
+              "time": 0.3389,
+              "name": "ani_huodong_dh_3"
+            },
+            {
+              "time": 0.3671,
+              "name": "ani_huodong_dh_4"
+            },
+            {
+              "time": 0.3954,
+              "name": "ani_huodong_dh_5"
+            },
+            {
+              "time": 0.4236,
+              "name": "ani_huodong_dh_6"
+            },
+            {
+              "time": 0.4519,
+              "name": "ani_huodong_dh_7"
+            },
+            {
+              "time": 0.4801,
+              "name": "ani_huodong_dh_8"
+            },
+            {
+              "time": 0.5083,
+              "name": "ani_huodong_dh_9"
+            },
+            {
+              "time": 0.5366,
+              "name": "ani_huodong_dh_10"
+            },
+            {
+              "time": 0.5648,
+              "name": "ani_huodong_dh_1"
+            },
+            {
+              "time": 0.5931,
+              "name": "ani_huodong_dh_2"
+            },
+            {
+              "time": 0.6213,
+              "name": "ani_huodong_dh_3"
+            },
+            {
+              "time": 0.6495,
+              "name": "ani_huodong_dh_4"
+            },
+            {
+              "time": 0.6778,
+              "name": "ani_huodong_dh_5"
+            },
+            {
+              "time": 0.706,
+              "name": "ani_huodong_dh_6"
+            },
+            {
+              "time": 0.7343,
+              "name": "ani_huodong_dh_7"
+            },
+            {
+              "time": 0.7625,
+              "name": "ani_huodong_dh_8"
+            },
+            {
+              "time": 0.7907,
+              "name": "ani_huodong_dh_9"
+            },
+            {
+              "time": 0.819,
+              "name": "ani_huodong_dh_10"
+            }
+          ]
+        },
+        "ani_huodong_dh_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3954,
+              "color": "ffffffff",
+              "curve": [
+                1,
+                0,
+                0.901,
+                0.18
+              ]
+            },
+            {
+              "time": 1.1861,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.3954,
+              "name": "ani_huodong_dh_1"
+            },
+            {
+              "time": 0.4236,
+              "name": "ani_huodong_dh_2"
+            },
+            {
+              "time": 0.4519,
+              "name": "ani_huodong_dh_3"
+            },
+            {
+              "time": 0.4801,
+              "name": "ani_huodong_dh_4"
+            },
+            {
+              "time": 0.5083,
+              "name": "ani_huodong_dh_5"
+            },
+            {
+              "time": 0.5366,
+              "name": "ani_huodong_dh_6"
+            },
+            {
+              "time": 0.5648,
+              "name": "ani_huodong_dh_7"
+            },
+            {
+              "time": 0.5931,
+              "name": "ani_huodong_dh_8"
+            },
+            {
+              "time": 0.6213,
+              "name": "ani_huodong_dh_9"
+            },
+            {
+              "time": 0.6495,
+              "name": "ani_huodong_dh_10"
+            },
+            {
+              "time": 0.6778,
+              "name": "ani_huodong_dh_1"
+            },
+            {
+              "time": 0.706,
+              "name": "ani_huodong_dh_2"
+            },
+            {
+              "time": 0.7343,
+              "name": "ani_huodong_dh_3"
+            },
+            {
+              "time": 0.7625,
+              "name": "ani_huodong_dh_4"
+            },
+            {
+              "time": 0.7907,
+              "name": "ani_huodong_dh_5"
+            },
+            {
+              "time": 0.819,
+              "name": "ani_huodong_dh_6"
+            },
+            {
+              "time": 0.8472,
+              "name": "ani_huodong_dh_7"
+            },
+            {
+              "time": 0.8755,
+              "name": "ani_huodong_dh_8"
+            },
+            {
+              "time": 0.9037,
+              "name": "ani_huodong_dh_9"
+            },
+            {
+              "time": 0.9319,
+              "name": "ani_huodong_dh_10"
+            },
+            {
+              "time": 0.9602,
+              "name": "ani_huodong_dh_1"
+            },
+            {
+              "time": 0.9884,
+              "name": "ani_huodong_dh_2"
+            },
+            {
+              "time": 1.0167,
+              "name": "ani_huodong_dh_3"
+            },
+            {
+              "time": 1.0449,
+              "name": "ani_huodong_dh_4"
+            },
+            {
+              "time": 1.0732,
+              "name": "ani_huodong_dh_5"
+            },
+            {
+              "time": 1.1014,
+              "name": "ani_huodong_dh_6"
+            },
+            {
+              "time": 1.1296,
+              "name": "ani_huodong_dh_7"
+            },
+            {
+              "time": 1.1579,
+              "name": "ani_huodong_dh_8"
+            },
+            {
+              "time": 1.1861,
+              "name": "ani_huodong_dh_9"
+            },
+            {
+              "time": 1.2144,
+              "name": "ani_huodong_dh_10"
+            }
+          ]
+        },
+        "ani_huodong_dh_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5931,
+              "color": "ffffffff",
+              "curve": [
+                0.66,
+                0,
+                0.653,
+                0.02
+              ]
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.5931,
+              "name": "ani_huodong_dh_1"
+            },
+            {
+              "time": 0.6213,
+              "name": "ani_huodong_dh_2"
+            },
+            {
+              "time": 0.6495,
+              "name": "ani_huodong_dh_3"
+            },
+            {
+              "time": 0.6778,
+              "name": "ani_huodong_dh_4"
+            },
+            {
+              "time": 0.706,
+              "name": "ani_huodong_dh_5"
+            },
+            {
+              "time": 0.7343,
+              "name": "ani_huodong_dh_6"
+            },
+            {
+              "time": 0.7625,
+              "name": "ani_huodong_dh_7"
+            },
+            {
+              "time": 0.7907,
+              "name": "ani_huodong_dh_8"
+            },
+            {
+              "time": 0.819,
+              "name": "ani_huodong_dh_9"
+            },
+            {
+              "time": 0.8472,
+              "name": "ani_huodong_dh_10"
+            },
+            {
+              "time": 0.8755,
+              "name": "ani_huodong_dh_1"
+            },
+            {
+              "time": 0.9037,
+              "name": "ani_huodong_dh_2"
+            },
+            {
+              "time": 0.9319,
+              "name": "ani_huodong_dh_3"
+            },
+            {
+              "time": 0.9602,
+              "name": "ani_huodong_dh_4"
+            },
+            {
+              "time": 0.9884,
+              "name": "ani_huodong_dh_5"
+            },
+            {
+              "time": 1.0167,
+              "name": "ani_huodong_dh_6"
+            },
+            {
+              "time": 1.0449,
+              "name": "ani_huodong_dh_7"
+            },
+            {
+              "time": 1.0732,
+              "name": "ani_huodong_dh_8"
+            },
+            {
+              "time": 1.1014,
+              "name": "ani_huodong_dh_9"
+            },
+            {
+              "time": 1.1296,
+              "name": "ani_huodong_dh_10"
+            },
+            {
+              "time": 1.1579,
+              "name": "ani_huodong_dh_1"
+            },
+            {
+              "time": 1.1861,
+              "name": "ani_huodong_dh_2"
+            },
+            {
+              "time": 1.2144,
+              "name": "ani_huodong_dh_3"
+            },
+            {
+              "time": 1.2426,
+              "name": "ani_huodong_dh_4"
+            },
+            {
+              "time": 1.2708,
+              "name": "ani_huodong_dh_5"
+            },
+            {
+              "time": 1.2991,
+              "name": "ani_huodong_dh_6"
+            },
+            {
+              "time": 1.3273,
+              "name": "ani_huodong_dh_7"
+            },
+            {
+              "time": 1.3552,
+              "name": "ani_huodong_dh_8"
+            },
+            {
+              "time": 1.3838,
+              "name": "ani_huodong_dh_9"
+            },
+            {
+              "time": 1.412,
+              "name": "ani_huodong_dh_10"
+            }
+          ]
+        },
+        "ani_huodong_dh_4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7625,
+              "color": "ffffffff",
+              "curve": [
+                0.623,
+                0,
+                0.626,
+                0.01
+              ]
+            },
+            {
+              "time": 1.5532,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.7667,
+              "name": "ani_huodong_dh_chip_1"
+            },
+            {
+              "time": 0.7941,
+              "name": "ani_huodong_dh_chip_2"
+            },
+            {
+              "time": 0.8215,
+              "name": "ani_huodong_dh_chip_3"
+            },
+            {
+              "time": 0.8489,
+              "name": "ani_huodong_dh_chip_4"
+            },
+            {
+              "time": 0.8763,
+              "name": "ani_huodong_dh_chip_5"
+            },
+            {
+              "time": 0.9037,
+              "name": "ani_huodong_dh_chip_6"
+            },
+            {
+              "time": 0.9311,
+              "name": "ani_huodong_dh_chip_7"
+            },
+            {
+              "time": 0.9585,
+              "name": "ani_huodong_dh_chip_8"
+            },
+            {
+              "time": 0.9859,
+              "name": "ani_huodong_dh_chip_9"
+            },
+            {
+              "time": 1.0133,
+              "name": "ani_huodong_dh_chip_10"
+            },
+            {
+              "time": 1.0407,
+              "name": "ani_huodong_dh_chip_1"
+            },
+            {
+              "time": 1.0681,
+              "name": "ani_huodong_dh_chip_2"
+            },
+            {
+              "time": 1.0955,
+              "name": "ani_huodong_dh_chip_3"
+            },
+            {
+              "time": 1.1229,
+              "name": "ani_huodong_dh_chip_4"
+            },
+            {
+              "time": 1.1503,
+              "name": "ani_huodong_dh_chip_5"
+            },
+            {
+              "time": 1.1777,
+              "name": "ani_huodong_dh_chip_6"
+            },
+            {
+              "time": 1.2051,
+              "name": "ani_huodong_dh_chip_7"
+            },
+            {
+              "time": 1.2326,
+              "name": "ani_huodong_dh_chip_8"
+            },
+            {
+              "time": 1.26,
+              "name": "ani_huodong_dh_chip_9"
+            },
+            {
+              "time": 1.2874,
+              "name": "ani_huodong_dh_chip_10"
+            },
+            {
+              "time": 1.3148,
+              "name": "ani_huodong_dh_chip_1"
+            },
+            {
+              "time": 1.3422,
+              "name": "ani_huodong_dh_chip_2"
+            },
+            {
+              "time": 1.3696,
+              "name": "ani_huodong_dh_chip_3"
+            },
+            {
+              "time": 1.397,
+              "name": "ani_huodong_dh_chip_4"
+            },
+            {
+              "time": 1.4244,
+              "name": "ani_huodong_dh_chip_5"
+            },
+            {
+              "time": 1.4518,
+              "name": "ani_huodong_dh_chip_6"
+            },
+            {
+              "time": 1.4792,
+              "name": "ani_huodong_dh_chip_7"
+            },
+            {
+              "time": 1.5066,
+              "name": "ani_huodong_dh_chip_8"
+            },
+            {
+              "time": 1.534,
+              "name": "ani_huodong_dh_chip_9"
+            },
+            {
+              "time": 1.5614,
+              "name": "ani_huodong_dh_chip_10"
+            }
+          ]
+        },
+        "ani_huodong_dh_5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffffff",
+              "curve": [
+                1,
+                0,
+                0.901,
+                0.18
+              ]
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 1.2,
+              "name": "ani_huodong_dh_chip_1"
+            },
+            {
+              "time": 1.2333,
+              "name": "ani_huodong_dh_chip_2"
+            },
+            {
+              "time": 1.2667,
+              "name": "ani_huodong_dh_chip_3"
+            },
+            {
+              "time": 1.3,
+              "name": "ani_huodong_dh_chip_5"
+            },
+            {
+              "time": 1.3333,
+              "name": "ani_huodong_dh_chip_6"
+            },
+            {
+              "time": 1.3667,
+              "name": "ani_huodong_dh_chip_7"
+            },
+            {
+              "time": 1.4,
+              "name": "ani_huodong_dh_chip_8"
+            },
+            {
+              "time": 1.4333,
+              "name": "ani_huodong_dh_chip_10"
+            },
+            {
+              "time": 1.4667,
+              "name": "ani_huodong_dh_chip_1"
+            },
+            {
+              "time": 1.5,
+              "name": "ani_huodong_dh_chip_2"
+            },
+            {
+              "time": 1.5333,
+              "name": "ani_huodong_dh_chip_3"
+            },
+            {
+              "time": 1.5667,
+              "name": "ani_huodong_dh_chip_4"
+            },
+            {
+              "time": 1.6,
+              "name": "ani_huodong_dh_chip_5"
+            },
+            {
+              "time": 1.6333,
+              "name": "ani_huodong_dh_chip_7"
+            },
+            {
+              "time": 1.6667,
+              "name": "ani_huodong_dh_chip_8"
+            },
+            {
+              "time": 1.7,
+              "name": "ani_huodong_dh_chip_9"
+            },
+            {
+              "time": 1.7333,
+              "name": "ani_huodong_dh_chip_10"
+            },
+            {
+              "time": 1.7667,
+              "name": "ani_huodong_dh_chip_2"
+            },
+            {
+              "time": 1.8,
+              "name": "ani_huodong_dh_chip_3"
+            },
+            {
+              "time": 1.8333,
+              "name": "ani_huodong_dh_chip_4"
+            },
+            {
+              "time": 1.8667,
+              "name": "ani_huodong_dh_chip_5"
+            },
+            {
+              "time": 1.9,
+              "name": "ani_huodong_dh_chip_6"
+            },
+            {
+              "time": 1.9333,
+              "name": "ani_huodong_dh_chip_8"
+            },
+            {
+              "time": 1.9667,
+              "name": "ani_huodong_dh_chip_9"
+            },
+            {
+              "time": 2,
+              "name": "ani_huodong_dh_chip_10"
+            }
+          ]
+        },
+        "ani_huodong_dh_6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffffff",
+              "curve": [
+                1,
+                0,
+                0.901,
+                0.18
+              ]
+            },
+            {
+              "time": 1.7667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_settle_treasure_banner_box2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffff33"
+            },
+            {
+              "time": 0.6,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_settle_treasure_banner_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3855,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.7196,
+              "color": "ffffff7e"
+            },
+            {
+              "time": 1.2851,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_settle_treasure_banner_glow2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3855,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.7196,
+              "color": "ffef6d2d"
+            },
+            {
+              "time": 1.2851,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "cash1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -16.63,
+              "curve": [
+                0.374,
+                0.6,
+                0.675,
+                0.94
+              ]
+            },
+            {
+              "time": 0.4236,
+              "x": -52.49,
+              "y": 35.18,
+              "curve": [
+                0.406,
+                0.21,
+                0.923,
+                0.82
+              ]
+            },
+            {
+              "time": 0.819,
+              "x": -101.13,
+              "y": -57.54
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.2,
+              "y": 0.2
+            },
+            {
+              "time": 0.6495,
+              "x": 0.8,
+              "y": 0.8
+            }
+          ]
+        },
+        "cash2": {
+          "translate": [
+            {
+              "time": 0.3954,
+              "x": 0,
+              "y": -16.63,
+              "curve": [
+                0.374,
+                0.6,
+                0.675,
+                0.94
+              ]
+            },
+            {
+              "time": 0.7907,
+              "x": 43.78,
+              "y": 35.18,
+              "curve": [
+                0.406,
+                0.21,
+                0.923,
+                0.82
+              ]
+            },
+            {
+              "time": 1.1861,
+              "x": 82.97,
+              "y": -57.54
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.3954,
+              "x": 0.2,
+              "y": 0.2
+            },
+            {
+              "time": 1.0167,
+              "x": 0.8,
+              "y": 0.8
+            }
+          ]
+        },
+        "cash3": {
+          "translate": [
+            {
+              "time": 0.5931,
+              "x": 0,
+              "y": -16.63,
+              "curve": [
+                0.164,
+                0.19,
+                0.675,
+                0.94
+              ]
+            },
+            {
+              "time": 1.0167,
+              "x": -37.54,
+              "y": 20.23,
+              "curve": [
+                0.406,
+                0.21,
+                0.923,
+                0.82
+              ]
+            },
+            {
+              "time": 1.412,
+              "x": -66.75,
+              "y": -57.54
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.5931,
+              "x": 0.2,
+              "y": 0.2
+            },
+            {
+              "time": 1.2426,
+              "x": 0.8,
+              "y": 0.8
+            }
+          ]
+        },
+        "cash4": {
+          "translate": [
+            {
+              "time": 0.7625,
+              "x": 0,
+              "y": -16.63,
+              "curve": [
+                0.374,
+                0.6,
+                0.675,
+                0.94
+              ]
+            },
+            {
+              "time": 1.1579,
+              "x": 31.82,
+              "y": 35.18,
+              "curve": [
+                0.406,
+                0.21,
+                0.923,
+                0.82
+              ]
+            },
+            {
+              "time": 1.5532,
+              "x": 62.04,
+              "y": -57.54
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.7625,
+              "x": 0.2,
+              "y": 0.2
+            },
+            {
+              "time": 1.3838,
+              "x": 0.8,
+              "y": 0.8
+            }
+          ]
+        },
+        "cash5": {
+          "translate": [
+            {
+              "time": 1.2,
+              "x": 0,
+              "y": -16.63,
+              "curve": [
+                0.374,
+                0.6,
+                0.675,
+                0.94
+              ]
+            },
+            {
+              "time": 1.6,
+              "x": -40.63,
+              "y": 23.59,
+              "curve": [
+                0.406,
+                0.21,
+                0.923,
+                0.82
+              ]
+            },
+            {
+              "time": 2,
+              "x": -65.47,
+              "y": -57.54
+            }
+          ],
+          "scale": [
+            {
+              "time": 1.2,
+              "x": 0.2,
+              "y": 0.2
+            },
+            {
+              "time": 1.8333,
+              "x": 0.8,
+              "y": 0.8
+            }
+          ]
+        },
+        "cash6": {
+          "rotate": [
+            {
+              "time": 0.9667,
+              "angle": -80
+            },
+            {
+              "time": 1.7667,
+              "angle": 80
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.9667,
+              "x": 0,
+              "y": -16.63,
+              "curve": [
+                0.374,
+                0.6,
+                0.675,
+                0.94
+              ]
+            },
+            {
+              "time": 1.3667,
+              "x": -40.63,
+              "y": 23.59,
+              "curve": [
+                0.406,
+                0.21,
+                0.923,
+                0.82
+              ]
+            },
+            {
+              "time": 1.7667,
+              "x": -65.47,
+              "y": -57.54
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.9667,
+              "x": 0.2,
+              "y": 0.2
+            },
+            {
+              "time": 1.6,
+              "x": 0.8,
+              "y": 0.8
+            }
+          ]
+        },
+        "boxmove": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "angle": 0
+            },
+            {
+              "time": 0.2667,
+              "angle": 6
+            },
+            {
+              "time": 0.4667,
+              "angle": -6
+            },
+            {
+              "time": 0.5667,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.1667,
+              "x": -1.34,
+              "y": 5.64
+            },
+            {
+              "time": 0.2667,
+              "x": -2.67,
+              "y": 0
+            },
+            {
+              "time": 0.3667,
+              "x": 1,
+              "y": 4.93
+            },
+            {
+              "time": 0.4667,
+              "x": 4.68,
+              "y": 0
+            },
+            {
+              "time": 0.5667,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "box2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.3667,
+              "x": 0,
+              "y": -10.14
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 2.93
+            },
+            {
+              "time": 0.6,
+              "x": 0,
+              "y": -10.14
+            },
+            {
+              "time": 0.7667,
+              "x": 0,
+              "y": 3.42
+            },
+            {
+              "time": 0.9333,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 0.3667,
+              "x": 1,
+              "y": 0.88
+            },
+            {
+              "time": 0.5,
+              "x": 1,
+              "y": 1.1
+            },
+            {
+              "time": 0.6,
+              "x": 1,
+              "y": 0.88
+            },
+            {
+              "time": 0.7667,
+              "x": 1,
+              "y": 1.1
+            },
+            {
+              "time": 0.9333,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      }
+    },
+    "progress": {
+      "slots": {
+        "ani_hd_bonusforest_experience_glow2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "30ff3cff"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_glow3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ddffaeff"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffb4"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffb4"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff1c"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff1c"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffbf"
+            },
+            {
+              "time": 0.4,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffbf"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffd4"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffffd4"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star8": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star9": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff7f"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6667,
+              "color": "ffffff7f"
+            }
+          ]
+        },
+        "ani_huodong_dh_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "ani_huodong_dh_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "ani_huodong_dh_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "ani_huodong_dh_4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "ani_huodong_dh_5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "ani_huodong_dh_6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "ani_settle_treasure_banner_box": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        },
+        "ani_settle_treasure_banner_box2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_settle_treasure_banner_box3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_settle_treasure_banner_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_settle_treasure_banner_glow2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "glow2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.8,
+              "y": 1
+            },
+            {
+              "time": 0.3333,
+              "x": 1.5,
+              "y": 1
+            },
+            {
+              "time": 0.6667,
+              "x": 0.8,
+              "y": 1
+            }
+          ]
+        },
+        "glow3": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 0.8
+            },
+            {
+              "time": 0.3333,
+              "x": 1,
+              "y": 1.6
+            },
+            {
+              "time": 0.6667,
+              "x": 1,
+              "y": 0.8
+            }
+          ]
+        },
+        "star": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -4.15,
+              "y": 5.8
+            },
+            {
+              "time": 0.4,
+              "x": -14.12,
+              "y": 19.73
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.6667,
+              "x": -4.15,
+              "y": 5.8
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.412,
+              "y": 0.412
+            },
+            {
+              "time": 0.4,
+              "x": 0.2,
+              "y": 0.2
+            },
+            {
+              "time": 0.5,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 0.6667,
+              "x": 0.412,
+              "y": 0.412
+            }
+          ]
+        },
+        "star2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -18.63,
+              "y": 12.33
+            },
+            {
+              "time": 0.0667,
+              "x": -20.96,
+              "y": 13.87
+            },
+            {
+              "time": 0.1333,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.6667,
+              "x": -18.63,
+              "y": 12.33
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.233,
+              "y": 0.233
+            },
+            {
+              "time": 0.0667,
+              "x": 0.2,
+              "y": 0.2
+            },
+            {
+              "time": 0.1333,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 0.6667,
+              "x": 0.233,
+              "y": 0.233
+            }
+          ]
+        },
+        "star3": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -6.7,
+              "y": 1.51
+            },
+            {
+              "time": 0.4,
+              "x": -26.82,
+              "y": 6.05
+            },
+            {
+              "time": 0.5333,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.6667,
+              "x": -6.7,
+              "y": 1.51
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.425,
+              "y": 0.425
+            },
+            {
+              "time": 0.4,
+              "x": 0.2,
+              "y": 0.2
+            },
+            {
+              "time": 0.5333,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 0.6667,
+              "x": 0.425,
+              "y": 0.425
+            }
+          ]
+        },
+        "star4": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.5333,
+              "x": -18.03,
+              "y": 3.12
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 0.5333,
+              "x": 0.2,
+              "y": 0.2
+            }
+          ]
+        },
+        "star5": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -2.68,
+              "y": -1.76
+            },
+            {
+              "time": 0.3333,
+              "x": -16.07,
+              "y": -10.56
+            },
+            {
+              "time": 0.6,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.6667,
+              "x": -2.68,
+              "y": -1.76
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.45,
+              "y": 0.45
+            },
+            {
+              "time": 0.3333,
+              "x": 0.2,
+              "y": 0.2
+            },
+            {
+              "time": 0.6,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 0.6667,
+              "x": 0.45,
+              "y": 0.45
+            }
+          ]
+        },
+        "star6": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.6,
+              "x": -23.89,
+              "y": -9.58
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 0.6,
+              "x": 0.2,
+              "y": 0.2
+            }
+          ]
+        },
+        "star7": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.6667,
+              "x": -27.8,
+              "y": -14.47
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 0.6667,
+              "x": 0.2,
+              "y": 0.2
+            }
+          ]
+        },
+        "star8": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.6667,
+              "x": -14.12,
+              "y": -23.26
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 0.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 0.6667,
+              "x": 0.2,
+              "y": 0.2
+            }
+          ]
+        },
+        "star9": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -13.9,
+              "y": -7.23
+            },
+            {
+              "time": 0.2,
+              "x": -27.8,
+              "y": -14.47
+            },
+            {
+              "time": 0.4667,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 0.6667,
+              "x": -13.9,
+              "y": -7.23
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.35,
+              "y": 0.35
+            },
+            {
+              "time": 0.2,
+              "x": 0.2,
+              "y": 0.2
+            },
+            {
+              "time": 0.4667,
+              "x": 0.5,
+              "y": 0.5
+            },
+            {
+              "time": 0.6667,
+              "x": 0.35,
+              "y": 0.35
+            }
+          ]
+        }
+      }
+    },
+    "standby": {
+      "slots": {
+        "ani_hd_bonusforest_experience_glow2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_glow3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star8": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_hd_bonusforest_experience_star9": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_huodong_dh_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0,
+              "name": "ani_huodong_dh_1"
+            }
+          ]
+        },
+        "ani_huodong_dh_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_huodong_dh_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_huodong_dh_4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_huodong_dh_5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_huodong_dh_6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_settle_treasure_banner_box2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_settle_treasure_banner_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ani_settle_treasure_banner_glow2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "cash1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -16.63
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.2,
+              "y": 0.2
+            }
+          ]
+        },
+        "box": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

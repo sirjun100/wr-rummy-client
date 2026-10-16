@@ -1,0 +1,138 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "9c2ce401-e4d8-46c7-abd1-9020c0062386",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "9c2ce401-e4d8-46c7-abd1-9020c0062386@6c48a",
+      "displayName": "ani_actenter_room_gullak",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "9c2ce401-e4d8-46c7-abd1-9020c0062386",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "9c2ce401-e4d8-46c7-abd1-9020c0062386@f9941",
+      "displayName": "ani_actenter_room_gullak",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -6.5,
+        "offsetY": 1,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 239,
+        "height": 58,
+        "rawWidth": 256,
+        "rawHeight": 64,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -119.5,
+            -29,
+            0,
+            119.5,
+            -29,
+            0,
+            -119.5,
+            29,
+            0,
+            119.5,
+            29,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            2,
+            62,
+            241,
+            62,
+            2,
+            4,
+            241,
+            4
+          ],
+          "nuv": [
+            0.0078125,
+            0.0625,
+            0.94140625,
+            0.0625,
+            0.0078125,
+            0.96875,
+            0.94140625,
+            0.96875
+          ],
+          "minPos": [
+            -119.5,
+            -29,
+            0
+          ],
+          "maxPos": [
+            119.5,
+            29,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9c2ce401-e4d8-46c7-abd1-9020c0062386@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": true,
+    "hasAlpha": true,
+    "redirect": "9c2ce401-e4d8-46c7-abd1-9020c0062386@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "rummy-slim"
+    }
+  }
+}

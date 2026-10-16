@@ -1,0 +1,201 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "30751143-02d5-4ea3-ba7d-f1cf73223e8e",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "10894": {
+      "importer": "sprite-frame",
+      "uuid": "30751143-02d5-4ea3-ba7d-f1cf73223e8e@10894",
+      "displayName": "",
+      "id": "10894",
+      "name": "rummy_small_card_bg_02",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 58,
+        "trimY": 2,
+        "width": 54,
+        "height": 70,
+        "rawWidth": 54,
+        "rawHeight": 70,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ecf94e98-f084-4b41-b3b2-d21e06699390@6c48a",
+        "atlasUuid": "30751143-02d5-4ea3-ba7d-f1cf73223e8e"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "10bb2": {
+      "importer": "sprite-frame",
+      "uuid": "30751143-02d5-4ea3-ba7d-f1cf73223e8e@10bb2",
+      "displayName": "",
+      "id": "10bb2",
+      "name": "rummy_small_card_bg_04",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 58,
+        "trimY": 74,
+        "width": 54,
+        "height": 70,
+        "rawWidth": 54,
+        "rawHeight": 70,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ecf94e98-f084-4b41-b3b2-d21e06699390@6c48a",
+        "atlasUuid": "30751143-02d5-4ea3-ba7d-f1cf73223e8e"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9817f": {
+      "importer": "sprite-frame",
+      "uuid": "30751143-02d5-4ea3-ba7d-f1cf73223e8e@9817f",
+      "displayName": "",
+      "id": "9817f",
+      "name": "rummy_small_card_bg_01",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 54,
+        "height": 70,
+        "rawWidth": 54,
+        "rawHeight": 70,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ecf94e98-f084-4b41-b3b2-d21e06699390@6c48a",
+        "atlasUuid": "30751143-02d5-4ea3-ba7d-f1cf73223e8e"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ad2d9": {
+      "importer": "sprite-frame",
+      "uuid": "30751143-02d5-4ea3-ba7d-f1cf73223e8e@ad2d9",
+      "displayName": "",
+      "id": "ad2d9",
+      "name": "rummy_small_card_bg_03",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 74,
+        "width": 54,
+        "height": 70,
+        "rawWidth": 54,
+        "rawHeight": 70,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ecf94e98-f084-4b41-b3b2-d21e06699390@6c48a",
+        "atlasUuid": "30751143-02d5-4ea3-ba7d-f1cf73223e8e"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "rummy_small_card_bg.png",
+    "format": 3,
+    "uuid": "30751143-02d5-4ea3-ba7d-f1cf73223e8e",
+    "textureUuid": "ecf94e98-f084-4b41-b3b2-d21e06699390@6c48a"
+  }
+}
