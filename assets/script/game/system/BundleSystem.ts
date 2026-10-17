@@ -111,6 +111,14 @@ export class BundleSystem extends AbstractSystem {
         });
     }
 
+    public async preloadLobby(): Promise<void> {
+        const entry = getManifestEntry(LOBBY_BUNDLE_KEY);
+        if (!entry) {
+            throw new Error("lobby bundle missing in manifest");
+        }
+        await this.loadBundle(entry.bundleName);
+    }
+
     public async goLobby(sceneName: string = DEFAULT_LOBBY_SCENE_NAME): Promise<void> {
         const entry = getManifestEntry(LOBBY_BUNDLE_KEY);
         if (!entry) {

@@ -42,7 +42,8 @@
 
 ## BindableProperty
 
-- `BindableProperty<T>`：`Value`、`Register` / `RegisterWithInitValue`、`UnRegister`
+- `BindableProperty<T>`：`value` / `Value`、`Register` / `RegisterWithInitValue`、`UnRegister`；返回 `IUnRegister` 可链 `UnRegisterWhenGameObjectDestroyed(node)`。
+- 活动 Model 示例：`readonly page = new BindableProperty<PageDto | null>(null)`；Command 写 `model.page.value = dto`；Dialog：`model.page.RegisterWithInitValue((p) => p && this.applyPage(p), this).UnRegisterWhenGameObjectDestroyed(this.node)`。
 
 ## 禁止幻觉 API（常见误写）
 

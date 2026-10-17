@@ -13,7 +13,7 @@ export class LoginCommand extends AbstractCommand {
     protected OnExecute(): void {
         LogKit.I("[LoginCommand] execute account={0}", this.account);
         const net = this.GetSystem(NetworkSystem);
-        net.login(this.account, this.password).catch((err) => {
+        void net.login(this.account, this.password).catch((err) => {
             LogKit.E("[LoginCommand] {0}", err instanceof Error ? err.message : String(err));
         });
     }

@@ -3,14 +3,16 @@ import { LogKit } from "../../framework/toolkits/coreKit/logKit/LogKit";
 import { LoginFailedEvent } from "../event/LoginFailedEvent";
 import { LoginSuccessEvent } from "../event/LoginSuccessEvent";
 import { SessionModel } from "../model/SessionModel";
-
+import { GateHttpDefaults, GateWsDefaults, LobbyRoute } from "../config/StartConfig";
+import type { FeatureSwitchInfo, MaintainInfo } from "../model/AppBootstrapModel";
+import { sys } from "cc";
 
 // --- 可随 NetworkSystem 一并拷贝的配置（与 wr-rummy-server gate etc 默认一致）---
 
-const GATE_WEBSOCKET_URL = "ws://127.0.0.1:3553/";
+const GATE_WEBSOCKET_URL = GateWsDefaults.url;
 const CALL_TIMEOUT_MS = 8000;
 const HEARTBEAT_INTERVAL_MS = 10000;
-const ROUTE_LOBBY_LOGIN = 1001;
+const ROUTE_LOBBY_LOGIN = LobbyRoute.Login;
 const DUE_OK_CODE = 0;
 const DUE_CODE_MESSAGE: Record<number, string> = {
     0: "OK",
@@ -32,8 +34,26 @@ interface LoginRes {
  * Due 网关连接、编解码与业务 RPC（登录等）。
  * **自包含**：传输层实现在本文件内，拷贝本文件 + 注册 GameApp 即可使用（另需 QFramework / SessionModel / 事件类）。
  */
+export interface BootstrapDataDto {
+    server_ver?: string;
+    hot_update_url?: string;
+    hot_update_type?: number;
+    ws_gate_urls?: string[];
+    http_base_urls?: string[];
+    apk_type?: number;
+    apk_url?: string;
+    apk_h5?: string;
+    apk_title?: string;
+    apk_desc?: string;
+    maintain?: MaintainInfo | null;
+    feature_switch?: FeatureSwitchInfo;
+    server_time_ms?: number;
+}
+
 export class NetworkSystem extends AbstractSystem {
     private readonly client = new DueWebSocketClient();
+    private httpBaseUrl = GateHttpDefaults.baseUrls[0];
+    private gateUrl = GATE_WEBSOCKET_URL;
 
     protected OnInit(): void {}
 
@@ -45,8 +65,53 @@ export class NetworkSystem extends AbstractSystem {
         return this.client.connected;
     }
 
+    public get resolvedHttpBase(): string {
+        return this.httpBaseUrl;
+    }
+
+    public async resolveHttpBase(): Promise<string> {
+        const cached = sys.localStorage.getItem(GateHttpDefaults.cachedBaseKey);
+        const candidates = cached ? [cached, ...GateHttpDefaults.baseUrls] : [...GateHttpDefaults.baseUrls];
+        const unique = [...new Set(candidates)];
+        for (const base of unique) {
+            try {
+                await dueHttpGet(`${base}${GateHttpDefaults.healthPath}`, GateHttpDefaults.httpTimeoutMs);
+                this.httpBaseUrl = base.replace(/\/$/, "");
+                sys.localStorage.setItem(GateHttpDefaults.cachedBaseKey, this.httpBaseUrl);
+                return this.httpBaseUrl;
+            } catch {
+                LogKit.W("[NetworkSystem] http base unreachable {0}", base);
+            }
+        }
+        this.httpBaseUrl = GateHttpDefaults.baseUrls[0].replace(/\/$/, "");
+        return this.httpBaseUrl;
+    }
+
+    public async fetchBootstrap(): Promise<BootstrapDataDto> {
+        const url = `${this.httpBaseUrl}${GateHttpDefaults.bootstrapPath}`;
+        const raw = await dueHttpGet(url, GateHttpDefaults.httpTimeoutMs);
+        const parsed = JSON.parse(raw) as { code?: number; data?: BootstrapDataDto | { code?: number; data?: BootstrapDataDto } };
+        let data: BootstrapDataDto;
+        if (parsed.data && typeof parsed.data === "object" && "data" in parsed.data) {
+            data = (parsed.data as { data?: BootstrapDataDto }).data ?? {};
+        } else {
+            data = (parsed.data as BootstrapDataDto) ?? (parsed as BootstrapDataDto);
+        }
+        if (data.ws_gate_urls?.length) {
+            this.gateUrl = data.ws_gate_urls[0];
+        }
+        return data;
+    }
+
+    public async sendOtp(phone: string): Promise<number> {
+        const url = `${this.httpBaseUrl}${GateHttpDefaults.otpSendPath}`;
+        const raw = await dueHttpPost(url, { phone }, GateHttpDefaults.httpTimeoutMs);
+        const parsed = JSON.parse(raw) as { data?: { timeout_sec?: number } };
+        return parsed.data?.timeout_sec ?? 60;
+    }
+
     public connect(gateUrl?: string): Promise<void> {
-        const url = gateUrl ?? GATE_WEBSOCKET_URL;
+        const url = gateUrl ?? this.gateUrl;
         LogKit.I("[NetworkSystem] connect gate={0}", url);
         return this.client.connect(url);
     }
@@ -55,42 +120,55 @@ export class NetworkSystem extends AbstractSystem {
         this.client.close();
     }
 
-    /** 登录大厅 route=1001；演示密码 123456 */
     public async login(account: string, password: string): Promise<void> {
-        const trimmedAccount = (account ?? "").trim();
-        if (!trimmedAccount) {
-            this.failLogin(trimmedAccount, "account empty");
+        await this.loginWithRoute(ROUTE_LOBBY_LOGIN, { account, password }, account.trim());
+    }
+
+    public async loginGuest(deviceId: string): Promise<void> {
+        await this.loginWithRoute(LobbyRoute.Guest, { device_id: deviceId }, `guest:${deviceId}`);
+    }
+
+    public async loginOtp(phone: string, code: string): Promise<void> {
+        await this.loginWithRoute(LobbyRoute.Otp, { phone, code }, phone);
+    }
+
+    public async loginFacebook(token: string): Promise<void> {
+        await this.loginWithRoute(LobbyRoute.Facebook, { access_token: token }, "facebook");
+    }
+
+    public async loginGoogle(token: string): Promise<void> {
+        await this.loginWithRoute(LobbyRoute.Google, { access_token: token }, "google");
+    }
+
+    public async loginApple(token: string): Promise<void> {
+        await this.loginWithRoute(LobbyRoute.Apple, { access_token: token }, "apple");
+    }
+
+    private async loginWithRoute(route: number, body: object, accountLabel: string): Promise<void> {
+        const label = (accountLabel ?? "").trim();
+        if (!label) {
+            this.failLogin(label, "account empty");
             return;
         }
-
         try {
-            LogKit.I("[NetworkSystem] login begin account={0}", trimmedAccount);
+            LogKit.I("[NetworkSystem] login route={0} account={1}", route, label);
             await this.connect();
-            const packet = await this.client.call(ROUTE_LOBBY_LOGIN, {
-                account: trimmedAccount,
-                password,
-            } satisfies LoginReq);
-
+            const packet = await this.client.call(route, body);
             const json = new TextDecoder().decode(packet.message);
-            LogKit.I("[NetworkSystem] login response raw={0}", json);
             const res = JSON.parse(json) as LoginRes;
             if (res.code !== DUE_OK_CODE) {
                 const hint = DUE_CODE_MESSAGE[res.code] ?? "unknown";
-                this.failLogin(trimmedAccount, `login code=${res.code} (${hint})`, res.code);
+                this.failLogin(label, `login code=${res.code} (${hint})`, res.code);
                 return;
             }
-
             const uid = res.uid ?? 0;
             const session = this.GetModel(SessionModel);
             session.uid = uid;
-            session.account = trimmedAccount;
-
-            LogKit.I("[NetworkSystem] login ok uid={0} account={1}", uid, trimmedAccount);
-            this.SendEvent(new LoginSuccessEvent(uid, trimmedAccount));
+            session.account = label;
+            this.SendEvent(new LoginSuccessEvent(uid, label));
         } catch (err) {
             const message = err instanceof Error ? err.message : String(err);
-            LogKit.E("[NetworkSystem] login failed: {0}", message);
-            this.failLogin(trimmedAccount, message);
+            this.failLogin(label, message);
         }
     }
 
@@ -98,7 +176,56 @@ export class NetworkSystem extends AbstractSystem {
         LogKit.W("[NetworkSystem] login fail account={0} code={1} msg={2}", account, code, message);
         this.SendEvent(new LoginFailedEvent(account, message, code));
     }
+
+    /** Generic lobby node RPC (post-login, Auth middleware). */
+    public async callLobby<T extends { code?: number }>(route: number, body: object = {}): Promise<T> {
+        if (!this.client.connected) {
+            await this.connect();
+        }
+        const packet = await this.client.call(route, body);
+        const json = new TextDecoder().decode(packet.message);
+        const res = JSON.parse(json) as T;
+        const code = res.code ?? DUE_OK_CODE;
+        if (code !== DUE_OK_CODE) {
+            const hint = DUE_CODE_MESSAGE[code] ?? "unknown";
+            throw new Error(`lobby route=${route} code=${code} (${hint})`);
+        }
+        return res;
+    }
 }
+
+// #region Due HTTP transport (private)
+
+async function dueHttpGet(url: string, timeoutMs: number): Promise<string> {
+    return dueHttpRequest(url, "GET", undefined, timeoutMs);
+}
+
+async function dueHttpPost(url: string, body: object, timeoutMs: number): Promise<string> {
+    return dueHttpRequest(url, "POST", JSON.stringify(body), timeoutMs);
+}
+
+function dueHttpRequest(url: string, method: string, body: string | undefined, timeoutMs: number): Promise<string> {
+    return new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+        xhr.timeout = timeoutMs;
+        xhr.open(method, url, true);
+        if (body) {
+            xhr.setRequestHeader("Content-Type", "application/json");
+        }
+        xhr.onload = () => {
+            if (xhr.status >= 200 && xhr.status < 300) {
+                resolve(xhr.responseText);
+            } else {
+                reject(new Error(`HTTP ${xhr.status}`));
+            }
+        };
+        xhr.onerror = () => reject(new Error("HTTP network error"));
+        xhr.ontimeout = () => reject(new Error("HTTP timeout"));
+        xhr.send(body ?? null);
+    });
+}
+
+// #endregion
 
 // #region Due transport (private — do not split into utility files)
 

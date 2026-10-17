@@ -20,7 +20,8 @@ description: >-
 - **Command / Query**：继承 `AbstractCommand` / `AbstractQuery`（或 `AbstractCommandWithResult` / `AbstractQuery`）；通过 `SendCommand` / `SendQuery` 触发，**不存在** `Architecture.Execute` 对外 API。
 - **类型事件**：`SendEvent` / `RegisterEvent` **必须**使用事件 **class**（如 `RegisterEvent(LoginSuccessEvent, handler, this)`）；**不存在** `RegisterEvent(string, ...)` 的架构事件 API。
 - **泛型 Token**：`GetModel` / `GetSystem` / `GetUtility` 必须传入类引用：`GetSystem(NetworkSystem)`；裸 `GetSystem<NetworkSystem>()` 运行时会抛错。
-- **注销**：`RegisterEvent` 返回 `IUnRegister`；挂在 Component 上须 `UnRegisterWhenGameObjectDestroyed(node)` 或 `UnRegisterWhenDisabled(node)`。
+- **注销**：`RegisterEvent` 与 `BindableProperty.Register` / `RegisterWithInitValue` 均返回 `IUnRegister`；挂在 Component 上须 `UnRegisterWhenGameObjectDestroyed(node)` 或 `UnRegisterWhenDisabled(node)`。
+- **活动 Model 与 UI 数据**：subpackage 活动 `*Model` 用 `BindableProperty<T>` 暴露页数据/列表（如 `page`、`records`）；Command 网络成功后只写 `model.page.value = dto`。Dialog 在 `OnInit` 用 `model.page.RegisterWithInitValue((p) => this.applyPage(p), this).UnRegisterWhenGameObjectDestroyed(this.node)`。**不要**再为同一数据另发 `*PageUpdatedEvent`。Cocos `@property` 仍用于 Prefab 节点引用，与 `BindableProperty` 并存。副作用（toast、loading、流程跳转）继续用类型事件。见 [架构与分层](references/架构与分层.md)。
 - **频道事件（迁移）**：字符串/数字频道用 `GameEventSystem`（`game/system`），**不要**与架构 `TypeEventSystem` 混用同一 channel 语义。
 - **UI**：业务打开/关闭 Dialog 用 `GetSystem(UISystem).openDialogAsync` / `closeDialog`（内部 UIKit + 动效）；面板脚本继承 `UIPanel` / `BaseDialog`。**不存在** `UIKit.ShowPanel`；避免业务直接 `UIKit.OpenPanel`。
 - **音频**：`GetSystem(AudioSystem).playFx` / `preloadCommon` / `switchBgm`；勿 `SoundManager.shared()` 或业务直接 `AudioKit`。
@@ -30,7 +31,7 @@ description: >-
 - **日志**：使用 `LogKit`（`LogKit.I/W/E`），避免生产路径裸 `console.log`。
 - **Bundle 目录**：每 bundle 仅允许 `audio` / `config` / `prefab` / `script` / `effect` / `texture`；`scene` 放在 bundle 根目录（见 [AI.txt](../../../../AI.txt)）。
 - **Bundle 标识**：`BundleKey`（21 个资源包）用于 Manifest / `openDialogAsync`；`SubGameId`（6 个可进局玩法）用于 `enterGame` / `GameplayContextModel`。**勿**用单一 `GameId` 混表示大厅与活动。
-- **工具类**：无状态 helpers 在 `game/utility/`（如 `NodeUtil`、`ChipFormatUtil`）；**勿**恢复旧 `ToolUtils` Component；对照 [反模式与迁移](references/反模式与迁移.md) ToolUtils 表。
+- **工具类**：无状态 helpers 集中在 [`game/utility/Utility.ts`](../../../assets/script/game/utility/Utility.ts)（`Utility.format.*` / `Utility.time.*` / `Utility.tween.*` 等）；**勿**恢复旧 `ToolUtils` / `Utils.shared()`；对照 [反模式与迁移](references/反模式与迁移.md) ToolUtils 表。
 - **NetworkSystem 自包含**：Due 编解码、WebSocket、心跳、RPC 与业务入口均在 [`game/system/NetworkSystem.ts`](../../../assets/script/game/system/NetworkSystem.ts) 单文件内（文件底部 `#region Due transport`）；**禁止**拆到 `utility/DuePacketCodec` 等分散文件。拷贝到其他项目时带走该 System 文件 + `GameApp` 注册 + 依赖的 Model/Event 即可。
 - **PlatformSystem 自包含**：设备标识、原生 JNI/iOS 桥、权限/定位/分享/归因等均在 [`game/system/PlatformSystem.ts`](../../../assets/script/game/system/PlatformSystem.ts) 单文件（`IPlatform` + `WebPlatform` / `AndroidPlatform` / `IosPlatform`）；频道回调用 `GameEventSystem` + `PushEvent`。
 

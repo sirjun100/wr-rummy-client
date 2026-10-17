@@ -31,6 +31,9 @@ const DEFAULT_CLOSE_ANIM = UiAnimType.SlideOutRight;
  */
 export class UISystem extends AbstractSystem {
     private readonly registeredPanels = new Set<PanelConstructor>();
+    private loadingTimeoutId: ReturnType<typeof setTimeout> | null = null;
+    private toastTimeoutId: ReturnType<typeof setTimeout> | null = null;
+    private blockingLoadingVisible = false;
 
     protected OnInit(): void {}
 
@@ -107,12 +110,46 @@ export class UISystem extends AbstractSystem {
         return this.openDialogAsync(panelType, null, resourcesPrefabPath, options);
     }
 
-    public showBlockingLoading(): void {
-        LogKit.W("[UISystem] showBlockingLoading not implemented");
+    /** P0 stub: LogKit + timeout callback; later hook Common loading prefab. */
+    public showBlockingLoading(timeoutSec = 0, onTimeout?: () => void): void {
+        this.hideBlockingLoading();
+        this.blockingLoadingVisible = true;
+        LogKit.I("[UISystem] showBlockingLoading timeout={0}", timeoutSec);
+        if (timeoutSec > 0 && onTimeout) {
+            this.loadingTimeoutId = setTimeout(() => {
+                this.loadingTimeoutId = null;
+                if (this.blockingLoadingVisible) {
+                    onTimeout();
+                }
+            }, timeoutSec * 1000);
+        }
     }
 
     public hideBlockingLoading(): void {
-        LogKit.W("[UISystem] hideBlockingLoading not implemented");
+        if (this.loadingTimeoutId != null) {
+            clearTimeout(this.loadingTimeoutId);
+            this.loadingTimeoutId = null;
+        }
+        if (this.blockingLoadingVisible) {
+            LogKit.I("[UISystem] hideBlockingLoading");
+        }
+        this.blockingLoadingVisible = false;
+    }
+
+    /** P0 stub: LogKit; later hook Common toast prefab. */
+    public showToast(message: string, durationSec = 2): void {
+        this.hideToast();
+        LogKit.I("[UISystem] toast ({0}s): {1}", durationSec, message);
+        if (durationSec > 0) {
+            this.toastTimeoutId = setTimeout(() => this.hideToast(), durationSec * 1000);
+        }
+    }
+
+    public hideToast(): void {
+        if (this.toastTimeoutId != null) {
+            clearTimeout(this.toastTimeoutId);
+            this.toastTimeoutId = null;
+        }
     }
 
     private ensurePanelRegistered(panelType: PanelConstructor, prefabName: string): void {
