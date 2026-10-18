@@ -48,7 +48,7 @@ export class CouponPackageDialog extends BaseDialog {
     private wireButtons(): void {
         this.wireByName("btn_close", () => this.CloseSelf());
         this.wireByName("add_cash", () => {
-            GameApp.Interface.GetSystem(UISystem).showToast("Store (P1)");
+            void import("../../../../function/commerce/wallet/script/PurseModule").then((m) => m.openShopMain());
             this.CloseSelf();
         });
     }

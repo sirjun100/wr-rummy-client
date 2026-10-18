@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "88266d0daf42472db22edb",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleName": "roomSelect",
+    "priority": 1
+  }
+}

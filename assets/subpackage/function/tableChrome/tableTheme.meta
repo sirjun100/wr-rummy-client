@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "47deeaad05a14f82ad64fc",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleName": "tableTheme",
+    "priority": 1
+  }
+}

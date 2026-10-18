@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "9cccc573b9bb41d0bdf048",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleName": "roomLeaderboard",
+    "priority": 1
+  }
+}

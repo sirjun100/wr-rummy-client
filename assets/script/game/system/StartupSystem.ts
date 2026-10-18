@@ -38,7 +38,33 @@ export class StartupSystem extends AbstractSystem {
         model.maintain = data.maintain ?? null;
         model.featureSwitch = data.feature_switch ?? model.featureSwitch;
         model.serverTimeMs = data.server_time_ms ?? 0;
+        model.remoteDeskUrl = data.remote_desk_url ?? data.remote_bundles?.desk ?? "";
+        if (data.network_delay) {
+            model.networkDelay = { ...model.networkDelay, ...data.network_delay };
+        }
+        if (data.support) {
+            model.support = { ...model.support, ...data.support };
+        }
+        if (data.game_help) {
+            model.gameHelp = { ...data.game_help };
+        }
+        if (data.transition) {
+            model.transition = { ...model.transition, ...data.transition };
+        }
         model.ready = true;
+        if (data.support) {
+            void import("../../../subpackage/function/shared/commonUi/script/PublicModule").then((m) => {
+                m.applySupportChannels(data.support);
+            });
+        }
+        void import("../../../subpackage/function/tableChrome/networkOverlay/script/NetworkDelayModule").then((m) => {
+            m.ensureNetworkDelayRegistered();
+            void import("../../../subpackage/function/tableChrome/networkOverlay/script/command/ApplyNetworkDelayConfigCommand").then(
+                ({ ApplyNetworkDelayConfigCommand }) => {
+                    this.SendCommand(new ApplyNetworkDelayConfigCommand(model.networkDelay));
+                },
+            );
+        });
         this.emitProgress(1, StartupSteps[1].end);
         this.SendEvent(new BootstrapReadyEvent());
     }

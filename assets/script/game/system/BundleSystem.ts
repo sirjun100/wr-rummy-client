@@ -1,4 +1,4 @@
-import { assetManager, director, AssetManager } from "cc";
+import { assetManager, director, AssetManager, EDITOR, sys } from "cc";
 import { AbstractSystem } from "../../framework/QFramework";
 import { LogKit } from "../../framework/toolkits/coreKit/logKit/LogKit";
 import { UIKit, UILevel, UIPanel } from "../../framework/toolkits/uiKit/UIKit";
@@ -10,10 +10,14 @@ import {
     LOBBY_BUNDLE_KEY,
     MAIN_SCENE_NAME,
     resolveBundleKey,
+    resolveBundleLoadName,
     SubGameId,
+    getFunctionBundleImportPath,
 } from "../config/BundleManifest";
 import { SubGameEnterEvent, SubGameLeaveEvent } from "../event/SubGameFlowEvents";
+import { AppBootstrapModel } from "../model/AppBootstrapModel";
 import { GameplayContextModel } from "../model/GameplayContextModel";
+import { TransitionMode } from "../../../subpackage/function/hall/sceneSwitch/script/config/TransitionConfig";
 
 type PanelConstructor = new () => UIPanel;
 
@@ -36,20 +40,31 @@ export class BundleSystem extends AbstractSystem {
     // #region Load
 
     public async loadBundle(bundleName: string): Promise<AssetManager.Bundle> {
-        const key = bundleName.toLowerCase();
+        const resolved = resolveBundleLoadName(bundleName);
+        const key = resolved.toLowerCase();
         const cached = this.loadedBundles.get(key);
         if (cached) {
             return cached;
         }
         return new Promise((resolve, reject) => {
-            assetManager.loadBundle(bundleName, (err, bundle) => {
+            assetManager.loadBundle(resolved, (err, bundle) => {
                 if (err || !bundle) {
-                    LogKit.E("[BundleSystem] loadBundle failed name={0} err={1}", bundleName, err?.message ?? "unknown");
+                    const legacy = resolved !== bundleName ? bundleName : resolved;
+                    if (legacy !== resolved) {
+                        LogKit.E(
+                            "[BundleSystem] loadBundle failed name={0} (resolved={1}) err={2}",
+                            bundleName,
+                            resolved,
+                            err?.message ?? "unknown",
+                        );
+                    } else {
+                        LogKit.E("[BundleSystem] loadBundle failed name={0} err={1}", bundleName, err?.message ?? "unknown");
+                    }
                     reject(err ?? new Error(`loadBundle failed: ${bundleName}`));
                     return;
                 }
                 this.loadedBundles.set(key, bundle);
-                LogKit.I("[BundleSystem] loadBundle ok name={0}", bundleName);
+                LogKit.I("[BundleSystem] loadBundle ok name={0}", resolved);
                 resolve(bundle);
             });
         });
@@ -112,14 +127,19 @@ export class BundleSystem extends AbstractSystem {
     }
 
     public async preloadLobby(): Promise<void> {
-        const entry = getManifestEntry(LOBBY_BUNDLE_KEY);
-        if (!entry) {
-            throw new Error("lobby bundle missing in manifest");
-        }
-        await this.loadBundle(entry.bundleName);
+        const core = ["commonUi", "networkOverlay", "audio", "lobby", "gameRules", "roomSelect", "sceneSwitch"];
+        await this.preloadBundles(core);
     }
 
     public async goLobby(sceneName: string = DEFAULT_LOBBY_SCENE_NAME): Promise<void> {
+        if (sceneName === "Transition") {
+            const tr = getManifestEntry(BundleKey.SceneSwitch);
+            if (!tr) {
+                throw new Error("transition bundle missing in manifest");
+            }
+            await this.loadSceneInBundle(tr.bundleName, sceneName);
+            return;
+        }
         const entry = getManifestEntry(LOBBY_BUNDLE_KEY);
         if (!entry) {
             throw new Error("lobby bundle missing in manifest");
@@ -139,11 +159,31 @@ export class BundleSystem extends AbstractSystem {
         if (subGameId === SubGameId.None) {
             throw new Error("enterGame: SubGameId.None");
         }
+        const ctx = this.GetModel(GameplayContextModel);
+        ctx.subGameId = subGameId;
+        if (this.shouldUseTransitionScene()) {
+            const mod = await import(getFunctionBundleImportPath(BundleKey.SceneSwitch, "TransitionModule"));
+            mod.ensureTransitionRegistered();
+            mod.startTransition({
+                mode: TransitionMode.ToSubGame,
+                subGameId,
+                sceneNameOverride,
+            });
+            return;
+        }
+        await this.enterGameDirect(subGameId, sceneNameOverride);
+    }
+
+    /** Load and run sub-game scene (no transition hub). */
+    public async enterGameDirect(subGameId: SubGameId, sceneNameOverride: string | null = null): Promise<void> {
+        if (subGameId === SubGameId.None) {
+            throw new Error("enterGameDirect: SubGameId.None");
+        }
         const bundleKey = resolveBundleKey(subGameId);
         const entry = getManifestEntry(bundleKey);
         if (!entry) {
-            LogKit.E("[BundleSystem] enterGame unknown subGameId={0}", subGameId);
-            throw new Error(`enterGame: unknown subGameId ${subGameId}`);
+            LogKit.E("[BundleSystem] enterGameDirect unknown subGameId={0}", subGameId);
+            throw new Error(`enterGameDirect: unknown subGameId ${subGameId}`);
         }
 
         const ctx = this.GetModel(GameplayContextModel);
@@ -151,12 +191,12 @@ export class BundleSystem extends AbstractSystem {
 
         await this.loadBundle(entry.bundleName);
 
-        const sceneToLoad = sceneNameOverride ?? entry.sceneName;
+        const sceneToLoad = sceneNameOverride ?? entry.sceneName ?? entry.sceneNames[0] ?? null;
         if (sceneToLoad) {
             await this.loadSceneInBundle(entry.bundleName, sceneToLoad);
         } else {
             LogKit.I(
-                "[BundleSystem] enterGame bundle only subGameId={0} bundle={1}",
+                "[BundleSystem] enterGameDirect bundle only subGameId={0} bundle={1}",
                 subGameId,
                 entry.bundleName,
             );
@@ -168,12 +208,61 @@ export class BundleSystem extends AbstractSystem {
     public async leaveGame(goLobbyAfter: boolean = true): Promise<void> {
         const ctx = this.GetModel(GameplayContextModel);
         const previous = ctx.subGameId;
-        ctx.reset();
+        const backToHallVid = ctx.backToHallVid;
         this.SendEvent(new SubGameLeaveEvent(previous));
 
-        if (goLobbyAfter) {
-            await this.goLobby();
+        if (!goLobbyAfter) {
+            ctx.reset();
+            return;
         }
+
+        if (this.shouldUseTransitionScene()) {
+            const mod = await import(getFunctionBundleImportPath(BundleKey.SceneSwitch, "TransitionModule"));
+            mod.ensureTransitionRegistered();
+            mod.startTransition({
+                mode: TransitionMode.ToLobby,
+                subGameId: previous,
+                backToHallVid,
+            });
+            return;
+        }
+
+        ctx.reset();
+        await this.goLobbyDirect();
+        void import(getFunctionBundleImportPath(BundleKey.Lobby, "LobbyModule")).then((m) => {
+            m.ensureLobbyRegistered();
+            m.onLobbyEnter(1, backToHallVid);
+        });
+    }
+
+    public async goLobbyDirect(sceneName: string = DEFAULT_LOBBY_SCENE_NAME): Promise<void> {
+        const entry = getManifestEntry(LOBBY_BUNDLE_KEY);
+        if (!entry) {
+            throw new Error("lobby bundle missing in manifest");
+        }
+        await this.loadSceneInBundle(entry.bundleName, sceneName);
+    }
+
+    public releaseSubGameBundle(subGameId: SubGameId): void {
+        if (subGameId === SubGameId.None) {
+            return;
+        }
+        const bundleKey = resolveBundleKey(subGameId);
+        const entry = getManifestEntry(bundleKey);
+        if (entry?.bundleName) {
+            this.releaseBundle(entry.bundleName);
+        }
+    }
+
+    private shouldUseTransitionScene(): boolean {
+        const bootstrap = this.GetModel(AppBootstrapModel);
+        if (bootstrap.transition.enabled === false) {
+            return false;
+        }
+        if (bootstrap.transition.skip_in_editor && (EDITOR || sys.isBrowser)) {
+            return false;
+        }
+        return true;
     }
 
     // #endregion

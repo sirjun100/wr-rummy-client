@@ -1,0 +1,20 @@
+import { AbstractCommand } from "../../../../../../script/framework/QFramework";
+import { NetworkSystem } from "../../../../../../script/game/system/NetworkSystem";
+import { CricketRoute } from "../config/CricketProtocol";
+import { callCricket } from "../utility/CricketNetwork";
+import { logCricketCommandError } from "../utility/CricketCommandHelper";
+import { CricketModel } from "../model/CricketModel";
+
+export class FetchCricketBackupPlayerListCommand extends AbstractCommand {
+    public constructor(private readonly matchId: number) {
+        super();
+    }
+
+    protected OnExecute(): void {
+        void callCricket<unknown>(this.GetSystem(NetworkSystem), CricketRoute.BackupPlayerList, { match_id: this.matchId })
+            .then((data) => {
+                this.GetModel(CricketModel).setInsightCache("BackupPlayerList", data);
+            })
+            .catch((e) => logCricketCommandError("BackupPlayerList", e));
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "e681d8c9821246cea6d463",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleName": "hallMenu",
+    "priority": 1
+  }
+}

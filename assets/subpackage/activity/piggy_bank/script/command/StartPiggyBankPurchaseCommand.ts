@@ -34,6 +34,9 @@ export class StartPiggyBankPurchaseCommand extends AbstractCommand {
                 if (res.piggy_bank_data) {
                     this.GetModel(PiggyBankModel).page.value = res.piggy_bank_data;
                 }
+                void import("../../../../../script/game/commerce/command/FetchWalletSnapshotCommand").then((m) => {
+                    this.SendCommand(new m.FetchWalletSnapshotCommand());
+                });
                 this.SendEvent(new PiggyBankPurchaseSuccessEvent(res));
             })
             .catch((err) => {

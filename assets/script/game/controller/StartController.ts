@@ -5,6 +5,7 @@ import { LogKit } from "../../framework/toolkits/coreKit/logKit/LogKit";
 import { BootstrapStartupCommand } from "../command/BootstrapStartupCommand";
 import { EnterLobbyCommand } from "../command/EnterLobbyCommand";
 import { LoginSuccessEvent } from "../event/LoginSuccessEvent";
+import { FetchWalletSnapshotCommand } from "../commerce/command/FetchWalletSnapshotCommand";
 
 const { ccclass } = _decorator;
 
@@ -28,6 +29,19 @@ export class StartController extends BaseController {
     }
 
     private onLoginSuccess(): void {
+        void import("../../../subpackage/function/hall/hallMenu/script/CarteModule")
+            .then((carte) => {
+                carte.onHallLoginSuccess();
+                return import("../../../subpackage/function/social/inviteShare/script/CommShareModule");
+            })
+            .then((share) => {
+                share.onShareLoginSuccess();
+                return import("../../../subpackage/function/tableChrome/tableTheme/script/DeskModule");
+            })
+            .then((desk) => {
+                desk?.onDeskLoginSuccess();
+            });
+        this.SendCommand(new FetchWalletSnapshotCommand());
         this.SendCommand(new EnterLobbyCommand());
     }
 }

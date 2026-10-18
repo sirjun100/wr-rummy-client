@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.24",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "89c92bcdf3fe456bb0e260",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleName": "kyc",
+    "priority": 1
+  }
+}

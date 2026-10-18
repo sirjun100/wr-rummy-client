@@ -55,6 +55,22 @@ export class PlatformSystem extends AbstractSystem {
         );
     }
 
+    public startShopPay(payload: {
+        rechargeId: string;
+        money: number;
+        channel: number;
+        testPay: boolean;
+    }): Promise<void> {
+        LogKit.I(
+            "[PlatformSystem] startShopPay rechargeId={0} money={1} channel={2} test={3}",
+            payload.rechargeId,
+            payload.money,
+            payload.channel,
+            payload.testPay,
+        );
+        return Promise.resolve();
+    }
+
     /** P0: resolve immediately; P1 wires store / wallet callback. */
     public startAdvancedGiftPay(money: number, tierId: number): Promise<void> {
         LogKit.I("[PlatformSystem] startAdvancedGiftPay money={0} tierId={1}", money, tierId);
@@ -102,5 +118,56 @@ export class PlatformSystem extends AbstractSystem {
     public startWeeklyMonthCardPay(price: number, cardId: number, goodId: number): Promise<void> {
         LogKit.I("[PlatformSystem] startWeeklyMonthCardPay price={0} cardId={1} goodId={2}", price, cardId, goodId);
         return Promise.resolve();
+    }
+
+    /** Yes11 / cricket balance shortfall (Act_131 MoneyLess / ChipLess). */
+    public startCricketRecharge(amount: number): Promise<void> {
+        LogKit.I("[PlatformSystem] startCricketRecharge amount={0}", amount);
+        void Promise.all([
+            import("../../../subpackage/function/commerce/quickRecharge/script/FastBuyModule"),
+            import("../commerce/config/PaymentProtocol"),
+        ]).then(([fastBuy, proto]) => {
+            fastBuy.openGameFastBuy(new proto.FastBuyOpenData("game", 0, 1));
+        });
+        return Promise.resolve();
+    }
+
+    public isPackageInstalled(packageName: string): boolean {
+        if (!sys.isNative) {
+            return packageName.includes("whatsapp") ? false : true;
+        }
+        LogKit.I("[PlatformSystem] isPackageInstalled {0} (stub true)", packageName);
+        return true;
+    }
+
+    public copyToClipboard(text: string): void {
+        if (typeof navigator !== "undefined" && navigator.clipboard?.writeText) {
+            void navigator.clipboard.writeText(text).catch(() => {
+                LogKit.W("[PlatformSystem] clipboard write failed");
+            });
+            return;
+        }
+        LogKit.I("[PlatformSystem] copyToClipboard len={0}", text.length);
+    }
+
+    public shareWebPage(text: string): void {
+        if (typeof navigator !== "undefined" && navigator.share) {
+            void navigator.share({ text }).catch(() => {
+                this.copyToClipboard(text);
+            });
+            return;
+        }
+        this.copyToClipboard(text);
+    }
+
+    public shareTextToWhatsApp(text: string): void {
+        const encoded = encodeURIComponent(text);
+        const url = `https://wa.me/?text=${encoded}`;
+        if (sys.isNative) {
+            LogKit.I("[PlatformSystem] shareTextToWhatsApp native stub");
+            this.shareWebPage(text);
+            return;
+        }
+        sys.openURL(url);
     }
 }

@@ -10,6 +10,11 @@ export class EnterLobbyCommand extends AbstractCommand {
         void this.GetSystem(BundleSystem)
             .preloadLobby()
             .then(() => this.GetSystem(BundleSystem).goLobby())
+            .then(() =>
+                import("../../../subpackage/function/hall/lobby/script/LobbyModule").then((m) => {
+                    m.ensureLobbyRegistered();
+                }),
+            )
             .then(() => startup.emitProgress(4, StartupSteps[4].end));
     }
 }

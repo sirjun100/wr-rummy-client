@@ -10,7 +10,7 @@ export enum BgmContext {
     Room = 1,
 }
 
-const SOUND_BUNDLE_KEY = BundleKey.Sound;
+const SOUND_BUNDLE_KEY = BundleKey.Audio;
 
 const SUB_GAME_AUDIO_DIRS: Partial<Record<SubGameId, string[]>> = {
     [SubGameId.Rummy]: ["audio/rummy/main_sound", "audio/rummy/chat_sound"],

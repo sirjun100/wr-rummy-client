@@ -4,7 +4,15 @@ import { LoginFailedEvent } from "../event/LoginFailedEvent";
 import { LoginSuccessEvent } from "../event/LoginSuccessEvent";
 import { SessionModel } from "../model/SessionModel";
 import { GateHttpDefaults, GateWsDefaults, LobbyRoute } from "../config/StartConfig";
-import type { FeatureSwitchInfo, MaintainInfo } from "../model/AppBootstrapModel";
+import {
+    AppBootstrapModel,
+    type FeatureSwitchInfo,
+    type GameHelpEntryDto,
+    type MaintainInfo,
+    type NetworkDelayConfigDto,
+    type SupportChannelsDto,
+} from "../model/AppBootstrapModel";
+import { NetworkInboundActivityEvent } from "../event/NetworkInboundActivityEvent";
 import { sys } from "cc";
 
 // --- 可随 NetworkSystem 一并拷贝的配置（与 wr-rummy-server gate etc 默认一致）---
@@ -48,14 +56,67 @@ export interface BootstrapDataDto {
     maintain?: MaintainInfo | null;
     feature_switch?: FeatureSwitchInfo;
     server_time_ms?: number;
+    remote_desk_url?: string;
+    remote_bundles?: { desk?: string };
+    network_delay?: NetworkDelayConfigDto;
+    support?: SupportChannelsDto;
+    game_help?: Record<string, GameHelpEntryDto>;
+    transition?: {
+        enabled?: boolean;
+        min_hold_ms?: number;
+        min_exit_game_ms?: number;
+        skip_in_editor?: boolean;
+    };
 }
+
+type BetPushHandler = (payload: unknown) => void;
+type RoomPushHandler = (payload: unknown) => void;
 
 export class NetworkSystem extends AbstractSystem {
     private readonly client = new DueWebSocketClient();
+    private readonly betPushHandlers = new Map<number, Set<BetPushHandler>>();
+    private readonly roomPushHandlers = new Map<number, Set<RoomPushHandler>>();
+    private readonly lobbyPushHandlers = new Map<number, Set<BetPushHandler>>();
     private httpBaseUrl = GateHttpDefaults.baseUrls[0];
     private gateUrl = GATE_WEBSOCKET_URL;
+    private gateUrlIndex = 0;
+    private lastInboundAtMs = 0;
 
-    protected OnInit(): void {}
+    protected OnInit(): void {
+        this.client.onInbound = () => this.notifyInboundActivity();
+        this.client.onPush = (route, message) => {
+            this.dispatchLobbyPush(route, message);
+            this.dispatchBetPush(route, message);
+            this.dispatchRoomPush(route, message);
+        };
+    }
+
+    public notifyInboundActivity(): void {
+        this.lastInboundAtMs = Date.now();
+        this.SendEvent(new NetworkInboundActivityEvent());
+    }
+
+    public getLastInboundAtMs(): number {
+        return this.lastInboundAtMs;
+    }
+
+    public async switchToNextGateUrl(): Promise<void> {
+        const urls = this.GetModel(AppBootstrapModel).wsGateUrls;
+        const list = urls?.length ? urls : [this.gateUrl];
+        this.gateUrlIndex = (this.gateUrlIndex + 1) % list.length;
+        const next = list[this.gateUrlIndex];
+        LogKit.I("[NetworkSystem] switch gate -> {0}", next);
+        this.disconnect();
+        this.gateUrl = next;
+        await this.connect(next);
+    }
+
+    public async reconnectGate(): Promise<void> {
+        LogKit.I("[NetworkSystem] reconnect gate {0}", this.gateUrl);
+        this.disconnect();
+        await this.connect(this.gateUrl);
+        this.notifyInboundActivity();
+    }
 
     protected OnDeinit(): void {
         this.client.close();
@@ -179,6 +240,111 @@ export class NetworkSystem extends AbstractSystem {
 
     /** Generic lobby node RPC (post-login, Auth middleware). */
     public async callLobby<T extends { code?: number }>(route: number, body: object = {}): Promise<T> {
+        return this.callAuthorized<T>(route, body, "lobby");
+    }
+
+    /** Bet pool (node-bet) RPC — same transport, routes 6xxx. */
+    public async callBet<T extends { code?: number }>(route: number, body: object = {}): Promise<T> {
+        return this.callAuthorized<T>(route, body, "bet");
+    }
+
+    /** Card room (node-room) RPC — routes 2xxx / 3xxx. */
+    public async callRoom<T extends { code?: number }>(route: number, body: object = {}): Promise<T> {
+        return this.callAuthorized<T>(route, body, "room");
+    }
+
+    /** Subscribe to lobby node server push (e.g. payment balance 1430). */
+    public addLobbyPushListener(route: number, handler: BetPushHandler): () => void {
+        let set = this.lobbyPushHandlers.get(route);
+        if (!set) {
+            set = new Set();
+            this.lobbyPushHandlers.set(route, set);
+        }
+        set.add(handler);
+        return () => {
+            set?.delete(handler);
+        };
+    }
+
+    /** Subscribe to node-bet server push (no RPC seq). Returns unsubscribe. */
+    public addBetPushListener(route: number, handler: BetPushHandler): () => void {
+        let set = this.betPushHandlers.get(route);
+        if (!set) {
+            set = new Set();
+            this.betPushHandlers.set(route, set);
+        }
+        set.add(handler);
+        return () => {
+            set?.delete(handler);
+        };
+    }
+
+    /** Subscribe to node-room server push. Returns unsubscribe. */
+    public addRoomPushListener(route: number, handler: RoomPushHandler): () => void {
+        let set = this.roomPushHandlers.get(route);
+        if (!set) {
+            set = new Set();
+            this.roomPushHandlers.set(route, set);
+        }
+        set.add(handler);
+        return () => {
+            set?.delete(handler);
+        };
+    }
+
+    private dispatchLobbyPush(route: number, message: Uint8Array): void {
+        const set = this.lobbyPushHandlers.get(route);
+        if (!set || set.size === 0) {
+            return;
+        }
+        try {
+            const json = new TextDecoder().decode(message);
+            const payload = JSON.parse(json) as unknown;
+            for (const handler of set) {
+                handler(payload);
+            }
+        } catch (err) {
+            LogKit.W("[NetworkSystem] lobby push parse failed route={0}", route);
+        }
+    }
+
+    private dispatchBetPush(route: number, message: Uint8Array): void {
+        const set = this.betPushHandlers.get(route);
+        if (!set || set.size === 0) {
+            return;
+        }
+        try {
+            const json = new TextDecoder().decode(message);
+            const payload = JSON.parse(json) as unknown;
+            for (const handler of set) {
+                handler(payload);
+            }
+        } catch (err) {
+            LogKit.W("[NetworkSystem] bet push parse route={0} err={1}", route, String(err));
+        }
+    }
+
+    private dispatchRoomPush(route: number, message: Uint8Array): void {
+        const set = this.roomPushHandlers.get(route);
+        if (!set || set.size === 0) {
+            return;
+        }
+        try {
+            const json = new TextDecoder().decode(message);
+            const payload = JSON.parse(json) as unknown;
+            for (const handler of set) {
+                handler(payload);
+            }
+        } catch (err) {
+            LogKit.W("[NetworkSystem] room push parse route={0} err={1}", route, String(err));
+        }
+    }
+
+    private async callAuthorized<T extends { code?: number }>(
+        route: number,
+        body: object,
+        pool: string,
+    ): Promise<T> {
         if (!this.client.connected) {
             await this.connect();
         }
@@ -188,7 +354,7 @@ export class NetworkSystem extends AbstractSystem {
         const code = res.code ?? DUE_OK_CODE;
         if (code !== DUE_OK_CODE) {
             const hint = DUE_CODE_MESSAGE[code] ?? "unknown";
-            throw new Error(`lobby route=${route} code=${code} (${hint})`);
+            throw new Error(`${pool} route=${route} code=${code} (${hint})`);
         }
         return res;
     }
@@ -314,6 +480,8 @@ function formatNetworkPayload(bytes: Uint8Array, maxLen = 1024): string {
 }
 
 class DueWebSocketClient {
+    public onPush: ((route: number, message: Uint8Array) => void) | null = null;
+    public onInbound: (() => void) | null = null;
     private ws: WebSocket = null;
     private seq = 0;
     private pending: PendingCall | null = null;
@@ -437,6 +605,7 @@ class DueWebSocketClient {
     }
 
     private onMessage(data: ArrayBuffer): void {
+        this.onInbound?.();
         if (DuePacketCodec.isHeartbeat(data)) {
             LogKit.I("[DueWS] <<< HB bytes={0}", data.byteLength);
             return;
@@ -465,6 +634,9 @@ class DueWebSocketClient {
             );
         } else {
             LogKit.I("[DueWS] <<< PUSH route={0} seq={1} body={2}", decoded.route, decoded.seq, bodyText);
+            if (this.onPush) {
+                this.onPush(decoded.route, decoded.message);
+            }
         }
     }
 

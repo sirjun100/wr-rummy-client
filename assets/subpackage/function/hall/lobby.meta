@@ -1,0 +1,13 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "4c82843f-1a58-439e-a843-cfdc486a3784",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleConfigID": "auto_a4hzWQwhFIXox50mqR8ypD",
+    "bundleName": "lobby"
+  }
+}
